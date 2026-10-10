@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "count": 21,
+  "rows": [
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.original_6_1",
+      "release_path": "seifert-surfaces/unified/OriginalSection61.lean",
+      "current_header_hash": "sha256:fe6fda3b2b8cabb655a8fc55dead08495b6e2b6aac5b81c1dc98b1f6a6967b6f",
+      "protected_header_hash": "sha256:fe6fda3b2b8cabb655a8fc55dead08495b6e2b6aac5b81c1dc98b1f6a6967b6f",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/generate_original_section61_v464.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original",
+      "release_path": "seifert-surfaces/unified/OriginalA2ScaffoldV464.lean",
+      "current_header_hash": "sha256:a187732f8d185aac6d16403435a9e37a6e30b04f1c5915de6cd76953982857e6",
+      "protected_header_hash": "sha256:a187732f8d185aac6d16403435a9e37a6e30b04f1c5915de6cd76953982857e6",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/generate_original_A2_v464.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.A3_original",
+      "release_path": "seifert-surfaces/unified/OriginalA3Final.lean",
+      "current_header_hash": "sha256:21aec86f5191b821986591b19627bcca6ab2d7d8f5977366c5fa1e4b5f325089",
+      "protected_header_hash": "sha256:21aec86f5191b821986591b19627bcca6ab2d7d8f5977366c5fa1e4b5f325089",
+      "snapshot": null,
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.A4_original",
+      "release_path": "seifert-surfaces/unified/OriginalA4.lean",
+      "current_header_hash": "sha256:ca967e21131a1d4ef69b0d52106f2c15f78287ae69dbc582851270bd32f9008d",
+      "protected_header_hash": "sha256:ca967e21131a1d4ef69b0d52106f2c15f78287ae69dbc582851270bd32f9008d",
+      "snapshot": null,
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.A7.A7_original",
+      "release_path": "seifert-surfaces/unified/OriginalA7ScaffoldV463.lean",
+      "current_header_hash": "sha256:84ec575540752ddcff28a49b2fcdc44d25271d6151909bcbf393291e33f855d5",
+      "protected_header_hash": "sha256:84ec575540752ddcff28a49b2fcdc44d25271d6151909bcbf393291e33f855d5",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/generate_original_A7_v464.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6",
+      "release_path": "seifert-surfaces/unified/OriginalC6C11.lean",
+      "current_header_hash": "sha256:ee81e63a91b009646176f31a000d1afc7da97e031689bcc81494efc60a9c0add",
+      "protected_header_hash": "sha256:ee81e63a91b009646176f31a000d1afc7da97e031689bcc81494efc60a9c0add",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/generate_original_C6_v464.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11",
+      "release_path": "seifert-surfaces/unified/OriginalC6C11.lean",
+      "current_header_hash": "sha256:e30b5141d483841654f8f24aa0b23e52291cb47f7abf7debcad22ec2f4596234",
+      "protected_header_hash": "sha256:e30b5141d483841654f8f24aa0b23e52291cb47f7abf7debcad22ec2f4596234",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/generate_original_C11_v464.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "nonempty_full_downset_exchange_complex",
+      "release_path": "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
+      "current_header_hash": "sha256:2a7abd921de7afd22686d13faaf562dcc5265280cccfec268a80ed2fe74e437a",
+      "protected_header_hash": "sha256:2a7abd921de7afd22686d13faaf562dcc5265280cccfec268a80ed2fe74e437a",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/section2_nonempty_full_downset_exchange_complex.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "exchange_complex_contractible",
+      "release_path": "seifert-surfaces/unified/Section2/TheoremB.lean",
+      "current_header_hash": "sha256:4d49057338f771c498c01b6027e28a703ae367d003b75a8aee3d9957a99c41f8",
+      "protected_header_hash": "sha256:4d49057338f771c498c01b6027e28a703ae367d003b75a8aee3d9957a99c41f8",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/section2_exchange_complex_contractible.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "exists_injective_exchange_complexity",
+      "release_path": "seifert-surfaces/unified/Section2/TieBreaking.lean",
+      "current_header_hash": "sha256:672afce8b799e2d5a1eae3f50534864333adb53a58f69d299b35da767ff279ae",
+      "protected_header_hash": "sha256:672afce8b799e2d5a1eae3f50534864333adb53a58f69d299b35da767ff279ae",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/section2_exists_injective_exchange_complexity.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.AppendixC.Original.paper_C7",
+      "release_path": "seifert-surfaces/unified/OriginalC7.lean",
+      "current_header_hash": "sha256:87850c378f0595cbc140a2d8f90692e3850be9ba30d92f36c17e802e903c122c",
+      "protected_header_hash": "sha256:87850c378f0595cbc140a2d8f90692e3850be9ba30d92f36c17e802e903c122c",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/original_C7_full_source_contract.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.AppendixC.Original.paper_C8",
+      "release_path": "seifert-surfaces/unified/OriginalC8.lean",
+      "current_header_hash": "sha256:9cdb8e5b0684cca3a4ef00e5918eefdbbe84acf5eb04133e1af4f8c53bfdd478",
+      "protected_header_hash": "sha256:9cdb8e5b0684cca3a4ef00e5918eefdbbe84acf5eb04133e1af4f8c53bfdd478",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/originalC89_416c8a5f13993886.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.AppendixC.Original.paper_C9",
+      "release_path": "seifert-surfaces/unified/OriginalC9Final3.lean",
+      "current_header_hash": "sha256:42f3d3583d2ad0c4a54efa19e09b69190ffd0f29c9f4b176bc51c73f384f24c6",
+      "protected_header_hash": "sha256:42f3d3583d2ad0c4a54efa19e09b69190ffd0f29c9f4b176bc51c73f384f24c6",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/originalC89_276286abf651cc87.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "B1_original",
+      "release_path": "seifert-surfaces/unified/OriginalB1_v468.lean",
+      "current_header_hash": "sha256:50f531d48f20750cac6a121ed8d5006d7302708297a04aa08915c01fec8085d9",
+      "protected_header_hash": "sha256:50f531d48f20750cac6a121ed8d5006d7302708297a04aa08915c01fec8085d9",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/originalB1fix_a95491d0e8f002b4.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "B2_original_push_off",
+      "release_path": "seifert-surfaces/unified/OriginalB2B5V480.lean",
+      "current_header_hash": "sha256:a8c6d5b30b6bf7440362f5f90e6140c0bbdfe977d997ec28a15e33df502f4258",
+      "protected_header_hash": "sha256:a8c6d5b30b6bf7440362f5f90e6140c0bbdfe977d997ec28a15e33df502f4258",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/B2B5Whole_v480_2.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "B3_original_interior",
+      "release_path": "seifert-surfaces/unified/OriginalB2B5V480.lean",
+      "current_header_hash": "sha256:365b47fd0e121725283f51b4762acbf6b2c8bda05acad1ca1512b72aad6fbdf5",
+      "protected_header_hash": "sha256:365b47fd0e121725283f51b4762acbf6b2c8bda05acad1ca1512b72aad6fbdf5",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/B2B5Whole_v480_0.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "B3_original_collar",
+      "release_path": "seifert-surfaces/unified/OriginalB2B5V480.lean",
+      "current_header_hash": "sha256:05b5746a51cd0e3d0e7b38a629544b6241ae7c0d809f8c79ac6f2b80c8480581",
+      "protected_header_hash": "sha256:05b5746a51cd0e3d0e7b38a629544b6241ae7c0d809f8c79ac6f2b80c8480581",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/B2B5Whole_v480_1.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "original_5_5",
+      "release_path": "seifert-surfaces/unified/OriginalSection5Whole.lean",
+      "current_header_hash": "sha256:4451d0077b8cf9649a11cc1dcab1dce32680f231e93b9bc350cbf2d1add1f1a5",
+      "protected_header_hash": "sha256:4451d0077b8cf9649a11cc1dcab1dce32680f231e93b9bc350cbf2d1add1f1a5",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/Section5Whole_v480_3.v2.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "original_5_7",
+      "release_path": "seifert-surfaces/unified/OriginalSection5Whole.lean",
+      "current_header_hash": "sha256:614ea37432bc240b382cee845490b1e2921eb6b999678fa90c55524c5331f18e",
+      "protected_header_hash": "sha256:614ea37432bc240b382cee845490b1e2921eb6b999678fa90c55524c5331f18e",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/Section5Whole_v480_5.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original",
+      "release_path": "seifert-surfaces/unified/OriginalA5ScaffoldV464.lean",
+      "current_header_hash": "sha256:8b0d82972531e8c7e2e2417b33faaed4c8f9a709fd29a027d9ed6e410a0f2156",
+      "protected_header_hash": "sha256:8b0d82972531e8c7e2e2417b33faaed4c8f9a709fd29a027d9ed6e410a0f2156",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/generate_original_A5_v464.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    },
+    {
+      "declaration": "SeifertSurfaces.OriginalEndpoints.original_6_2",
+      "release_path": "seifert-surfaces/unified/Original62CompletionV510.lean",
+      "current_header_hash": "sha256:a770e4f1a62654d42b610cc82a0600acf3df4e84df63d3bac9ca4c7b01b5cab2",
+      "protected_header_hash": "sha256:a770e4f1a62654d42b610cc82a0600acf3df4e84df63d3bac9ca4c7b01b5cab2",
+      "snapshot": "/home/caoyichuan/test/seifert-surfaces/.claude/state/statements/Original62Repaired_v476.v1.statement.lean",
+      "method": "cli_tools._lean.guard extract_statement/normalize/sha256 readonly; sealed prior13 header for A3/A4 without snapshot",
+      "status": "PASS"
+    }
+  ],
+  "no_ledger_or_snapshot_writes": true,
+  "utc": "2026-10-10T15:12:53.883034+00:00"
+}

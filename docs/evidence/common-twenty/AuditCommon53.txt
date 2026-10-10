@@ -1,0 +1,79 @@
+warning: mathlib: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/mathlib
+warning: plausible: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/plausible
+warning: LeanSearchClient: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/LeanSearchClient
+warning: importGraph: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/importGraph
+warning: proofwidgets: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/proofwidgets
+warning: aesop: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/aesop
+warning: Qq: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Qq
+warning: batteries: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/batteries
+warning: Cli: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Cli
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Euclidean.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.EuclideanIteratedEmbedding.tower_to_supercritical
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Euclidean.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.EuclideanIteratedEmbedding.tower_to_supercritical._proof_1_2
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.IsRegular.tower_step
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.IsRegular.tower_step._proof_1_2
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.IsRegular.tower_step._proof_1_1
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.IsRegular
+PASS closed kernel operative identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.IsRegular
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.IterationCalc.kp1_real_gt_d_of_kp1p_gt_d
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.IterationCalc.kp1_gt_n_of_kp1p_gt_n
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.MemWkp_subcritical_iterated
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant_nonneg
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant_succ
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant
+PASS closed kernel operative identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant._f
+PASS closed kernel operative identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant._f
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstantBase
+PASS closed kernel operative identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstantBase
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant.match_1
+PASS closed kernel operative identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant.match_1
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstantBase_nonneg
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIterated.wkpNorm_mono_order
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIterated.wkpNorm_mono_order._proof_1_1
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIterated.wkpNorm_chosenWeakPartial_le_wkpNorm_succ
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIterated.wkpNorm_succ_eq
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIterated.chosenWeakPartialOrZero_cross_exponent_ae_eq
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.MemWkp_subcritical_iterated._proof_1_1
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.subcriticalConstant_zero
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eLpNorm_p_star_le_const_mul_wkpNorm_of_memWkp
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eLpNorm_fderiv_smooth_le_d_mul_wkpNorm
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eLpNorm_classical_partial_eq_chosen
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.classical_partial_ae_eq_chosenWeakPartial_of_smooth
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eLpNorm_fderiv_le_sum_eLpNorm_partials
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.norm_fderiv_le_sum_norm_partials
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.sobolev_smooth_compactSupport_in_Ω
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eLpNorm_fderiv_eq_eLpNorm_fderiv_restrict_of_tsupport_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.fderiv_eq_zero_off_of_tsupport_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eLpNorm_eq_eLpNorm_restrict_of_tsupport_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Subcritical.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanSubcritical.eq_zero_off_of_tsupport_subset
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.pOne_ge_one
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.pOne_ge_p
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.pOne
+PASS closed kernel operative identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.pOne
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.TowerStep.pOne_pos
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Euclidean.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.EuclideanIteratedEmbedding.tower_to_supercritical._proof_1_1
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.IsRegular.p_ne_n_of_one_le
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIteratedMonoExp.memWkp_mono_exponent_of_tsupport_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIteratedMonoExp.chosenWeakPartialOrZero_ae_eq_indicator_of_tsupport_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIteratedMonoExp.ae_eq_indicator_of_ae_zero_off_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIteratedMonoExp.diff_K_subset_diff_subset
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIteratedMonoExp.diff_K_subset_diff_subset.match_1_1
+PASS closed kernel operative identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.EuclideanIteratedMonoExp.diff_K_subset_diff_subset.match_1_1
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.exists_regular_exponent_below
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.isRegular_iff_notMem_borderlineSet
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.isRegular_iff_notMem_borderlineSet._proof_1_9
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.isRegular_iff_notMem_borderlineSet._proof_1_1
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.borderlineSet
+PASS closed kernel operative identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.borderlineSet
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.exists_notMem_finset_in_open_interval
+PASS closed kernel type identity DifferentialGeometry.Analysis.Sobolev.Chart.RegularExponent.exists_regular_exponent_below._proof_1_1
+PASS closed kernel type identity _private.DifferentialGeometry.Analysis.Sobolev.Euclidean.Embedding.Iterated.0.DifferentialGeometry.Analysis.Sobolev.EuclideanIteratedEmbedding.exists_contDiff_m_rep_ball._proof_1_1

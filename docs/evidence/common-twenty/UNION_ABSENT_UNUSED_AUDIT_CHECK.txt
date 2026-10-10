@@ -1,0 +1,19 @@
+warning: mathlib: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/mathlib
+warning: plausible: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/plausible
+warning: LeanSearchClient: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/LeanSearchClient
+warning: importGraph: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/importGraph
+warning: proofwidgets: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/proofwidgets
+warning: aesop: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/aesop
+warning: Qq: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Qq
+warning: batteries: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/batteries
+warning: Cli: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Cli
+RECEIVING_LITERAL_KERNEL total=929 present=928 absent_unused=1 operative=396 recursor_rhs=39 failures=0 scanned=881960 incoming=0

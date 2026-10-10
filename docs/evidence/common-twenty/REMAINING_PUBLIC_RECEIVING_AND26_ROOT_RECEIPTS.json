@@ -1,0 +1,163 @@
+{
+  "status": "PASS_REMAINING_TWO_RECEIVING_AND_PERSISTED26_ROOTS",
+  "utc": "2026-10-10T15:37:28.749201+00:00",
+  "rows": [
+    {
+      "source": "tools/Verify.lean",
+      "source_sha256": "d694839f94abb9ab4282f9e31149cb8b20ff6fcd147fdb0d742c0627cbd7a0e0",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/Verify.txt",
+      "log_sha256": "014a03efce89f87ed186a5f826161f16d7aa40efe38d2aa9e65395d9029af0b6",
+      "fresh_root_axioms": {
+        "SeifertSurfaces.exchange_complex_contractible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.exists_injective_exchange_complexity": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.nonempty_full_downset_exchange_complex": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.nonempty_full_descending_link_exchange_complex": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.nonempty_strict_sublevel_exchange_graph": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.descending_link_nonempty_of_not_least": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.full_subcomplex_is_flag": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.original_5_5": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.original_5_7": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.original_6_1": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.original_6_2": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.A3_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.A4_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.A7.A7_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.B1_original": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.AppendixC.Original.paper_C7": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.AppendixC.Original.paper_C8": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.AppendixC.Original.paper_C9": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "SeifertSurfaces.nonempty_complexity_downset_connected": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    {
+      "source": "tools/audits/AuditCommonBTopologyFinalMainReceiving.lean",
+      "source_sha256": "11850bef3715d0353e57d6c2a2326c11ff37c38f2e37ef2e809236ebb39d400e",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/AuditCommonBTopologyFinalMainReceiving.txt",
+      "log_sha256": "a097d984ab65423e6e78638432d8975c5810c0064f5659b1e114eeddec57e520"
+    },
+    {
+      "source": "tools/audits/SchoenfliesTwoTypeFinalMainReceiving.lean",
+      "source_sha256": "906de58d4876881dc32cb73d8fb3282d4d2b49709b17655f58308010b98bccab",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/SchoenfliesTwoTypeFinalMainReceiving.txt",
+      "log_sha256": "02e7fc56132efb1d7538846c6f57965f65a42da456a2674e2f19958543302bfa"
+    }
+  ],
+  "source_state_unchanged": true
+}

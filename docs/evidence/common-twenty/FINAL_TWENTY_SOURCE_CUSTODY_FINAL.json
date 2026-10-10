@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "file_count": 10816,
+  "bytes": 1191755596,
+  "manifest_sha256": "c770cfe0c2b608f682fd2f54c05a959fd3baaf81dab3becb472654e259e1d57d",
+  "public_receipt_sha256": "b7c775bca3b291cdcb5d74f554f8e319782d14c8b20e7b24f3284fef16a131a4",
+  "final_metadata_only_update": true,
+  "source_hash_rows_changed_after_public_verification": 0
+}

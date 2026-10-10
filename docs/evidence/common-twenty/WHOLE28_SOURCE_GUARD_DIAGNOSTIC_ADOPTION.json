@@ -1,0 +1,278 @@
+{
+  "status": "UNVERIFIED_DIAGNOSTIC_WHOLE28_SOURCE_GUARDS_ADOPTED",
+  "patches": 28,
+  "modules": 26,
+  "input_patch_sha256": "da618a35438521f2d5ad3951cc8c673c8dddd26ee83744aa3f9ec4f6e99ad835",
+  "protected_headers_unchanged": 21,
+  "generic_codec_source_hashes": {
+    "ExactPaidSource": "8a1f3d6f9b3d6ebbd5674b0c57be1c5c1f7f8ecd54c0dead11eb0834e8f939cd",
+    "ExactPaidCodec": "d17d84c5124531d156d2de1f988b1c9eeccf84a82d88092762fad3efcc5661d2"
+  },
+  "generic_codec_changed": false,
+  "Part104_original_full_CI_restored_and_checked": true,
+  "old_full_types_and_operative_body_Eq_retained": true,
+  "all_required_namespace_headers_integrated": true,
+  "final_Main_required": true,
+  "rows": [
+    {
+      "module": "ExactPaid.A5PaidRegularSeamCompatibility.Part003",
+      "before_sha256": "d60e2935b811909f6495f550c9621cbc22eb572dfc739522d99e7d7c65fc90fb",
+      "after_sha256": "0b06bfbc4b02b4240739d5abb944bcb1318aafa1c7f5a95d8f23cc3a5eda25ef",
+      "guards": 1,
+      "source_binding_hashes": [
+        "d60e2935b811909f6495f550c9621cbc22eb572dfc739522d99e7d7c65fc90fb"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part023",
+      "before_sha256": "b7991b9248ecb604a6167b25fd103ce6c14788996794a6e3646efc40b7be56ca",
+      "after_sha256": "758a3ce244bed169b2af239e89dc6442673ef1782d7a06b25b0bb32d708f380c",
+      "guards": 1,
+      "source_binding_hashes": [
+        "b7991b9248ecb604a6167b25fd103ce6c14788996794a6e3646efc40b7be56ca"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part031",
+      "before_sha256": "68c4812e63542005aa2701b281556682dcaebeac5acb4d3b9f0b26a08abd52fe",
+      "after_sha256": "c02d184d5a1a3f7a4dfb318fc4758d685fd5d6ab559218e9ad6cc477861aeca3",
+      "guards": 1,
+      "source_binding_hashes": [
+        "68c4812e63542005aa2701b281556682dcaebeac5acb4d3b9f0b26a08abd52fe"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part032",
+      "before_sha256": "f906f1417a78fc4eaeffeea26fdeef9fd76faab3efe4fa0861fb0ba4aabd10af",
+      "after_sha256": "1cb4812386a10ad831722b812eae945e80a2c52097e06d7cfde6b0815a394a26",
+      "guards": 1,
+      "source_binding_hashes": [
+        "f906f1417a78fc4eaeffeea26fdeef9fd76faab3efe4fa0861fb0ba4aabd10af"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part037",
+      "before_sha256": "c33c5d1dc5b77711de3bc71e2ccead4e4b042d6f58c024bd275dbd5174d9d039",
+      "after_sha256": "8c5084f0e6c786a42f1a45bd2c54808dcc407fee89b976a9cd73f5c03f6db4d9",
+      "guards": 1,
+      "source_binding_hashes": [
+        "c33c5d1dc5b77711de3bc71e2ccead4e4b042d6f58c024bd275dbd5174d9d039"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part043",
+      "before_sha256": "8adcc93c70b191e4f6e72bc1fb386a93f642138b3c9b02bef3cd046dfc2c527c",
+      "after_sha256": "0dc5a0ba40ce863826bfe9c2881fbdb80f58d581836933c1e1533d3874883d2f",
+      "guards": 1,
+      "source_binding_hashes": [
+        "8adcc93c70b191e4f6e72bc1fb386a93f642138b3c9b02bef3cd046dfc2c527c"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part046",
+      "before_sha256": "7f5a38f2302061eb58dfc65a94b476b070b65ab4aff9b72751793101a57412fb",
+      "after_sha256": "5e12884f02a2ddd599466da19f82dddbb5224011a6816f32d7d72c16d132eeb3",
+      "guards": 1,
+      "source_binding_hashes": [
+        "7f5a38f2302061eb58dfc65a94b476b070b65ab4aff9b72751793101a57412fb"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part052",
+      "before_sha256": "a9a4a6c16abd392d4237f76f62be3439a9c448a60a0895ae5c13f79a7c5f7b69",
+      "after_sha256": "f0aabe8ac9a8344745b45c356391ec0af0324d07a49c1b0381bb3dd84ae7be0d",
+      "guards": 1,
+      "source_binding_hashes": [
+        "a9a4a6c16abd392d4237f76f62be3439a9c448a60a0895ae5c13f79a7c5f7b69"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part056",
+      "before_sha256": "8615d4fc1a0d700892342db202e546f2ee5cd1712f7066e77e33a7889851ca74",
+      "after_sha256": "e99b8664c5e4eba322032bd89d1ba8d1f04529cf2d5020a9b0e44b6590af7a45",
+      "guards": 1,
+      "source_binding_hashes": [
+        "8615d4fc1a0d700892342db202e546f2ee5cd1712f7066e77e33a7889851ca74"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part058",
+      "before_sha256": "2e07dcf7222a68a8e5f0d5491de481c11ece8379869a6cf7488092dd03b48699",
+      "after_sha256": "95c408d2f96e07dbe8e09858c80e215d25a3702cdaa62e9f8107b834f3cf58d1",
+      "guards": 1,
+      "source_binding_hashes": [
+        "2e07dcf7222a68a8e5f0d5491de481c11ece8379869a6cf7488092dd03b48699"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part060",
+      "before_sha256": "1c58ab6d2bb33fb583553ab1518644e4a2d7f54e934ed7ecb64b63b6f60c3225",
+      "after_sha256": "5b159b73afc7f392a551b7dd33f9aae690e37db47abe9d8357f5ccb4d45a7d06",
+      "guards": 1,
+      "source_binding_hashes": [
+        "1c58ab6d2bb33fb583553ab1518644e4a2d7f54e934ed7ecb64b63b6f60c3225"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part061",
+      "before_sha256": "c8846ba1a94a01a58ba5c7ef36d40db02749ee91b37f3e0f90d3f9af37cdbf93",
+      "after_sha256": "70b2707625ef3dc3fe949c6a9e8240e57dd56b56c97cb300b8561e98e767b718",
+      "guards": 1,
+      "source_binding_hashes": [
+        "c8846ba1a94a01a58ba5c7ef36d40db02749ee91b37f3e0f90d3f9af37cdbf93"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part064",
+      "before_sha256": "be2f3c347e97c7a73d36f235825787757bb95baf88886e1cc421537af232386a",
+      "after_sha256": "7b3d1347090eb5a871ef30ef2c5b4a8d56d180945c218ebff13ee59e05c4a494",
+      "guards": 1,
+      "source_binding_hashes": [
+        "be2f3c347e97c7a73d36f235825787757bb95baf88886e1cc421537af232386a"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part065",
+      "before_sha256": "639ea4a4dc21299533223f306de2668a8ff39f8f54684eb91d4159f41f8a9c34",
+      "after_sha256": "fe284a5c3775267e96ca982b38b94519b266f70f60e7ec22d86949b2249a2a6e",
+      "guards": 1,
+      "source_binding_hashes": [
+        "639ea4a4dc21299533223f306de2668a8ff39f8f54684eb91d4159f41f8a9c34"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part066",
+      "before_sha256": "86923f6491cfcee90cf3db297f43539584508f69b5985f01173e2bd8b61a501d",
+      "after_sha256": "21d1c8696e1a185d70facfa51ca4dd393bac27f8e5f3791992d66080f5fa9d91",
+      "guards": 1,
+      "source_binding_hashes": [
+        "86923f6491cfcee90cf3db297f43539584508f69b5985f01173e2bd8b61a501d"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part067",
+      "before_sha256": "65b61bd931d94a8b44ccc5308ac13b7387b78c1a61d52ff42d83d6db289cdf04",
+      "after_sha256": "14c7b83d158a94170d524746354b7e09e2bfdc3af7a6970380dc3e5eab7f2cf8",
+      "guards": 1,
+      "source_binding_hashes": [
+        "65b61bd931d94a8b44ccc5308ac13b7387b78c1a61d52ff42d83d6db289cdf04"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part068",
+      "before_sha256": "5617bfebe6092ab0ef3c1e16336e7fa58bd2af11f7c06f7fd2f53c78c987568a",
+      "after_sha256": "7e54a92a7e0f400c6752a8e6eec1bf446accbd070fea1073d9f657fe4abc8108",
+      "guards": 1,
+      "source_binding_hashes": [
+        "5617bfebe6092ab0ef3c1e16336e7fa58bd2af11f7c06f7fd2f53c78c987568a"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part081",
+      "before_sha256": "9e6f9cfd75ae30456364d644dc44f18286cd31a1b594e787d0bfcbc8e4dc6da0",
+      "after_sha256": "6191e8fbb987ce070da5063822a2580aa46331c11ec6b06d963b59bca8160a7e",
+      "guards": 1,
+      "source_binding_hashes": [
+        "9e6f9cfd75ae30456364d644dc44f18286cd31a1b594e787d0bfcbc8e4dc6da0"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part082",
+      "before_sha256": "6b4bf8c50f7f62c92d0ba5d165547628eb0b2a51d8a0e7aff0c7ae082b9b67e0",
+      "after_sha256": "47f8b2b79ec9d0f1517e85da7476e12ea8cf6a13f1de7761cb96d72feb9084e3",
+      "guards": 3,
+      "source_binding_hashes": [
+        "6b4bf8c50f7f62c92d0ba5d165547628eb0b2a51d8a0e7aff0c7ae082b9b67e0"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part095",
+      "before_sha256": "3e29cc5b13b922052a10a4fbd5b91368afcf1544f7880a839c53313c9cec63df",
+      "after_sha256": "b336e774ac2c7470d26e25607be0d04880ec22c7bfc8547dda1fd94cb4ce9b0b",
+      "guards": 1,
+      "source_binding_hashes": [
+        "3e29cc5b13b922052a10a4fbd5b91368afcf1544f7880a839c53313c9cec63df"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part104",
+      "before_sha256": "3b07f36ca5ee05c192c5e404298ef4ecb45a08f31799f9281252ee9c243718a0",
+      "after_sha256": "3f0f19fc2bc1e7d25346e90907de667d1fc734c54449047c0be98de6477b88c6",
+      "guards": 1,
+      "source_binding_hashes": [
+        "3b07f36ca5ee05c192c5e404298ef4ecb45a08f31799f9281252ee9c243718a0"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part105",
+      "before_sha256": "2a6db05b128472b185c309bac20f0d1a98d40d559cc54afae7b85d1c0ab61859",
+      "after_sha256": "42fbbcaa6c57433e3082f237a5407d1afcf3d1e305c94c9d63fa510fe550de14",
+      "guards": 1,
+      "source_binding_hashes": [
+        "2a6db05b128472b185c309bac20f0d1a98d40d559cc54afae7b85d1c0ab61859"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part121",
+      "before_sha256": "6fd2f61f042ae19ddda32eb457863ce68be233f6c3fbfba70242988f761f1a08",
+      "after_sha256": "dceb12e958e1b28120c37571e799d3dc2c455da46c73f7a74b778fd23d46637d",
+      "guards": 1,
+      "source_binding_hashes": [
+        "6fd2f61f042ae19ddda32eb457863ce68be233f6c3fbfba70242988f761f1a08"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part125",
+      "before_sha256": "dd7284c8aa1d542df2966572be3ec73951af6d6337fc9846977e9ca66ce99ac9",
+      "after_sha256": "1ee41ade18d609fdf4db972e6366e693d0a486e1ec4aff817d33546ae16500af",
+      "guards": 1,
+      "source_binding_hashes": [
+        "dd7284c8aa1d542df2966572be3ec73951af6d6337fc9846977e9ca66ce99ac9"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part128",
+      "before_sha256": "d2529776b7e557677262c61acc24bd278951f6f1ecab403823137e5e51169f3e",
+      "after_sha256": "6d53b18d79702eca7dde9be3671e045fcd865cfff5690e8a202ed6f3dec9e161",
+      "guards": 1,
+      "source_binding_hashes": [
+        "d2529776b7e557677262c61acc24bd278951f6f1ecab403823137e5e51169f3e"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part158",
+      "before_sha256": "4aa4e090baee1ac477a79404a57cbf488f48dd073572e59393ac870e8f6180ca",
+      "after_sha256": "cd12d60f8b4c0e604d0d81f5f59d4ce096a83907b9dd9b2cb29ef1cbb9c3468c",
+      "guards": 1,
+      "source_binding_hashes": [
+        "4aa4e090baee1ac477a79404a57cbf488f48dd073572e59393ac870e8f6180ca"
+      ],
+      "unchanged_literal_source_rebindings": 0
+    }
+  ]
+}

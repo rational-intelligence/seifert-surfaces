@@ -1,0 +1,5 @@
+import OriginalB2B5V480
+
+namespace SeifertSurfaces.OriginalEndpoints.Section5.WholeAssemblyV480
+abbrev b2_original_push_off_native_v489 := @SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off
+end SeifertSurfaces.OriginalEndpoints.Section5.WholeAssemblyV480

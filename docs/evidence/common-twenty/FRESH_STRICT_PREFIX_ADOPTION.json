@@ -1,0 +1,53 @@
+{
+  "status": "ADOPTED_13_SOURCE_BOUND_PREFIX_ONLY_RESTORATIONS",
+  "utc": "2026-10-10T15:11:00.172289+00:00",
+  "changes": 13,
+  "modules": 7,
+  "files": [
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part046.lean",
+      "before_sha256": "f4950bdd591fdbfbb9835df5e170a9bf1542b2d2f17312b1ac5f1927cc4ef85b",
+      "after_sha256": "95d1bef263bb41dc353dbef8fafa809f642fa5934d6c6ed023aaf66785a48bd1",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part046.lean"
+    },
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part056.lean",
+      "before_sha256": "5f8dceb2dcddea0d731c163666a48bb8237dbeada044b41707e54df1bed220b5",
+      "after_sha256": "b5fd6eabe43e00bc260b61ad99613ab20868e54375109a2863643e6d19b7af50",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part056.lean"
+    },
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part060.lean",
+      "before_sha256": "b192a747b55c2f61a70dc99bb08e5ce890f1c2e09d3f9bffef3cd9fcc3eca89b",
+      "after_sha256": "2940e9e5c932f8b9ed283b88b0fef2a0598385962223db79e6621ab93e63b82f",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part060.lean"
+    },
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part081.lean",
+      "before_sha256": "c944ef57887938ac0bb8948670fa56e8bd06c95727aa303026c19bba56346825",
+      "after_sha256": "b67615d202458e5f8696a6a9f0d1ac76a517722fe8e74d7df1223b8d3171c225",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part081.lean"
+    },
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part082.lean",
+      "before_sha256": "a3dc9e53a6a1554f3e320bbcded02207c48bc6faa224b11565bff37244499cc7",
+      "after_sha256": "f5a8d57fb1634257a94d2855e1df66cc94d4b9948d22314fa2d77eedeb566746",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part082.lean"
+    },
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part095.lean",
+      "before_sha256": "2491666942d44bca35f83cbff1a769f6b4e66e33ccc7bd8f7ebb048637859b41",
+      "after_sha256": "9506c3de97ec3015e936369fbf50373c7b36ae37b05ac6f115cff9a2552b50a7",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part095.lean"
+    },
+    {
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part125.lean",
+      "before_sha256": "a720066ac0483322f0c57eb6d282692dfe0d3a79d02db9031f8b6888381960ab",
+      "after_sha256": "6bc69bedbb1a9dd31666622eb42793c69234a4d2b1ab45776f6914e1ee3de300",
+      "before_bytes": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/fresh_strict_before/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part125.lean"
+    }
+  ],
+  "manifest_sha256": "def35683c78da09a4e9667a0e887452dc37ce225febb4ada2398b1b78ca9261a",
+  "proof_bytes_unchanged": true,
+  "helper_changes": 0
+}

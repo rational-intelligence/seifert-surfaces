@@ -1,0 +1,65 @@
+{
+  "status": "UNVERIFIED_DIAGNOSTIC_TEN_CURRENT_RECEIVING_PATCHES_ADOPTED",
+  "utc": "2026-10-10T14:43:50.543393+00:00",
+  "patches": 10,
+  "modules": 8,
+  "input_patch_sha256": "8a43ef13f68d211b65f79bf87f69478097b125a9d1e08c8ba580215216fd8eda",
+  "protected_headers_unchanged": 21,
+  "generic_codec_source_hashes": {
+    "ExactPaidSource": "8a1f3d6f9b3d6ebbd5674b0c57be1c5c1f7f8ecd54c0dead11eb0834e8f939cd",
+    "ExactPaidCodec": "d17d84c5124531d156d2de1f988b1c9eeccf84a82d88092762fad3efcc5661d2"
+  },
+  "generic_codec_changed": false,
+  "old_full_types_preserved": true,
+  "final_Main_required": true,
+  "rows": [
+    {
+      "module": "ExactPaid.A5PaidRegularSeamCompatibility.Part006",
+      "before_sha256": "676c742041042a78676b9fc81aa4fd59619f3cee17c787976f63beb41f0305bd",
+      "after_sha256": "a979be7075ca869baad0a8ee890875dad600e9657f118fdb022f9f0fc44313a3",
+      "guards": 1
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part046",
+      "before_sha256": "5e12884f02a2ddd599466da19f82dddbb5224011a6816f32d7d72c16d132eeb3",
+      "after_sha256": "91df0f72e78b24f637495765f2aaf7da1946f21d8114e29ec6ca82c7a329354f",
+      "guards": 1
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part056",
+      "before_sha256": "e99b8664c5e4eba322032bd89d1ba8d1f04529cf2d5020a9b0e44b6590af7a45",
+      "after_sha256": "d34f495028e0f62a2b2c82b87d1985571cf81903e27f020840ac76eae2a43279",
+      "guards": 1
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part060",
+      "before_sha256": "5b159b73afc7f392a551b7dd33f9aae690e37db47abe9d8357f5ccb4d45a7d06",
+      "after_sha256": "88d091b0dd799abe96063456547dee4af90fe9c332046e7386a2278fe71e75d1",
+      "guards": 1
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part081",
+      "before_sha256": "6191e8fbb987ce070da5063822a2580aa46331c11ec6b06d963b59bca8160a7e",
+      "after_sha256": "371a30686018e7dcd7725801cf6ecb1daab08e93a1251f073ea6d2ae4b102aee",
+      "guards": 1
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part082",
+      "before_sha256": "47f8b2b79ec9d0f1517e85da7476e12ea8cf6a13f1de7761cb96d72feb9084e3",
+      "after_sha256": "dfa47a6f75ee026a9c1ee8b5aea5279c99bcaec7e0f6bb14f873412965e8c6c3",
+      "guards": 3
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part095",
+      "before_sha256": "b336e774ac2c7470d26e25607be0d04880ec22c7bfc8547dda1fd94cb4ce9b0b",
+      "after_sha256": "f3536eadf674cfa2e26011dd8e717925f532c19c7e62ad8c0cf4fd4c5212d268",
+      "guards": 1
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part125",
+      "before_sha256": "1ee41ade18d609fdf4db972e6366e693d0a486e1ec4aff817d33546ae16500af",
+      "after_sha256": "b2a3a184b258472885bf81b27bdaef039fc017c977803aeef6c11656e886a3e9",
+      "guards": 1
+    }
+  ]
+}

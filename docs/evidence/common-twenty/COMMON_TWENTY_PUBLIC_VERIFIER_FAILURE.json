@@ -1,0 +1,29 @@
+{
+  "status": "FAIL_RETAINED",
+  "utc": "2026-10-10T15:35:22.672984+00:00",
+  "failed_check": "AuditCommonUnionLiteralReceiving",
+  "main_compile": "PASS11722jobs",
+  "source_custody": "PASS10812",
+  "root_axioms": "PASS26",
+  "receiving_failure_log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/tools/verification-reports/AuditCommonUnionLiteralReceiving.txt",
+  "receiving_failure_log_sha256": "699d201b5b357ff7248072d094e9ff799fc7f94056ef1e89c98bf62326e783d2",
+  "public_log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/COMMON_TWENTY_PUBLIC_VERIFIER.txt",
+  "next_owner": "Root to route frozen receiving audit failure; Integrator has not modified statements/proofs/audits",
+  "exit_code": 1,
+  "atomic_failure": "receiving owner missing DifferentialGeometry.Analysis.Sobolev.Chart.chartPushed_eq_chartPushedRaw_pou_mul_on_target",
+  "completed_receiving_checks": [
+    "NativeTypeGuardA5",
+    "NativeTypeGuard62",
+    "VerifyBSection5",
+    "VerifyB1AcceptedOperative",
+    "VerifyOperativeB2Unaffected",
+    "VerifyOperativeB3iUnaffected",
+    "VerifyOperativeB3cUnaffected",
+    "VerifyOperative55Unaffected54",
+    "VerifyOperative57Unaffected",
+    "Audit55ExpectedTypeKernelReplay",
+    "AuditPresent18",
+    "AuditCommon53"
+  ],
+  "actual_507_run": false
+}

@@ -1,6 +1,6 @@
 import DifferentialGeometry.Analysis.Sobolev.Euclidean.Embedding.Morrey.HigherOrder
 import DifferentialGeometry.Analysis.Sobolev.Euclidean.Multiplication.Multiply
-import DifferentialGeometry.Analysis.Sobolev.Manifold.Embedding.Iterated
+import C3NativeEuclideanTowerV478
 
 
 noncomputable section
@@ -8,13 +8,11 @@ noncomputable section
 open MeasureTheory Set Filter Topology Metric Function
 open scoped ENNReal NNReal ContDiff
 
-namespace DifferentialGeometry
-namespace Analysis
-namespace Sobolev
-namespace EuclideanIteratedEmbedding
+namespace DifferentialGeometry.Analysis.Sobolev.EuclideanIteratedEmbedding
 
 open DifferentialGeometry.Analysis.Sobolev.Euclidean
 open DifferentialGeometry.Analysis.Sobolev.Chart
+open SeifertSurfaces.AppendixC.OriginalEndpoints.C3NativeEuclideanV478.Chart
 
 variable {d : ℕ} [NeZero d]
 
@@ -241,7 +239,7 @@ private theorem exists_contDiff_m_rep_ball
     tower_to_supercritical (d := d) hball_open m d hp₀_one hp₀_regularity
       h_d_lt_kp₀ hv_compact hv_support_ball hv_mem_p₀
   obtain ⟨f, hf_cdiff, hf_ae⟩ :=
-    EuclideanMorrey.morrey_iteratedFDeriv_representative (d := d) (p := q)
+    DifferentialGeometry.Analysis.Sobolev.EuclideanMorrey.morrey_iteratedFDeriv_representative (d := d) (p := q)
       (x₀ := x₀) (R := 2 * R) (u := v) hq_dim h2R_pos m hv_mem_q
   refine ⟨f, hf_cdiff, ?_⟩
   have h_ball_eq : Metric.ball x₀ (2 * R / 4) = Metric.ball x₀ (R / 2) := by
@@ -406,7 +404,4 @@ theorem contDiffOn_of_continuousOn_of_forall_memWkp_two
   obtain ⟨v, hv, huv⟩ := exists_contDiffOn_ae_eq_of_forall_memWkp_two hΩ hu
   exact hv.congr (Measure.eqOn_open_of_ae_eq huv hΩ hu_cont hv.continuousOn)
 
-end EuclideanIteratedEmbedding
-end Sobolev
-end Analysis
-end DifferentialGeometry
+end DifferentialGeometry.Analysis.Sobolev.EuclideanIteratedEmbedding

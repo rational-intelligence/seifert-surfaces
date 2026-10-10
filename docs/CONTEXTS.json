@@ -1,268 +1,422 @@
 {
   "canonical-section2": {
-    "project": "target",
-    "entries": [
+    "historical_dependency_rule": "Exact transitive import closure, including OrdinalAssembly.Induction and weak-realization/CW infrastructure; preserve module names.",
+    "portable_source_rebuild": "PASS",
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/Section2/FlagComplex.lean",
+      "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
+      "seifert-surfaces/unified/Section2/Heredity.lean",
+      "seifert-surfaces/unified/Section2/TheoremB.lean",
+      "seifert-surfaces/unified/Section2/TieBreaking.lean"
+    ],
+    "historical_project": "target",
+    "historical_entries": [
       "Section2.TheoremB",
       "Section2.TieBreaking",
       "Section2.FlagExchangeComplex",
       "Section2.FlagComplex",
       "Section2.Heredity"
     ],
-    "historical_dependency_rule": "Exact transitive import closure, including OrdinalAssembly.Induction and weak-realization/CW infrastructure; preserve module names.",
-    "portable_source_rebuild": "PASS",
-    "source_entries": [
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
       "seifert-surfaces/core/Section2/TheoremB.lean",
       "seifert-surfaces/core/Section2/TieBreaking.lean",
       "seifert-surfaces/core/Section2/FlagExchangeComplex.lean",
       "seifert-surfaces/core/Section2/FlagComplex.lean",
       "seifert-surfaces/core/Section2/Heredity.lean"
     ],
-    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
-    "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true,
-    "fresh_source_entries": [
-      "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
+    "source_entries": [
       "seifert-surfaces/unified/Section2/FlagComplex.lean",
-      "seifert-surfaces/unified/Section2/Heredity.lean"
+      "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
+      "seifert-surfaces/unified/Section2/Heredity.lean",
+      "seifert-surfaces/unified/Section2/TheoremB.lean",
+      "seifert-surfaces/unified/Section2/TieBreaking.lean"
     ]
   },
   "canonical-section61": {
-    "project": "target",
-    "entries": [
-      "OriginalSection61"
-    ],
     "historical_dependency_rule": "Exact 265 native provider pins and 120 adjacent proof-data files recorded by canonical receipt.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/historical/canonical/OriginalSection61.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalSection61.lean"
     ],
-    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalSection61"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/historical/canonical/OriginalSection61.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalSection61.lean"
+    ]
   },
   "canonical-a7": {
-    "project": "target",
-    "entries": [
-      "OriginalA7ScaffoldV463"
-    ],
     "historical_dependency_rule": "Exact24 sources plus canonical provider/actual closure from v465 receipt.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalA7ScaffoldV463.lean"
     ],
-    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalA7ScaffoldV463"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalA7ScaffoldV463.lean"
+    ]
   },
   "canonical-c6-c11": {
-    "project": "target",
-    "entries": [
-      "OriginalC6C11"
-    ],
     "historical_dependency_rule": "Canonical v466 138 finite pins, exact232 native entries/35 approved prerequisites and C12Topology object context.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
-      "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalC6C11.lean"
     ],
-    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalC6C11"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
+      "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalC6C11.lean"
+    ]
   },
   "canonical-c7": {
-    "project": "target",
-    "entries": [
-      "OriginalC7"
-    ],
     "historical_dependency_rule": "Exact Q2/C7/C8 admission context from original_C7_full_source_contract task receipt; global default target does not certify it.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/conformal/OriginalC7.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalC7.lean"
+    ],
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalC7"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/conformal/OriginalC7.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalC7.lean"
     ]
   },
   "canonical-c8": {
-    "project": "target",
-    "entries": [
-      "OriginalC8"
-    ],
     "historical_dependency_rule": "Exact Q2/C7/C8 admission context from originalC89_416c8a5f13993886 task receipt.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/conformal/OriginalC8.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalC8.lean"
+    ],
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalC8"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/conformal/OriginalC8.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalC8.lean"
     ]
   },
   "canonical-c9": {
-    "project": "target",
-    "entries": [
-      "OriginalC9Final3"
-    ],
     "historical_dependency_rule": "Exact OriginalC9 admission context and helper closure from canonical_v1 receipt.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/conformal/OriginalC9Final3.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalC9Final3.lean"
+    ],
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalC9Final3"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/conformal/OriginalC9Final3.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalC9Final3.lean"
     ]
   },
   "original-a2": {
-    "project": "target",
-    "entries": [
-      "OriginalA2ScaffoldV464"
-    ],
-    "wrapper": "target/A2ProofData/with_native_context.sh",
     "historical_dependency_rule": "A2ProofData/OrdinaryImports precedes canonical objects and A5ProofData/OrdinaryImports; two distinct projection owners are not merged.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/historical/canonical/OriginalA2ScaffoldV464.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalA2ScaffoldV464.lean"
     ],
-    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalA2ScaffoldV464"
+    ],
+    "historical_wrapper": "target/A2ProofData/with_native_context.sh",
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/historical/canonical/OriginalA2ScaffoldV464.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalA2ScaffoldV464.lean"
+    ]
   },
   "original-a3": {
-    "project": "target",
-    "entries": [
-      "OriginalA3Final"
-    ],
     "historical_dependency_rule": "Current28/public fixture v112 accepted context; recover selected provider map from ROOT_ORIGINAL_A3_ACCEPTANCE_RECEIPT, not old OriginalA3 scaffold.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/historical/canonical/OriginalA3Final.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalA3Final.lean"
     ],
-    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalA3Final"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/historical/canonical/OriginalA3Final.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalA3Final.lean"
+    ]
   },
   "original-a4": {
-    "project": "target",
-    "entries": [
-      "OriginalA4"
-    ],
     "historical_type_project": "scratch/integrator/prepare_wave6_clean_support_admission/final_canonical_A4_collar86_v1/A4",
     "historical_dependency_rule": "Canonical original A4 plus separate exact collar86 context; same root full type/opaque closure from public fixture receipt.",
     "portable_source_rebuild": "PASS",
-    "source_entries": [
-      "seifert-surfaces/historical/canonical/OriginalA4.lean"
-    ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
     "historical_native_context_preserved_for_provenance": true,
     "fresh_source_entries": [
       "seifert-surfaces/unified/OriginalA4.lean"
     ],
-    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
+    "historical_project": "target",
+    "historical_entries": [
+      "OriginalA4"
+    ],
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_source_entries": [
+      "seifert-surfaces/historical/canonical/OriginalA4.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalA4.lean"
+    ]
   },
   "original-a5": {
-    "project": "target/FullOriginalA5ProofData",
-    "entries": [
+    "historical_dependency_rule": "Primary1990 and producer1478 context object archives and compile-time CI replay stay separate. Current wrapper has absolute historical paths; portability work pending.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "target/FullOriginalA5ProofData",
+    "historical_entries": [
       "OriginalA5ScaffoldV464"
     ],
-    "wrapper": "target/FullOriginalA5ProofData/with_native_context.sh",
-    "historical_dependency_rule": "Primary1990 and producer1478 context object archives and compile-time CI replay stay separate. Current wrapper has absolute historical paths; portability work pending.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "historical_wrapper": "target/FullOriginalA5ProofData/with_native_context.sh",
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/FullOriginalA5ProofData/project/OriginalA5ScaffoldV464.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalA5ScaffoldV464.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalA5ScaffoldV464.lean"
+    ]
   },
   "original55": {
-    "project": "target/Original55WholeProofData",
-    "entries": [
+    "historical_dependency_rule": "Finite source_object/provider pairs in CANONICAL_BINDING_v491 plus replay_environment.json; exact B2OriginalLeafPushOffWholeProofData donor.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "target/Original55WholeProofData",
+    "historical_entries": [
       "OriginalSection5Whole"
     ],
-    "wrapper": "target/Original55WholeProofData/with_native_context.sh",
-    "environment": "target/Original55WholeProofData/environment.json",
-    "historical_dependency_rule": "Finite source_object/provider pairs in CANONICAL_BINDING_v491 plus replay_environment.json; exact B2OriginalLeafPushOffWholeProofData donor.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "historical_wrapper": "target/Original55WholeProofData/with_native_context.sh",
+    "historical_environment": "target/Original55WholeProofData/environment.json",
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/Original55WholeProofData/source/OriginalSection5Whole.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalSection5Whole.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalSection5Whole.lean"
+    ]
   },
   "original57": {
-    "project": "target/Original57WholeProofData",
-    "entries": [
+    "historical_dependency_rule": "Finite provider/source pins and separate producer donor context in CANONICAL_BINDING_v494; historical source literals remain donor-dependent.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "target/Original57WholeProofData",
+    "historical_entries": [
       "OriginalSection5Whole"
     ],
-    "wrapper": "target/Original57WholeProofData/with_native_context.sh",
-    "environment": "target/Original57WholeProofData/environment.json",
-    "historical_dependency_rule": "Finite provider/source pins and separate producer donor context in CANONICAL_BINDING_v494; historical source literals remain donor-dependent.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "historical_wrapper": "target/Original57WholeProofData/with_native_context.sh",
+    "historical_environment": "target/Original57WholeProofData/environment.json",
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/Original57WholeProofData/source/OriginalSection5Whole.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalSection5Whole.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalSection5Whole.lean"
+    ]
   },
   "original-b1": {
-    "project": "target/B1WholeOriginalProofData",
-    "entries": [
+    "historical_dependency_rule": "1245 frozen project provider objects,146 adjacent VM03 data objects; raw809 heads and finite changed replay boundary in CANONICAL_WHOLE_BINDING_v480.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "target/B1WholeOriginalProofData",
+    "historical_entries": [
       "OriginalB1_v468"
     ],
-    "wrapper": "target/B1WholeOriginalProofData/with_native_context.sh",
-    "environment": "target/B1WholeOriginalProofData/environment.json",
-    "historical_dependency_rule": "1245 frozen project provider objects,146 adjacent VM03 data objects; raw809 heads and finite changed replay boundary in CANONICAL_WHOLE_BINDING_v480.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "historical_wrapper": "target/B1WholeOriginalProofData/with_native_context.sh",
+    "historical_environment": "target/B1WholeOriginalProofData/environment.json",
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/B1WholeOriginalProofData/source/OriginalB1_v468.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalB1_v468.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalB1_v468.lean"
+    ]
   },
   "original-b2": {
-    "project": "target/B2OriginalLeafPushOffWholeProofData",
-    "entries": [
+    "historical_dependency_rule": "401 finite frozen source-associated provider modules selected by CANONICAL_BINDING_v490; never another OriginalB2B5V480 overlay.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "target/B2OriginalLeafPushOffWholeProofData",
+    "historical_entries": [
       "OriginalB2B5V480"
     ],
-    "wrapper": "target/B2OriginalLeafPushOffWholeProofData/with_native_context.sh",
-    "environment": "target/B2OriginalLeafPushOffWholeProofData/environment.json",
-    "historical_dependency_rule": "401 finite frozen source-associated provider modules selected by CANONICAL_BINDING_v490; never another OriginalB2B5V480 overlay.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "historical_wrapper": "target/B2OriginalLeafPushOffWholeProofData/with_native_context.sh",
+    "historical_environment": "target/B2OriginalLeafPushOffWholeProofData/environment.json",
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/B2OriginalLeafPushOffWholeProofData/source/OriginalB2B5V480.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalB2B5V480.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalB2B5V480.lean"
+    ]
   },
   "original-b3-two-contexts": {
-    "project": "separate contexts",
-    "entries": [
+    "historical_dependency_rule": "Both exact guarded original root types retain their complete source-associated historical custody. The release selects reviewed common owners rather than loading historical overlays.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "separate contexts",
+    "historical_entries": [
       "OriginalB2B5V480"
     ],
-    "contexts": [
+    "historical_contexts": [
       {
         "project": "target/B3WholeOriginalProofData/interior",
         "wrapper": "target/B3WholeOriginalProofData/interior/with_native_context.sh",
@@ -274,24 +428,47 @@
         "environment": "target/B3OriginalCollarWholeProofData/environment.json"
       }
     ],
-    "historical_dependency_rule": "Both exact guarded root types and complete source-associated custody. Same module names, different native environments; build independently.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/B3WholeOriginalProofData/interior/source/OriginalB2B5V480.lean",
       "seifert-surfaces/historical/B3OriginalCollarWholeProofData/source/OriginalB2B5V480.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalB2B5V480.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/OriginalB2B5V480.lean"
+    ]
   },
   "original62": {
-    "project": "target/Original62WholeProofData",
-    "entries": [
+    "historical_dependency_rule": "evidence/PACKAGE_MANIFEST.json and final TASK_MAPPING select exact provider/project sources and finite native replay mapping; five guards,304 pin rechecks. Standalone lakefile has no default target and a historical local Mathlib path.",
+    "portable_source_rebuild": "PASS",
+    "source_only_boundary": "All20 originals compile together through MainTheorems in this repository-local project. Historical projects/objects are archival provenance only, not runtime dependencies. No whole-archive completeness or full historical metadata reconstruction is claimed.",
+    "historical_project": "target/Original62WholeProofData",
+    "historical_entries": [
       "Original62CompletionV510"
     ],
-    "historical_dependency_rule": "evidence/PACKAGE_MANIFEST.json and final TASK_MAPPING select exact provider/project sources and finite native replay mapping; five guards,304 pin rechecks. Standalone lakefile has no default target and a historical local Mathlib path.",
-    "portable_source_rebuild": "NOT_CLAIMED",
-    "source_entries": [
+    "project": ".",
+    "entries": [
+      "MainTheorems"
+    ],
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "historical_source_entries": [
       "seifert-surfaces/historical/Original62WholeProofData/Original62CompletionV510.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/Original62CompletionV510.lean"
+    ],
+    "source_entries": [
+      "seifert-surfaces/unified/Original62CompletionV510.lean"
+    ]
   }
 }

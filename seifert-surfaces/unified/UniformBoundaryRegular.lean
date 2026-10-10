@@ -1,0 +1,9 @@
+import B1L1DirectWeakLower
+noncomputable section
+open Set Topology Function MeasureTheory
+open scoped ContDiff BigOperators NNReal ENNReal
+namespace SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.DirectWeak
+open SeifertSurfaces.AppendixACoordinates
+
+
+end SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.DirectWeak

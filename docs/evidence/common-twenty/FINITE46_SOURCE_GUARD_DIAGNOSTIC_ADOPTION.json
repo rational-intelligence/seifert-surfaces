@@ -1,0 +1,424 @@
+{
+  "status": "UNVERIFIED_DIAGNOSTIC_FINITE46_SOURCE_GUARDS_ADOPTED",
+  "guards": 46,
+  "modules": 37,
+  "input_patch_sha256": "b6ba0bc664394dfdcad6e9a2bb9a912d12a5b4f4b73af7a06f3775bb4f77aad8",
+  "protected_headers_unchanged": 21,
+  "codec_source_hashes": {
+    "ExactPaidSource": "8a1f3d6f9b3d6ebbd5674b0c57be1c5c1f7f8ecd54c0dead11eb0834e8f939cd",
+    "ExactPaidCodec": "d17d84c5124531d156d2de1f988b1c9eeccf84a82d88092762fad3efcc5661d2"
+  },
+  "strict_generic_codec_unchanged": true,
+  "no_replay_fallback_imports": true,
+  "source_capture_positions_unchanged": true,
+  "final_actual_common_required": true,
+  "rows": [
+    {
+      "module": "ExactPaid.A5PaidRegularSeamCompatibility.Part000",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/A5PaidRegularSeamCompatibility/Part000.lean",
+      "before_sha256": "520b21e8630873602761b9bbe252c78ba89c516d827f429a7fcedff4e85b75b9",
+      "after_sha256": "685ee7bf55a99037f0ca034cb3e3a53fb0be7992049767868bf7041829b39d49",
+      "guards": 2,
+      "original_bound_hashes": [
+        "520b21e8630873602761b9bbe252c78ba89c516d827f429a7fcedff4e85b75b9"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part020",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part020.lean",
+      "before_sha256": "32f7c2573c79c72c1e082e4eaa606825c917e9b123be4f94c0289b592a23267c",
+      "after_sha256": "0c7c6fe1da7d6db398a4bf65c64d2068fac281911e8aff0b25d164e4f2efcbcd",
+      "guards": 1,
+      "original_bound_hashes": [
+        "32f7c2573c79c72c1e082e4eaa606825c917e9b123be4f94c0289b592a23267c"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part033",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part033.lean",
+      "before_sha256": "b54755952549e3e14089710b261834930269f401c75600fe0c4030119890eb55",
+      "after_sha256": "337ee2db516709df69e600c151a9d75aeeface7535c5659abd6845216400fe30",
+      "guards": 1,
+      "original_bound_hashes": [
+        "b54755952549e3e14089710b261834930269f401c75600fe0c4030119890eb55"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part037",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part037.lean",
+      "before_sha256": "619cb0bbd4f39f2b8dae3482c3dcc129ebe0aed219112aac6f400fcab8b42ebd",
+      "after_sha256": "4be30de4ad04377b482255b8181db5f10c0880971b2cfa0143174c244e50262a",
+      "guards": 1,
+      "original_bound_hashes": [
+        "619cb0bbd4f39f2b8dae3482c3dcc129ebe0aed219112aac6f400fcab8b42ebd"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part039",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part039.lean",
+      "before_sha256": "f9889fbe7cf0055069e8975ddee1b26dd01698c52ee182289f4dcf7b47e5b121",
+      "after_sha256": "241ea520285d699bfc1878d66cd49be64f6dbd342ecac9fa5c2ab4672aa52d33",
+      "guards": 1,
+      "original_bound_hashes": [
+        "f9889fbe7cf0055069e8975ddee1b26dd01698c52ee182289f4dcf7b47e5b121"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part045",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part045.lean",
+      "before_sha256": "d328f3894be49f032d7162330f3f8f90f140968ed6ef360223a613eb0cd23564",
+      "after_sha256": "ef2d10b29399249071c6deb94e8f6c13f86f7c0f843b991edbe48ce05dab1fd0",
+      "guards": 2,
+      "original_bound_hashes": [
+        "d328f3894be49f032d7162330f3f8f90f140968ed6ef360223a613eb0cd23564"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part052",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part052.lean",
+      "before_sha256": "91fe8a123acb55267c01ad44dca21b762bd6a899f305483ef57f9ece6f762202",
+      "after_sha256": "490543b0a845d7b8750f7bc02db259894898b8db053da606973164b85e15b4e0",
+      "guards": 1,
+      "original_bound_hashes": [
+        "91fe8a123acb55267c01ad44dca21b762bd6a899f305483ef57f9ece6f762202"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part053",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part053.lean",
+      "before_sha256": "4d7ec449fcce7afe2d5ea0503021c247c4a4860fae52a99cefd2d7883584231d",
+      "after_sha256": "17c92aa7bba1b49653f3a0669742b5a56f891bdb4cd82a46e00755d4dfa014d9",
+      "guards": 1,
+      "original_bound_hashes": [
+        "4d7ec449fcce7afe2d5ea0503021c247c4a4860fae52a99cefd2d7883584231d"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part071",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part071.lean",
+      "before_sha256": "3fc5c767b8d7387d166e8d1789d62004300b4943e4c4360cb8c4b067e032343b",
+      "after_sha256": "886f6250131efcaf0f3a0f6abb1c8501f4a62ce8b57a2269c6b4737dc3295fd5",
+      "guards": 1,
+      "original_bound_hashes": [
+        "3fc5c767b8d7387d166e8d1789d62004300b4943e4c4360cb8c4b067e032343b"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part072",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part072.lean",
+      "before_sha256": "cb449af666d07cc9feef0743209606b83360ce4256b5ee6f6f990bb8637e0a5a",
+      "after_sha256": "3ffda4b44699022691c0eef92668e05b3df3bf8f0b8430f9298718510803afcb",
+      "guards": 1,
+      "original_bound_hashes": [
+        "cb449af666d07cc9feef0743209606b83360ce4256b5ee6f6f990bb8637e0a5a"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part073",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part073.lean",
+      "before_sha256": "c5079cfe73190dd18a2ea2daafefe30301983100c401275923cc74cb8d9e1388",
+      "after_sha256": "dd7bf5f047dd74ee3f2dc4d946890409e507e1dd5fd8523552b71e2caa4eee91",
+      "guards": 1,
+      "original_bound_hashes": [
+        "c5079cfe73190dd18a2ea2daafefe30301983100c401275923cc74cb8d9e1388"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part074",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part074.lean",
+      "before_sha256": "4b70358764c1707b9609a75c935043143f4a3f984d70579226464a740e41f2ab",
+      "after_sha256": "ff7020866fd93a2dc71d4450ceb40a2d07044a27c30ed8f306af44f8943a4e92",
+      "guards": 1,
+      "original_bound_hashes": [
+        "4b70358764c1707b9609a75c935043143f4a3f984d70579226464a740e41f2ab"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part075",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part075.lean",
+      "before_sha256": "2a27d20b892de786f380844cd25b4ad5c4fcf7edb55189a0ebec87f182e6795e",
+      "after_sha256": "90a54589e263fb43a41abf808748b10ce887b6a2f3d2dd53d82247614b2503cd",
+      "guards": 1,
+      "original_bound_hashes": [
+        "2a27d20b892de786f380844cd25b4ad5c4fcf7edb55189a0ebec87f182e6795e"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part076",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part076.lean",
+      "before_sha256": "588267195dd459d5b3ed8e37fc6353b75dcc86de09e9527e3abf12c8f403a60c",
+      "after_sha256": "112ae5cb187bf4f3a650e89737d43f2ea9eb740ab1023f63195fb51f77438eb2",
+      "guards": 1,
+      "original_bound_hashes": [
+        "588267195dd459d5b3ed8e37fc6353b75dcc86de09e9527e3abf12c8f403a60c"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part081",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part081.lean",
+      "before_sha256": "c5673986e3bd1a11a4476fb490a1f6c1f3bb3a43f073eaff2a79467cca275a4a",
+      "after_sha256": "698ed51be08d694eb891ab5a44eaa6e1a3f97af328e01478118459cf0fcd8d49",
+      "guards": 1,
+      "original_bound_hashes": [
+        "c5673986e3bd1a11a4476fb490a1f6c1f3bb3a43f073eaff2a79467cca275a4a"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part082",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part082.lean",
+      "before_sha256": "f9f228227589f4a682cfe73e102f539d4e90c77f17ee34b21319c81d9aea2360",
+      "after_sha256": "80902579f2af9be1c5f544e81d880b7908cf9a1d085b939eb73143fc9c385e14",
+      "guards": 2,
+      "original_bound_hashes": [
+        "f9f228227589f4a682cfe73e102f539d4e90c77f17ee34b21319c81d9aea2360"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part087",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part087.lean",
+      "before_sha256": "61a4f9a6c131d442bf6d49fe30bae3f751a1cd019c7b51cbfe8893d8a055e755",
+      "after_sha256": "6b27f02453376331e77cbe5672ab529f329a8d6a0d692577d3cf36de259d59e4",
+      "guards": 1,
+      "original_bound_hashes": [
+        "61a4f9a6c131d442bf6d49fe30bae3f751a1cd019c7b51cbfe8893d8a055e755"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part088",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part088.lean",
+      "before_sha256": "caeebd72f3a3d8d54047690b8d822f75f896ee16ba7100b68dc484b486f90c70",
+      "after_sha256": "73c205665b902963989450ea8a032232e2dab78f8482740e776cd64e5630dd27",
+      "guards": 1,
+      "original_bound_hashes": [
+        "caeebd72f3a3d8d54047690b8d822f75f896ee16ba7100b68dc484b486f90c70"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part092",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part092.lean",
+      "before_sha256": "a679193a57670f21ea446e0b2656f7a649227d2c380d83d03627baae84681986",
+      "after_sha256": "925fe0ff3d700f6bc470c5eaeeb5f3c2e3157a615d511b38faa291b17985c8f4",
+      "guards": 1,
+      "original_bound_hashes": [
+        "a679193a57670f21ea446e0b2656f7a649227d2c380d83d03627baae84681986"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part094",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part094.lean",
+      "before_sha256": "9d2c7c9675ff2f5b252685781a2229c1abb187b6be83c70efebfd1f54a35cfa4",
+      "after_sha256": "568eaa3fdf619ee399b6f5ad91a00a13b1d10390f5aae8d22d7467245c7352e9",
+      "guards": 1,
+      "original_bound_hashes": [
+        "9d2c7c9675ff2f5b252685781a2229c1abb187b6be83c70efebfd1f54a35cfa4"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part096",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part096.lean",
+      "before_sha256": "bd650243c64a9987573073d30bb5fd9ca2bb1a5d29d877313bd745c2dc845a13",
+      "after_sha256": "dad6dda8022c3445178fcde1653d14995dbb8f24e1b76bffe715de75b49c8d56",
+      "guards": 2,
+      "original_bound_hashes": [
+        "bd650243c64a9987573073d30bb5fd9ca2bb1a5d29d877313bd745c2dc845a13"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part097",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part097.lean",
+      "before_sha256": "f13de7f0cef7358b2a06608e70a97564f290e11d372c3e561af2982934bd2a78",
+      "after_sha256": "3b777500d7bbc66e66182746f3e9d30c0a6eb45c62ad5a20e19899cda64bd2a8",
+      "guards": 1,
+      "original_bound_hashes": [
+        "f13de7f0cef7358b2a06608e70a97564f290e11d372c3e561af2982934bd2a78"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part098",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part098.lean",
+      "before_sha256": "9b41efc3665776de969231671af53f020c2c319bb8d1b3cebf7cc3c1179c3c01",
+      "after_sha256": "c06eb4c8179f14225b8d6d17df763bacea2a6a96309ea8cf1356bdf9d87e50b8",
+      "guards": 2,
+      "original_bound_hashes": [
+        "9b41efc3665776de969231671af53f020c2c319bb8d1b3cebf7cc3c1179c3c01"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part100",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part100.lean",
+      "before_sha256": "b43593737765c2a6d0b13996ac629bcc38569e4dc51d80d53b9b24ea5111a855",
+      "after_sha256": "188a5a42aac4713b382ab34025eed4a9d3e06f13a2f9667133a62ec3379dd35e",
+      "guards": 1,
+      "original_bound_hashes": [
+        "b43593737765c2a6d0b13996ac629bcc38569e4dc51d80d53b9b24ea5111a855"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part102",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part102.lean",
+      "before_sha256": "9901c6f4eb760ddcba7dae8b8909de93d3e06f54096ea6fbcb27541725efa0b8",
+      "after_sha256": "1f7a2a8643d9e7cbc72759acd9d06009833c0add8edfb8a850bd8a7e7d9f1920",
+      "guards": 1,
+      "original_bound_hashes": [
+        "9901c6f4eb760ddcba7dae8b8909de93d3e06f54096ea6fbcb27541725efa0b8"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part103",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part103.lean",
+      "before_sha256": "b68b31408c0970aa7520b3f07b4782dd346ba77541d6218ca8dee74e8fc99860",
+      "after_sha256": "1a957145b02715a13e72b3147d94484df0537ea00add33d6a7cf91833147cdff",
+      "guards": 1,
+      "original_bound_hashes": [
+        "b68b31408c0970aa7520b3f07b4782dd346ba77541d6218ca8dee74e8fc99860"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part104",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part104.lean",
+      "before_sha256": "f773c707e56ae09db40ab75e0704cc0efb273a61882fcca4d1279b062de45c75",
+      "after_sha256": "5d2e39fd4ce9a5df28a12ea410341548d736c188f9201144cde7c44d4511462c",
+      "guards": 3,
+      "original_bound_hashes": [
+        "f773c707e56ae09db40ab75e0704cc0efb273a61882fcca4d1279b062de45c75"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part108",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part108.lean",
+      "before_sha256": "3ed2cce40eb7f436d32483c9149a1d6441d2b55ec2664b463cb70276f6746dea",
+      "after_sha256": "e689a625c29941fbec8735978cb22c599be4fecc9fc4ac82feb71e34797b2941",
+      "guards": 1,
+      "original_bound_hashes": [
+        "3ed2cce40eb7f436d32483c9149a1d6441d2b55ec2664b463cb70276f6746dea"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part113",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part113.lean",
+      "before_sha256": "c3486ac35c55107c14369112639526c8d9f9659212852a2a219636beda8a1c7c",
+      "after_sha256": "63e7ca032f403eb7bec448b806f3d5fb0cd9199c51bfb153b74ca360a992aec4",
+      "guards": 1,
+      "original_bound_hashes": [
+        "c3486ac35c55107c14369112639526c8d9f9659212852a2a219636beda8a1c7c"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part114",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part114.lean",
+      "before_sha256": "86f0ad65267bf9e9e6350c4764628eb654fe8cf74701e62b7e1282490723a423",
+      "after_sha256": "aa9c60e5461dd52427c34db7f6a7059bf64b4283e19bfe5c6cdadec297464449",
+      "guards": 1,
+      "original_bound_hashes": [
+        "86f0ad65267bf9e9e6350c4764628eb654fe8cf74701e62b7e1282490723a423"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part117",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part117.lean",
+      "before_sha256": "fc97a83af25e0cec0eb918ebcb00c82172a4cc3ea3a4eef3a9bd535e234da2e4",
+      "after_sha256": "82b562dd158561beeb383e022bd0c54e9fb8faef4fc497a1fbf039f3b68bacc3",
+      "guards": 1,
+      "original_bound_hashes": [
+        "fc97a83af25e0cec0eb918ebcb00c82172a4cc3ea3a4eef3a9bd535e234da2e4"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part118",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part118.lean",
+      "before_sha256": "1f4f8d4c6fad748a9a1f50e0b4b6b3096a7d4f83cc33a090b1ee8e4f72ed9f41",
+      "after_sha256": "dfcb6b712edf5053641a308c7e3c396b0829bc976b4f9fa4f2157c173361f5b2",
+      "guards": 1,
+      "original_bound_hashes": [
+        "1f4f8d4c6fad748a9a1f50e0b4b6b3096a7d4f83cc33a090b1ee8e4f72ed9f41"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part120",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part120.lean",
+      "before_sha256": "16de62c66e794d0d09a2ceed1a5063e60ee94252a016a6839e94d379e96d8fb0",
+      "after_sha256": "6b4431c235073e83dbfeccb7fb3ec45f2dcdf8559620ce4109aee41e3dfe7a20",
+      "guards": 1,
+      "original_bound_hashes": [
+        "16de62c66e794d0d09a2ceed1a5063e60ee94252a016a6839e94d379e96d8fb0"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part122",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part122.lean",
+      "before_sha256": "449d44233a84ba475ada45d7958aa6204eb5fedba8f00bc8d5223d9208684f51",
+      "after_sha256": "a5b11526bcb1964906d006be93d08742ef5b4c920e0fc9b59f4f47d404e05423",
+      "guards": 1,
+      "original_bound_hashes": [
+        "449d44233a84ba475ada45d7958aa6204eb5fedba8f00bc8d5223d9208684f51"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part124",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part124.lean",
+      "before_sha256": "3dbba23b204f2eb1c421f537d8fc4d856cedc0949681b44b6cba3d1bac3bd258",
+      "after_sha256": "f79c49c1bf586325ac43c068fc84bea332653dee69e9c60e90fb2069e411dea7",
+      "guards": 1,
+      "original_bound_hashes": [
+        "3dbba23b204f2eb1c421f537d8fc4d856cedc0949681b44b6cba3d1bac3bd258"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part127",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part127.lean",
+      "before_sha256": "f80b95df72a8ad00be4427c9499f3693f3ca3adfbc2dfd43ad5d8946545816f0",
+      "after_sha256": "5687e5d82cfd7eaf637bd0271701b8f2d170b3c19e2ec60144a795dee2de54cf",
+      "guards": 1,
+      "original_bound_hashes": [
+        "f80b95df72a8ad00be4427c9499f3693f3ca3adfbc2dfd43ad5d8946545816f0"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    },
+    {
+      "module": "ExactPaid.PaidClosureSupportV510.Part157",
+      "source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/ExactPaid/PaidClosureSupportV510/Part157.lean",
+      "before_sha256": "44208bf31f94ba4e0fc5cdd824273279b20f16f69bb18fdbcb3cd989fe55228a",
+      "after_sha256": "b4918a453124a2a16ed08cc818e93a1f05cd664e3360d20115efcdb6f34c8ca9",
+      "guards": 3,
+      "original_bound_hashes": [
+        "44208bf31f94ba4e0fc5cdd824273279b20f16f69bb18fdbcb3cd989fe55228a"
+      ],
+      "literal_unchanged_record_rebindings": 0
+    }
+  ]
+}

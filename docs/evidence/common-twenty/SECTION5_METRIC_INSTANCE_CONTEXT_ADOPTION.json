@@ -1,0 +1,24 @@
+{
+  "status": "SOURCE_ADOPTED_LEAF6_COMPILER_BASE3_PASS_FINAL_MAIN_PENDING",
+  "utc": "2026-10-10T14:45:07.949412+00:00",
+  "source_hashes": {
+    "Section5CommonLeafClockV488.lean": {
+      "source_sha256": "a5fb62d582e83038045380922c83c553f496f90c250d41f69338b7bf2941affe",
+      "candidate_sha256": "0520a9d882347d2c865cd422c8510cb6c4a5c4ed1d8c0b79fe98ad4e324db09e"
+    },
+    "Section5CommonLeafSmoothClockV488.lean": {
+      "source_sha256": "b8d73910762fd8c59f09778123ed728e0b55fe1b015788573e83ab51868e3d6e",
+      "candidate_sha256": "3eb72451171d79018e940ac6b923307745fa0da330b8f8e7130fb3fa7b3f30f4"
+    },
+    "Section5NativeAreaV487.lean": {
+      "source_sha256": "d77b3eb57a2fcef4cd905e58adfd32438b63b3581f129c2b8dc06bc8f39ca4f0",
+      "candidate_sha256": "8ea2109832670b8c5de4c25acd9f7680fe00fb507a4db42f514739a62629ff0a"
+    }
+  },
+  "files": 3,
+  "protected_headers_unchanged": 21,
+  "all_three_entire_sources_recovered_after_removing_only_context_directive": true,
+  "proof_bodies_changed": false,
+  "mathematical_statement_changed": false,
+  "native_leaf_compiler_checks": 6
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS_REVIEWED_AUDIT_ONLY_ADOPTION",
+  "utc": "2026-10-10T15:51:26.071722+00:00",
+  "source_hash_updates": [
+    {
+      "release_path": "tools/fixtures/AuditCommonUnionOneAbsentUnusedCandidate.lean",
+      "before_sha256": null,
+      "after_sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4"
+    },
+    {
+      "release_path": "tools/fixtures/ONE_ABSENT_UNUSED_BOUND_SOURCE_CIS.jsonl",
+      "before_sha256": null,
+      "after_sha256": "f8c298fe6f54cade9c1d77548e523e5687680470a416f2bb58ccc147b07fc4d0"
+    },
+    {
+      "release_path": "tools/fixtures/UNION_ONE_ABSENT_UNUSED_MANIFEST.json",
+      "before_sha256": null,
+      "after_sha256": "40afd9a05123c98adada6197b89c7ffa590643dc277469ddc830f644dbf2af13"
+    },
+    {
+      "release_path": "tools/fixtures/validate_union_one_absent_unused.py",
+      "before_sha256": null,
+      "after_sha256": "15475a2b21705751f82067f010b8775897160c52ddd42e75fb50b2703dd5a488"
+    },
+    {
+      "release_path": "tools/audits/AuditCommonUnionLiteralReceiving.lean",
+      "before_sha256": "2e7b2cb76d007f31e6387f3d7671aa0cbb77ef8de3fcdf2d051ef312f0422681",
+      "after_sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4"
+    },
+    {
+      "release_path": "tools/verify.py",
+      "before_sha256": "cb59d9589f5281b8b7246d98d59a6238073e9052a79643402399e4dfda4f842b",
+      "after_sha256": "f58806afd1bd92721982c41ae5ebc58efd853736bd361ebb3447e843716c18af"
+    },
+    {
+      "release_path": "tools/RECEIVING_MANIFEST.json",
+      "before_sha256": "9ea334cc0af2feec94cfa51012ee9df4b168a65f19fa3c65a1f49bb91177fe0d",
+      "after_sha256": "5cad2121f183c57ecd51eb646a885c961be62ce82c532c203edd412dea8b2712"
+    }
+  ],
+  "review_sha256": "93e9d765350c7036efcae0a956854cb89c85f6f6af9d2ddca16aaed958ed3dd5",
+  "review_ready_sha256": "416935060f24974a5b6477098b13211feccd010ade3f9c0d4d05c8629adae1fb",
+  "main_proof_sources_changed": false,
+  "original_union_fixture_unchanged": true,
+  "validator_required": true,
+  "runtime_original_objects_read": false,
+  "runtime_bundle_note": "Fresh public command supplies isolated ignored runtime bundle as the approved audit main argument; exact fixture bytes are copied and hash checked before execution. Initial direct audit receipt was generated from those same fixture bytes."
+}

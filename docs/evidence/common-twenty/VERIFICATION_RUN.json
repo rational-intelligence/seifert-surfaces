@@ -1,0 +1,344 @@
+{
+  "status": "PASS",
+  "verification_mode": "HASH_BOUND_RESUME_OF_FAILED_PUBLIC_RUN",
+  "utc": "2026-10-10T15:54:39.392050+00:00",
+  "initial_public_run_status": "FAIL_RETAINED",
+  "initial_public_failure_receipt": "COMMON_TWENTY_PUBLIC_VERIFIER_FAILURE.json",
+  "source_hash_bound_scan_reused": true,
+  "Main_source_files_unchanged": true,
+  "completed_receiving_checks_reused": 14,
+  "changed_receiving_audits_reexecuted": 1,
+  "actual_fidelity": {
+    "status": "PASS",
+    "expected_records": 507,
+    "actual_records": 507,
+    "role_counts": {
+      "replay": 318,
+      "safe": 143,
+      "partial": 8,
+      "family": 32,
+      "capture": 3,
+      "whole_original": 1,
+      "graph": 2
+    },
+    "safe_operative_equality_PASS": 48,
+    "safe_declarations_scanned": 876628,
+    "errors": [],
+    "manifest_sha256": "50941714bb5f1466d2bf1468be90c0a5ae76f2a51e996d22e36b14ae5a9bf2de",
+    "results_sha256": "6788242e98431bb1766662acac8a5dbb067471177440cc06337025414bbd2475",
+    "boundary_sha256": "e7c8d03ac9bc4631826d0feb07d1eae7c3d10179cd79d9cbcc1ef5f97f05a49e"
+  },
+  "source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "5.5",
+    "5.7",
+    "6.1",
+    "6.2",
+    "A.2",
+    "A.3",
+    "A.4",
+    "A.5",
+    "A.7",
+    "B.1",
+    "B.2",
+    "B.3",
+    "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
+    "C.11"
+  ],
+  "fresh_root_axioms": {
+    "SeifertSurfaces.exchange_complex_contractible": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.exists_injective_exchange_complexity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_full_downset_exchange_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_full_descending_link_exchange_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_strict_sublevel_exchange_graph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.descending_link_nonempty_of_not_least": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.full_subcomplex_is_flag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.original_5_5": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.original_5_7": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.original_6_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.original_6_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.A3_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.A4_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.A7.A7_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.B1_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.Original.paper_C7": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.Original.paper_C8": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.Original.paper_C9": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_complexity_downset_connected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "receiving_checks": [
+    {
+      "source": "tools/audits/NativeTypeGuardA5.lean",
+      "sha256": "048d5d7e154bda683695e3242cf4332e00fcdda553bfff814d1f93ddc2c8cf11",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/NativeTypeGuard62.lean",
+      "sha256": "a8d5f99815f0d1349a46a4ea03044fb706cdf8a58a6e74bbf93a6afe018ad5ad",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyBSection5.lean",
+      "sha256": "ffd2b149b915c7c1e9857c6e1c1060cc6f5fd786f101b6ac3de9b56a159799c0",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyB1AcceptedOperative.lean",
+      "sha256": "6e8f23a496b7b3d0184f270271cbf42881b004303f33b0da3f19761517d92f5a",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperativeB2Unaffected.lean",
+      "sha256": "9fd024520c168c919a86f6d82112da95d6953836cddec6cf7f526c9d24f416b6",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperativeB3iUnaffected.lean",
+      "sha256": "f46128f480672ad2045515c4c27598a8e72a91ecdda23d0f3ffaa27d673f55f8",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperativeB3cUnaffected.lean",
+      "sha256": "f391ab2c6aeca89a3aca6db03576b9be7e4ef9d01f179651b622bcb224bf3563",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperative55Unaffected54.lean",
+      "sha256": "7bae76594386c1fe27c15e087c763b83c0b9702724bd5735db92969583a2bf74",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperative57Unaffected.lean",
+      "sha256": "5a1b295ef30cf3cd00bf3608862e1e170553f3ed4d6d7243533ed6b6524f0f53",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/Audit55ExpectedTypeKernelReplay.lean",
+      "sha256": "065305946d1e6902eceb81ed1c9dbdd29664c3e089b4ae6eff1ff606389a9a2b",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/AuditPresent18.lean",
+      "sha256": "c7bad6f32401ff00a94ecf9751a405e73aed6c292e1964c6026d47e67fe3ad61",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/AuditCommon53.lean",
+      "sha256": "b96cdf8ca1a6c15d0ae63c8eb420dc1e566f4dca72a3db9b2340fed6d10b3c78",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/AuditCommonUnionLiteralReceiving.lean",
+      "sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4",
+      "mode": "run",
+      "bounded_scope": "928 present plus1 reviewed absent unused;396 operative equalities39 recursor RHS; raw929presencePASS false"
+    },
+    {
+      "source": "tools/audits/AuditCommonBTopologyFinalMainReceiving.lean",
+      "sha256": "11850bef3715d0353e57d6c2a2326c11ff37c38f2e37ef2e809236ebb39d400e",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/SchoenfliesTwoTypeFinalMainReceiving.lean",
+      "sha256": "906de58d4876881dc32cb73d8fb3282d4d2b49709b17655f58308010b98bccab",
+      "mode": "check"
+    }
+  ],
+  "root_count": 26,
+  "receiving_count": 15,
+  "source_custody_file_count": 10816,
+  "union_receiving": {
+    "present": 928,
+    "absent_unused": 1,
+    "raw_929_presence_PASS": false,
+    "reviewed_audit_adoption": {
+      "status": "PASS_REVIEWED_AUDIT_ONLY_ADOPTION",
+      "utc": "2026-10-10T15:51:26.071722+00:00",
+      "source_hash_updates": [
+        {
+          "release_path": "tools/fixtures/AuditCommonUnionOneAbsentUnusedCandidate.lean",
+          "before_sha256": null,
+          "after_sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4"
+        },
+        {
+          "release_path": "tools/fixtures/ONE_ABSENT_UNUSED_BOUND_SOURCE_CIS.jsonl",
+          "before_sha256": null,
+          "after_sha256": "f8c298fe6f54cade9c1d77548e523e5687680470a416f2bb58ccc147b07fc4d0"
+        },
+        {
+          "release_path": "tools/fixtures/UNION_ONE_ABSENT_UNUSED_MANIFEST.json",
+          "before_sha256": null,
+          "after_sha256": "40afd9a05123c98adada6197b89c7ffa590643dc277469ddc830f644dbf2af13"
+        },
+        {
+          "release_path": "tools/fixtures/validate_union_one_absent_unused.py",
+          "before_sha256": null,
+          "after_sha256": "15475a2b21705751f82067f010b8775897160c52ddd42e75fb50b2703dd5a488"
+        },
+        {
+          "release_path": "tools/audits/AuditCommonUnionLiteralReceiving.lean",
+          "before_sha256": "2e7b2cb76d007f31e6387f3d7671aa0cbb77ef8de3fcdf2d051ef312f0422681",
+          "after_sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4"
+        },
+        {
+          "release_path": "tools/verify.py",
+          "before_sha256": "cb59d9589f5281b8b7246d98d59a6238073e9052a79643402399e4dfda4f842b",
+          "after_sha256": "f58806afd1bd92721982c41ae5ebc58efd853736bd361ebb3447e843716c18af"
+        },
+        {
+          "release_path": "tools/RECEIVING_MANIFEST.json",
+          "before_sha256": "9ea334cc0af2feec94cfa51012ee9df4b168a65f19fa3c65a1f49bb91177fe0d",
+          "after_sha256": "5cad2121f183c57ecd51eb646a885c961be62ce82c532c203edd412dea8b2712"
+        }
+      ],
+      "review_sha256": "93e9d765350c7036efcae0a956854cb89c85f6f6af9d2ddca16aaed958ed3dd5",
+      "review_ready_sha256": "416935060f24974a5b6477098b13211feccd010ade3f9c0d4d05c8629adae1fb",
+      "main_proof_sources_changed": false,
+      "original_union_fixture_unchanged": true,
+      "validator_required": true,
+      "runtime_original_objects_read": false,
+      "runtime_bundle_note": "Fresh public command supplies isolated ignored runtime bundle as the approved audit main argument; exact fixture bytes are copied and hash checked before execution. Initial direct audit receipt was generated from those same fixture bytes."
+    },
+    "affected_check": {
+      "status": "PASS",
+      "exit_code": 0,
+      "command": "lake env lean --run tools/audits/AuditCommonUnionLiteralReceiving.lean",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/UNION_ABSENT_UNUSED_AUDIT_CHECK.txt",
+      "log_sha256": "db20ebba385662ce632adfac21bce9875e9a5f09124df08d7c0365d485729409",
+      "source_sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4",
+      "validator": {
+        "status": "PASS",
+        "coverage": "928present_full_type_PASS_plus1absent_unused_original_auxiliary",
+        "present_full_type_PASS": 928,
+        "absent_unused": 1,
+        "operative_closed_equality_PASS": 396,
+        "complete_recursor_RHS_PASS": 39,
+        "environment_declarations_scanned": 881960,
+        "raw929PASS_claimed": false,
+        "errors": [],
+        "manifest_sha256": "40afd9a05123c98adada6197b89c7ffa590643dc277469ddc830f644dbf2af13",
+        "results_sha256": "f92bef07733e9676fc14145980fc026c3c9c88cfaa1c7f867b01875e85f6b49c",
+        "receipt_sha256": "54442c1d79fe4550d22e7d17bee22687adc1b3e3d6f10a4de584ddcf40ab9006"
+      },
+      "validator_exit_code": 0,
+      "utc": "2026-10-10T15:54:35.911515+00:00",
+      "initial_raw_missing_failure_retained": true
+    }
+  }
+}

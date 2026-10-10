@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "expected_records": 507,
+  "actual_records": 507,
+  "role_counts": {
+    "replay": 318,
+    "safe": 143,
+    "partial": 8,
+    "family": 32,
+    "capture": 3,
+    "whole_original": 1,
+    "graph": 2
+  },
+  "safe_operative_equality_PASS": 48,
+  "safe_declarations_scanned": 876628,
+  "errors": [],
+  "manifest_sha256": "50941714bb5f1466d2bf1468be90c0a5ae76f2a51e996d22e36b14ae5a9bf2de",
+  "results_sha256": "6788242e98431bb1766662acac8a5dbb067471177440cc06337025414bbd2475",
+  "boundary_sha256": "e7c8d03ac9bc4631826d0feb07d1eae7c3d10179cd79d9cbcc1ef5f97f05a49e"
+}

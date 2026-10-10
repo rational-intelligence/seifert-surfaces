@@ -1,0 +1,52 @@
+warning: mathlib: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/mathlib
+warning: plausible: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/plausible
+warning: LeanSearchClient: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/LeanSearchClient
+warning: importGraph: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/importGraph
+warning: proofwidgets: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/proofwidgets
+warning: aesop: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/aesop
+warning: Qq: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Qq
+warning: batteries: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/batteries
+warning: Cli: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Cli
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space._proof_6
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space._proof_5
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space._proof_4
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space
+PASS closed kernel operative identity SeifertSurfaces.WeakSchauder.H01Space
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space._proof_7
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.frozenForm
+PASS closed kernel operative identity SeifertSurfaces.WeakSchauder.frozenForm
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space_eq_closure_smoothPairs
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.smoothPairSubmodule
+PASS closed kernel operative identity SeifertSurfaces.WeakSchauder.smoothPairSubmodule
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.witnessPair_smul
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.smoothPairSubmodule._proof_4
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space.eq_1
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.frozenLoad
+PASS closed kernel operative identity SeifertSurfaces.WeakSchauder.frozenLoad
+PASS closed kernel type identity SeifertSurfaces.WeakSchauder.H01Space_complete
+PASS closed kernel type identity CurveComplexGenusTwo.CWHurewicz.coverOrdinaryPairEquiv
+PASS closed kernel operative identity CurveComplexGenusTwo.CWHurewicz.coverOrdinaryPairEquiv
+PASS closed kernel type identity CurveComplexGenusTwo.CWHurewicz.coverPairBoundary
+PASS closed kernel operative identity CurveComplexGenusTwo.CWHurewicz.coverPairBoundary
+PASS closed kernel type identity _private.OrientationTransition_v395.0.SeifertSurfaces.GenusLinking.actualChartFrame
+PASS closed kernel operative identity _private.OrientationTransition_v395.0.SeifertSurfaces.GenusLinking.actualChartFrame
+PASS closed kernel type identity _private.OrientationTransition_v395.0.SeifertSurfaces.GenusLinking.actual_chart_frame_transition
+PASS closed kernel type identity _private.OrientationTransition_v395.0.SeifertSurfaces.GenusLinking.actual_chart_frame_inverse
+EXPLICIT ACTUAL CI SeifertSurfaces.WeakSchauder.H01Space._proof_5: ∀ (Ω : Set SeifertSurfaces.WeakSchauder.V),
+  AddSubmonoidClass
+    (AddSubgroup (SeifertSurfaces.WeakSchauder.V →ₘ[MeasureTheory.volume.restrict Ω] SeifertSurfaces.WeakSchauder.V))
+    (SeifertSurfaces.WeakSchauder.V →ₘ[MeasureTheory.volume.restrict Ω] SeifertSurfaces.WeakSchauder.V)
+EXPLICIT ACTUAL CI SeifertSurfaces.WeakSchauder.H01Space._proof_6: IsBoundedSMul ℝ (PiLp 2 fun x => ℝ)
+EXPLICIT ACTUAL CI SeifertSurfaces.WeakSchauder.H01Space._proof_7: ∀ (Ω : Set SeifertSurfaces.WeakSchauder.V),
+  ContinuousConstSMul ℝ (SeifertSurfaces.WeakSchauder.SobolevPair Ω)
+EXPLICIT ACTUAL CI SeifertSurfaces.WeakSchauder.H01Space._proof_8: ∀ (Ω : Set SeifertSurfaces.WeakSchauder.V),
+  ContinuousAdd (SeifertSurfaces.WeakSchauder.SobolevPair Ω)

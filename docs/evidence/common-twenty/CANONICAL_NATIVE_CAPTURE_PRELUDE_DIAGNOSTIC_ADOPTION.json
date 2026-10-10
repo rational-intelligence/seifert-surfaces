@@ -1,0 +1,59 @@
+{
+  "status": "UNVERIFIED_DIAGNOSTIC_CANONICAL_NATIVE_CAPTURE_PRELUDE_ADOPTED",
+  "native_modules": 1872,
+  "native_leaf_imports": 46,
+  "captured_modules_covered": 335,
+  "minimal_capture_roots": [
+    "ExactPaid.A5PaidA2Compatibility.Part000",
+    "ExactPaid.BSection5Recovery.B1L1IndependentLower.Part000",
+    "ExactPaid.BSection5Recovery.NativeH10DirichletData.Part000",
+    "ExactPaid.BSection5Recovery.VM02aDirectMethod.Part000",
+    "ExactPaid.CompressionContracts.Part000"
+  ],
+  "source_cycles": 0,
+  "new_module": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/seifert-surfaces/unified/CommonTwentyNativeCaptureOwners.lean",
+  "new_module_sha256": "058c4ca408e7eec2c944ffaf771a29c3e5ff58451584ebf0e1bd10b8291d4636",
+  "new_proof_declarations": 0,
+  "protected_headers_unchanged": 21,
+  "generic_codec_changed": false,
+  "generator_all_kind_guard_adoption_still_required": true,
+  "receiving_Main_compile_required": true,
+  "rows": [
+    {
+      "release_path": "MainTheorems.lean",
+      "before_sha256": "b3d681ff23ab89591f6822149be329eacbf38fd989fbdec0ff643f47ce964789",
+      "after_sha256": "47d6b49e30f99fbb891f101ef66df29c3195b3da61dc3c8649aa7e9efc72ecc4"
+    },
+    {
+      "release_path": "lakefile.toml",
+      "before_sha256": "29e07b1c4ee2e9134a5b29ec3a244561b372a12bf944de2a663a63b6a71ce4d1",
+      "after_sha256": "ff970e0e244401c522bcf4fa5e7618a0ac0881afff63f228d886c74b963f49a8"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/ExactPaid/A5PaidA2Compatibility/Part000.lean",
+      "before_sha256": "6934ca40782e06442a9f94b1f2ce05d6b1305766f85c105c2dd1af9bf60dfccc",
+      "after_sha256": "97d53e1e34a6f91f2852c9675916e3522bc7cdea9a27c19e3a138e98f5f86006"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/ExactPaid/BSection5Recovery/B1L1IndependentLower/Part000.lean",
+      "before_sha256": "08319393a2b4240a6f976652d9e78a074a7125f50fd22d607aa34a2f6f8c9106",
+      "after_sha256": "55ae7d75f0d8ec638cf5c53cb8eb4d07198dc6291a6b4d1dbf3d901a3dfc99c1"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/ExactPaid/BSection5Recovery/NativeH10DirichletData/Part000.lean",
+      "before_sha256": "03a49c9cdbf5e12cfcd4d9e0337dd2db51bebf35a58fd4de31b63d09bb76d961",
+      "after_sha256": "ed7eafa641a905a3f4ee3b96f0a8facd70f7a7547524e095af8fb9c4d93424f3"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/ExactPaid/BSection5Recovery/VM02aDirectMethod/Part000.lean",
+      "before_sha256": "1c1f460fae3c8b8d287f960c4cec68a79f47c4569b6158922ee0367c09d2585f",
+      "after_sha256": "ff2574ba003b4a9c1ef507902920d76fc60f1cd5734750b135cae6ad5d34eac9"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/ExactPaid/CompressionContracts/Part000.lean",
+      "before_sha256": "f534703882e2011a07b81018cfb015502f25d19bf3c7685ae400e660a3acc6ee",
+      "after_sha256": "03e7fb9f9be4dd04c2a9dc80370a2a544d77ca926122e935fdbd2a50e3e90638"
+    }
+  ],
+  "integration_correction": "Existing Lake config is lakefile.toml; initial absent lakefile.lean lookup preserved in diagnostic log; TOML glob added, all source records unchanged"
+}

@@ -1,0 +1,90 @@
+{
+  "status": "PASS12",
+  "rows": [
+    {
+      "stem": "NativeTypeGuardA5",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/NativeTypeGuardA5.txt",
+      "log_sha256": "0ba567fadfecf2f2d90c0357b3c1baadb53bba471532445c862ac92c05e8e55e"
+    },
+    {
+      "stem": "NativeTypeGuard62",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/NativeTypeGuard62.txt",
+      "log_sha256": "a57f092fd69c0b9c4fc23e2746eb044beac1b7a62bcb846f8c54c005b59e864f"
+    },
+    {
+      "stem": "VerifyBSection5",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyBSection5.txt",
+      "log_sha256": "a1ac8b5f58f5e690695e469a8daa1671e80c8986b3c01f07ec6687d1b35e0057"
+    },
+    {
+      "stem": "VerifyB1AcceptedOperative",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyB1AcceptedOperative.txt",
+      "log_sha256": "8d988fa9a3ee5d1cc8430157cdd9e8813719305cb04f034a84b7bd66bd79c4ae"
+    },
+    {
+      "stem": "VerifyOperativeB2Unaffected",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyOperativeB2Unaffected.txt",
+      "log_sha256": "8d988fa9a3ee5d1cc8430157cdd9e8813719305cb04f034a84b7bd66bd79c4ae"
+    },
+    {
+      "stem": "VerifyOperativeB3iUnaffected",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyOperativeB3iUnaffected.txt",
+      "log_sha256": "8d988fa9a3ee5d1cc8430157cdd9e8813719305cb04f034a84b7bd66bd79c4ae"
+    },
+    {
+      "stem": "VerifyOperativeB3cUnaffected",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyOperativeB3cUnaffected.txt",
+      "log_sha256": "8d988fa9a3ee5d1cc8430157cdd9e8813719305cb04f034a84b7bd66bd79c4ae"
+    },
+    {
+      "stem": "VerifyOperative55Unaffected54",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyOperative55Unaffected54.txt",
+      "log_sha256": "8d988fa9a3ee5d1cc8430157cdd9e8813719305cb04f034a84b7bd66bd79c4ae"
+    },
+    {
+      "stem": "VerifyOperative57Unaffected",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/VerifyOperative57Unaffected.txt",
+      "log_sha256": "8d988fa9a3ee5d1cc8430157cdd9e8813719305cb04f034a84b7bd66bd79c4ae"
+    },
+    {
+      "stem": "Audit55ExpectedTypeKernelReplay",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/Audit55ExpectedTypeKernelReplay.txt",
+      "log_sha256": "558ccb0bef763cf2ae519c452a02595798cbdd0c521aa2e04c852a0f0062b857"
+    },
+    {
+      "stem": "AuditPresent18",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/AuditPresent18.txt",
+      "log_sha256": "948b47be8f94586ae1a46e9ae43002057e9e65cc59cfa9360af2afd06f807876"
+    },
+    {
+      "stem": "AuditCommon53",
+      "status": "PASS",
+      "evidence": "Authoritative public verifier completed check and printed PASS",
+      "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/remaining_public_receipts/AuditCommon53.txt",
+      "log_sha256": "19661ddbf0cda2be2a040e55b9b4fb0adaf71e674c3f934892412289845daa01"
+    }
+  ],
+  "authoritative_public_log_sha256": "e4d98be65c935cb69664dec3f28a3857c1c436460bbec5e4b8f18d18e2c1b234"
+}

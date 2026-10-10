@@ -1,0 +1,2 @@
+import ExactPaid.CompressionContracts.Part002
+attribute [instance] SeifertSurfaces.GenusLinking.CompressionAnnulus.instTopologicalSpaceSurgerySpace

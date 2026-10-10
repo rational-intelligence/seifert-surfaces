@@ -1,0 +1,37 @@
+PASS: 10812 custody hashes; portable source scan
+PASS: source compilation and classical-base axiom audit of 26 roots
+PASS: NativeTypeGuardA5
+PASS: NativeTypeGuard62
+PASS: VerifyBSection5
+PASS: VerifyB1AcceptedOperative
+PASS: VerifyOperativeB2Unaffected
+PASS: VerifyOperativeB3iUnaffected
+PASS: VerifyOperativeB3cUnaffected
+PASS: VerifyOperative55Unaffected54
+PASS: VerifyOperative57Unaffected
+PASS: Audit55ExpectedTypeKernelReplay
+PASS: AuditPresent18
+PASS: AuditCommon53
+Traceback (most recent call last):
+  File "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/tools/verify.py", line 178, in <module>
+    main()
+    ~~~~^^
+  File "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/tools/verify.py", line 154, in main
+    for stem in pool.map(check_receiving, RECEIVING):
+                ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/caoyichuan/caoyichuan/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/caoyichuan/caoyichuan/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/home/caoyichuan/caoyichuan/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/caoyichuan/caoyichuan/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/caoyichuan/caoyichuan/anaconda3/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/tools/verify.py", line 57, in check_receiving
+    raise RuntimeError(f"Receiving check failed: {stem}; see {report.relative_to(ROOT)}")
+RuntimeError: Receiving check failed: AuditCommonUnionLiteralReceiving; see tools/verification-reports/AuditCommonUnionLiteralReceiving.txt

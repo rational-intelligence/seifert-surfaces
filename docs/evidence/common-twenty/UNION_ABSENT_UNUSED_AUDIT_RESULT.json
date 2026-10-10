@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "command": "lake env lean --run tools/audits/AuditCommonUnionLiteralReceiving.lean",
+  "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/UNION_ABSENT_UNUSED_AUDIT_CHECK.txt",
+  "log_sha256": "db20ebba385662ce632adfac21bce9875e9a5f09124df08d7c0365d485729409",
+  "source_sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4",
+  "validator": {
+    "status": "PASS",
+    "coverage": "928present_full_type_PASS_plus1absent_unused_original_auxiliary",
+    "present_full_type_PASS": 928,
+    "absent_unused": 1,
+    "operative_closed_equality_PASS": 396,
+    "complete_recursor_RHS_PASS": 39,
+    "environment_declarations_scanned": 881960,
+    "raw929PASS_claimed": false,
+    "errors": [],
+    "manifest_sha256": "40afd9a05123c98adada6197b89c7ffa590643dc277469ddc830f644dbf2af13",
+    "results_sha256": "f92bef07733e9676fc14145980fc026c3c9c88cfaa1c7f867b01875e85f6b49c",
+    "receipt_sha256": "54442c1d79fe4550d22e7d17bee22687adc1b3e3d6f10a4de584ddcf40ab9006"
+  },
+  "validator_exit_code": 0,
+  "utc": "2026-10-10T15:54:35.911515+00:00",
+  "initial_raw_missing_failure_retained": true
+}

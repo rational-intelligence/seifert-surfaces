@@ -4,94 +4,104 @@ A **partial** Lean 4 formalization of *Contractibility of the Complex of
 Incompressible Seifert Surfaces: The Knot Case of Kakimizu’s Problem*
 (Apex Intelligence, 11 September 2026).
 
-**20 of 46 original assertions were historically accepted. 26 remain open.**
-Theorem B is complete; headline Theorems A, C and D remain unfinished.
-The common Lean entry freshly compiles thirteen originals from source: **B,2.2,2.4,6.1,A.2,A.3,
-A.4,A.7,C.6,C.7,C.8,C.9,C.11**. Integration of the remaining seven historically
-accepted originals is in progress. Their source archives and rebuild evidence are preserved. These are distinct
-verification claims; see [the full result checklist](docs/PAPER_RESULTS.md).
+**20 of 46 original assertions are verified; 26 remain open.** Theorem B is
+complete. Headline Theorems A, C and D remain open. Start with
+[MainTheorems.lean](MainTheorems.lean): one public entry imports all 20 accepted
+originals and their proof dependencies in one Lean project. See the
+[all-46 result checklist](docs/PAPER_RESULTS.md) for exact statements and scope.
 
 Proof development stopped at canonical revision
-`a2bf8eb443d6e3a8656c3893709a30ad920e153d`. Packaging changes no theorem statements
-or proof logic and creates no additional original result credit.
+`a2bf8eb443d6e3a8656c3893709a30ad920e153d`. This release preserves the accepted
+public statements and their reviewed proof content; packaging adds no original
+result credit. Some proof dependencies are restored closed proof terms from the
+previously checked development. These are repository-local textual source,
+submitted to Lean’s normal kernel, rather than newly derived mathematical proofs.
 
-## What can be built
+## Main and supporting results
 
-[MainTheorems.lean](MainTheorems.lean) imports all thirteen reproducible originals
-into one Lean environment. The exchange-complex results assert that
-every exchange complex has contractible weak geometric realization, its
-well-founded complexity admits an injective refinement, and the qualified
-downward full subcomplexes and descending links inherit exchange structure.
-There is no finite-vertex or finite-descending-link hypothesis in Theorem B.
-The same entry proves A.4’s boundary tangent-plane conclusion, A.7’s
-transversality/neatness implication and C.6/C.11’s supplied-minimizer barrier results.
+Theorem B proves contractibility of the weak geometric realization of every
+exchange complex, without finite-vertex or finite-descending-link hypotheses.
+Lemma 2.2 supplies an injective well-ordered complexity. Lemma 2.4 proves
+heredity for the qualified full subcomplexes and descending links.
 
-The same entry additionally proves the original 6.1, A.2 and A.3 endpoints.
+The same entry includes the push-off and tangency results 5.5/5.7, the link
+connectedness and compression results 6.1/6.2, the conditional minimal-surface
+results A.2–A.5 and A.7, the intersection estimates B.1–B.3, and the barrier and
+conformal-structure results C.6–C.9 and C.11.
 
-The same entry also imports C.7’s smooth metric
-representative, C.8’s local reflection normal form and C.9’s boundary
-compatibility result. C.9 retains the manuscript’s L2′/L2″ conditions.
+A.2/A.5 require an attained minimizer in the specified class; A.7 assumes the
+supplied A.6 minimizer. C.6/C.11 require a full Lemaire minimizer. C.9 retains
+the manuscript’s L2′/L2″ compatibility alternatives. These implications do not
+establish the open minimizer-existence or headline results. Corollary 2.3 remains
+open as an original: the qualified nonempty-downset support receives zero
+additional original credit.
 
 ```lean
 import MainTheorems
+
 #check SeifertSurfaces.exchange_complex_contractible
-#check SeifertSurfaces.AppendixC.Original.paper_C7
-#check SeifertSurfaces.AppendixC.Original.paper_C8
+#check SeifertSurfaces.OriginalEndpoints.original_5_5
+#check SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original
 #check SeifertSurfaces.AppendixC.Original.paper_C9
 ```
 
 ## Build and verification
 
-Install Lean through [elan](https://github.com/leanprover/elan), Git and Python 3,
-then run:
+Install [elan](https://github.com/leanprover/elan), Git and Python 3, then run
+from the repository root:
 
 ```sh
-git clone https://github.com/rational-intelligence/seifert-surfaces.git
-cd seifert-surfaces
 lake exe cache get
 lake build MainTheorems
 python3 tools/verify.py
 ```
 
-Lean is pinned to **4.35.0-rc3** and Mathlib to
-`3f6737de4761ec7bf368491fe9faccc991ebd6ca`; the Lake manifest pins transitive
-dependencies. The portable entries use no historical workspace path or
-distributed project object file. Verification checks source custody hashes,
-the portable source scan, compilation, and the exact documented roots’ axiom
-sets. `python3 tools/verify.py --sources-only` checks custody without Lean.
+Lean is pinned to **4.35.0-rc3**, Mathlib to
+`3f6737de4761ec7bf368491fe9faccc991ebd6ca`, and the Lake manifest pins transitive
+packages. Runtime compilation uses repository-local project source and these
+pinned dependencies. It requires no historical project object, original
+workspace, or independent verification environment.
 
-[VERIFICATION.json](docs/VERIFICATION.json) records the release checks.
-Only `propext`, `Classical.choice` and `Quot.sound` occur in the audited fresh
-root closures. Lean’s compiler kernel adjudicates these proofs; this release
-does not independently rebuild the pinned Mathlib dependency.
+The public verifier checks source custody hashes, scans Lean tokens and recognized
+serialized declaration payloads, builds the common entry, and audits exactly
+**25 original declaration heads plus one qualified support head** from
+[RECEIVING_MANIFEST.json](tools/RECEIVING_MANIFEST.json). Their axiom sets stay
+within `propext`, `Classical.choice` and `Quot.sound`. It then executes the 15
+literal/operative receiving scripts and the actual-common kernel audit with
+its logical result validator: exactly 507 records and 48 required safe-operative
+equalities, including the safe-to-partial reference boundary. This one public
+command is the authoritative receiving verification pass.
 
-## Source layout and boundaries
+`python3 tools/verify.py --sources-only` checks custody, source tokens and
+recognized serialized payloads without compiling. Payload scanning rejects
+serialized axioms and `sorryAx` in the recognized forms. Closed expressions
+still require the normal Lean kernel and complete root axiom audit; scanning
+alone is not proof verification.
+
+[VERIFICATION.json](docs/VERIFICATION.json) records the final receiving checks
+and exact bounded fidelity receipts. [BUILD_STATUS.md](docs/BUILD_STATUS.md)
+explains restored proof terms and the source-build boundary. The pinned Mathlib
+cache is reused; this release does not claim an independent source rebuild of
+Mathlib.
+
+## Source layout
 
 | Location | Contents |
 | --- | --- |
-| [seifert-surfaces/unified/](seifert-surfaces/unified/) | One source tree for the common Lean entry and shared geometric foundations. |
-| [seifert-surfaces/core/](seifert-surfaces/core/), [seifert-surfaces/conformal/](seifert-surfaces/conformal/) | Preserved byte-identical six-result baseline copies; current compilation uses the unified source tree. |
-| [seifert-surfaces/historical/](seifert-surfaces/historical/) | Exact original and available provider sources from the other historical native contexts; excluded from Lake build targets. |
-| [docs/](docs/) | All-46 result checklist, exact declarations, native contexts, custody hashes and historical acceptance summaries. |
-| [tools/](tools/) | Portable source verification and Lean axiom audit entries. |
+| [seifert-surfaces/unified/](seifert-surfaces/unified/) | Common proof-source tree and selected shared provider owners. |
+| [seifert-surfaces/core/](seifert-surfaces/core/), [seifert-surfaces/conformal/](seifert-surfaces/conformal/) | Preserved baseline copies; current compilation uses the unified tree. |
+| [seifert-surfaces/historical/](seifert-surfaces/historical/) | Documentary original/provider sources and compact provenance; excluded from the public import closure. |
+| [docs/](docs/) | Result checklist, exact declaration inventory, custody hashes, contexts and verification receipts. |
+| [tools/](tools/) | Public verifier and root axiom audit entry. |
 
-The historical contexts include compiler replay, adjacent serialized proof
-data and different providers sharing module names. Project objects, old caches,
-giant audit dumps and original Git history are omitted. Some documentary
-provider sources retain unaccepted placeholders. Their accepted historical
-root closures were audited separately; the documentary tree is not claimed
-globally complete or buildable. See [BUILD_STATUS.md](docs/BUILD_STATUS.md)
-for concrete source rebuild boundaries.
+Historical provider sources may retain unaccepted sibling placeholders. The
+archive is not globally claimed complete, buildable or placeholder-free.
+Compiled project objects, old caches and large historical audit dumps are not
+release inputs. Historical exporter reads are offline provenance only; missing
+historical elaborator metadata is not represented as fully restored.
 
-The historical 5.5/5.7 and B.2/B.3 receipts came from separate native
-environments. Source integration into this common entry is in progress. A.2/A.5/A.7 assume supplied minimizers; C.6/C.11 assume a full
-Lemaire minimizer. Those accepted implications do not establish the open
-existence or headline results. The exchange-pair and geometric producers
-needed for Theorem A remain unfinished.
-
-[SOURCE_ISSUES.md](SOURCE_ISSUES.md) records manuscript qualifications;
-[FORMALIZATION_ISSUES.md](FORMALIZATION_ISSUES.md) records separate Lean
-interface and native-context issues. [THIRD_PARTY.md](THIRD_PARTY.md) and
-[NOTICE](NOTICE) preserve attribution. The copied Apache license text applies
-to its named provider sources; this release introduces no blanket license for
-the Seifert formalization.
+[SOURCE_ISSUES.md](SOURCE_ISSUES.md) preserves manuscript qualifications;
+[FORMALIZATION_ISSUES.md](FORMALIZATION_ISSUES.md) records Lean interface issues.
+[THIRD_PARTY.md](THIRD_PARTY.md), [NOTICE](NOTICE) and the provider license files
+preserve source attribution. The copied Apache license applies to the named
+provider sources; this release assigns no blanket license to the Seifert work.

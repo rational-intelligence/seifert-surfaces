@@ -1,0 +1,23 @@
+{
+  "status": "REFRESHED_FOR_ACTUAL_PUBLIC_VERIFICATION",
+  "files": 10812,
+  "bytes": 1191649771,
+  "changed_source_hashes": [
+    {
+      "release_path": "seifert-surfaces/unified/DifferentialGeometry/Analysis/Elliptic/Euclidean/Regularity/Harmonic.lean",
+      "historical_sha256": "958083b4e3851895d55a5f3f627523562be0ecd3fb795ca173e03de6dbf2165e",
+      "final_sha256": "c61edc5e0be5b8d1f9915b6d8c2e23d6094896a23b943c9f7152a6f3f267d73b"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/DifferentialGeometry/Analysis/Sobolev/Euclidean/Embedding/Iterated.lean",
+      "historical_sha256": "4a66e1e2a9d92af52ae971e72d23e3b8d9c063ca4fbbbfa0ecc79cbfce4d608f",
+      "final_sha256": "a3232416f3419195d5eb8e66b889e10b06b4f1c88c80480a24d9573083aac4b1"
+    },
+    {
+      "release_path": "seifert-surfaces/unified/LinkingHomology.lean",
+      "historical_sha256": "743ab88ab4a852502d86f1d18adef4cac438d6af12e30689e1fdebf644e9aa15",
+      "final_sha256": "30e424eef660cc86d01f128391ff1a9a42d0b51b39e64c71d8f3ce188298bf5b"
+    }
+  ],
+  "manifest_sha256": "814eb5ff3e2087f6a72f8559cdf96ecb244951f5f1f174e501fdcb6ad02983aa"
+}

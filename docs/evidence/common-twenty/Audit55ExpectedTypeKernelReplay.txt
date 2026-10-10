@@ -1,0 +1,48 @@
+warning: mathlib: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/mathlib
+warning: plausible: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/plausible
+warning: LeanSearchClient: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/LeanSearchClient
+warning: importGraph: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/importGraph
+warning: proofwidgets: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/proofwidgets
+warning: aesop: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/aesop
+warning: Qq: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Qq
+warning: batteries: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/batteries
+warning: Cli: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Cli
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.imageArea
+'IntegrationAudit55Metadata.alias0' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.extendedImageArea
+'IntegrationAudit55Metadata.alias1' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas.area
+'IntegrationAudit55Metadata.alias2' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas.gram
+'IntegrationAudit55Metadata.alias3' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas.chartDomain
+'IntegrationAudit55Metadata.alias4' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas
+'IntegrationAudit55Metadata.alias5' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas.map
+'IntegrationAudit55Metadata.alias6' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas.piece
+'IntegrationAudit55Metadata.alias7' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.ImageAreaAtlas.Valid
+'IntegrationAudit55Metadata.alias8' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.GeneralNeatImage.image
+'IntegrationAudit55Metadata.alias9' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.GeneralNeatImage.map
+'IntegrationAudit55Metadata.alias10' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.GeneralNeatImage
+'IntegrationAudit55Metadata.alias11' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.GeneralNeatImage.surface
+'IntegrationAudit55Metadata.alias12' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.GeneralNeatImage.boundary
+'IntegrationAudit55Metadata.alias13' depends on axioms: [propext, Classical.choice, Quot.sound]
+NORMAL_KERNEL_EXPECTED_TYPE_CURRENT_CLOSED_VALUE_PASS SeifertSurfaces.OriginalEndpoints.Section5.GeneralOneSidedCollar
+'IntegrationAudit55Metadata.alias14' depends on axioms: [propext, Classical.choice, Quot.sound]

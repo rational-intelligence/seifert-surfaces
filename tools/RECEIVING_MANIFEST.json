@@ -1,0 +1,216 @@
+{
+  "source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "5.5",
+    "5.7",
+    "6.1",
+    "6.2",
+    "A.2",
+    "A.3",
+    "A.4",
+    "A.5",
+    "A.7",
+    "B.1",
+    "B.2",
+    "B.3",
+    "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
+    "C.11"
+  ],
+  "native_original_root_count": 25,
+  "support_root_count": 1,
+  "root_names": [
+    "SeifertSurfaces.exchange_complex_contractible",
+    "SeifertSurfaces.exists_injective_exchange_complexity",
+    "SeifertSurfaces.nonempty_full_downset_exchange_complex",
+    "SeifertSurfaces.nonempty_full_descending_link_exchange_complex",
+    "SeifertSurfaces.nonempty_strict_sublevel_exchange_graph",
+    "SeifertSurfaces.descending_link_nonempty_of_not_least",
+    "SeifertSurfaces.full_subcomplex_is_flag",
+    "SeifertSurfaces.OriginalEndpoints.original_5_5",
+    "SeifertSurfaces.OriginalEndpoints.original_5_7",
+    "SeifertSurfaces.OriginalEndpoints.original_6_1",
+    "SeifertSurfaces.OriginalEndpoints.original_6_2",
+    "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original",
+    "SeifertSurfaces.OriginalEndpoints.A3_original",
+    "SeifertSurfaces.OriginalEndpoints.A4_original",
+    "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original",
+    "SeifertSurfaces.OriginalEndpoints.A7.A7_original",
+    "SeifertSurfaces.OriginalEndpoints.B1_original",
+    "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off",
+    "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior",
+    "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar",
+    "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6",
+    "SeifertSurfaces.AppendixC.Original.paper_C7",
+    "SeifertSurfaces.AppendixC.Original.paper_C8",
+    "SeifertSurfaces.AppendixC.Original.paper_C9",
+    "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11",
+    "SeifertSurfaces.nonempty_complexity_downset_connected"
+  ],
+  "receiving_checks": [
+    {
+      "source": "tools/audits/NativeTypeGuardA5.lean",
+      "sha256": "048d5d7e154bda683695e3242cf4332e00fcdda553bfff814d1f93ddc2c8cf11",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/NativeTypeGuard62.lean",
+      "sha256": "a8d5f99815f0d1349a46a4ea03044fb706cdf8a58a6e74bbf93a6afe018ad5ad",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyBSection5.lean",
+      "sha256": "ffd2b149b915c7c1e9857c6e1c1060cc6f5fd786f101b6ac3de9b56a159799c0",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyB1AcceptedOperative.lean",
+      "sha256": "6e8f23a496b7b3d0184f270271cbf42881b004303f33b0da3f19761517d92f5a",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperativeB2Unaffected.lean",
+      "sha256": "9fd024520c168c919a86f6d82112da95d6953836cddec6cf7f526c9d24f416b6",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperativeB3iUnaffected.lean",
+      "sha256": "f46128f480672ad2045515c4c27598a8e72a91ecdda23d0f3ffaa27d673f55f8",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperativeB3cUnaffected.lean",
+      "sha256": "f391ab2c6aeca89a3aca6db03576b9be7e4ef9d01f179651b622bcb224bf3563",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperative55Unaffected54.lean",
+      "sha256": "7bae76594386c1fe27c15e087c763b83c0b9702724bd5735db92969583a2bf74",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/VerifyOperative57Unaffected.lean",
+      "sha256": "5a1b295ef30cf3cd00bf3608862e1e170553f3ed4d6d7243533ed6b6524f0f53",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/Audit55ExpectedTypeKernelReplay.lean",
+      "sha256": "065305946d1e6902eceb81ed1c9dbdd29664c3e089b4ae6eff1ff606389a9a2b",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/AuditPresent18.lean",
+      "sha256": "c7bad6f32401ff00a94ecf9751a405e73aed6c292e1964c6026d47e67fe3ad61",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/AuditCommon53.lean",
+      "sha256": "b96cdf8ca1a6c15d0ae63c8eb420dc1e566f4dca72a3db9b2340fed6d10b3c78",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/AuditCommonUnionLiteralReceiving.lean",
+      "sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4",
+      "mode": "run",
+      "bounded_scope": "928 present plus1 reviewed absent unused;396 operative equalities39 recursor RHS; raw929presencePASS false"
+    },
+    {
+      "source": "tools/audits/AuditCommonBTopologyFinalMainReceiving.lean",
+      "sha256": "11850bef3715d0353e57d6c2a2326c11ff37c38f2e37ef2e809236ebb39d400e",
+      "mode": "check"
+    },
+    {
+      "source": "tools/audits/SchoenfliesTwoTypeFinalMainReceiving.lean",
+      "sha256": "906de58d4876881dc32cb73d8fb3282d4d2b49709b17655f58308010b98bccab",
+      "mode": "check"
+    }
+  ],
+  "actual_fidelity_validator_status": "READY",
+  "generic_codec_sources": [
+    {
+      "source": "seifert-surfaces/unified/ExactPaidCodec.lean",
+      "sha256": "d17d84c5124531d156d2de1f988b1c9eeccf84a82d88092762fad3efcc5661d2"
+    },
+    {
+      "source": "seifert-surfaces/unified/ExactPaidSource.lean",
+      "sha256": "8a1f3d6f9b3d6ebbd5674b0c57be1c5c1f7f8ecd54c0dead11eb0834e8f939cd"
+    }
+  ],
+  "actual_fidelity_bundle": [
+    {
+      "source": "tools/actual-common/AuditActualCommon.lean",
+      "sha256": "ba74d91dafef4318f31fb3e844e91b3e15d39cb412489dd4606f8aae7fb0e0c2"
+    },
+    {
+      "source": "tools/actual-common/CAPTURE_FROZEN_CIS.jsonl",
+      "sha256": "a40c781bd67c47274daff3339e180b823314f712354167b25c2657c680cd6232"
+    },
+    {
+      "source": "tools/actual-common/FAMILY_PARTIAL_LITERAL_CIS.jsonl",
+      "sha256": "c007afdb51752ddf76acad4fc00400984844b225fb30fed184985715c812283b"
+    },
+    {
+      "source": "tools/actual-common/GRAPH_LITERAL_FIXTURES.jsonl",
+      "sha256": "44bb7bbd78efcc118de845558b89fa090d4ab202b864380b5b16f168968dd6af"
+    },
+    {
+      "source": "tools/actual-common/PART104_ORIGINAL_WHOLE_CI.jsonl",
+      "sha256": "b4d2c00a41b485e2b10fcbba691c329ae2eaaded52872580cda7b4c8a2f73907"
+    },
+    {
+      "source": "tools/actual-common/REPLAY_LITERAL_FIXTURES.jsonl",
+      "sha256": "013810e692b6719f5cfd680a4420be2d6904567cb300dfa6897bb6eef14b1e86"
+    },
+    {
+      "source": "tools/actual-common/SAFE_LITERAL_FIXTURES.jsonl",
+      "sha256": "5979ef0da661702836bc8519f368d696f0625037020209a50c43e5296cc7fb0b"
+    },
+    {
+      "source": "tools/actual-common/TWO_OWNER_CHOICES.json",
+      "sha256": "cfebf43f49e6aae6c0b03d60d7c0f447e4d287b943087886f80fe8973cc038bf"
+    },
+    {
+      "source": "tools/actual-common/ACTUAL_COMMON_EXPECTED_MANIFEST.json",
+      "sha256": "50941714bb5f1466d2bf1468be90c0a5ae76f2a51e996d22e36b14ae5a9bf2de"
+    },
+    {
+      "source": "tools/actual-common/validate_actual_common.py",
+      "sha256": "80c02afcf551d0a6e5f6d29e85db2f869ce1ecaf2d2e35a6c7082d73984d6ea5"
+    }
+  ],
+  "actual_fidelity_record_count": 507,
+  "actual_fidelity_required_operative_equalities": 48,
+  "bounded_union_bundle": [
+    {
+      "source": "tools/fixtures/AuditCommonUnionOneAbsentUnusedCandidate.lean",
+      "sha256": "da9e7d59b58849ebb376ec923fae52852a87511f48d7723686bb35ed06edbca4"
+    },
+    {
+      "source": "tools/fixtures/ONE_ABSENT_UNUSED_BOUND_SOURCE_CIS.jsonl",
+      "sha256": "f8c298fe6f54cade9c1d77548e523e5687680470a416f2bb58ccc147b07fc4d0"
+    },
+    {
+      "source": "tools/fixtures/UNION_ONE_ABSENT_UNUSED_MANIFEST.json",
+      "sha256": "40afd9a05123c98adada6197b89c7ffa590643dc277469ddc830f644dbf2af13"
+    },
+    {
+      "source": "tools/fixtures/validate_union_one_absent_unused.py",
+      "sha256": "15475a2b21705751f82067f010b8775897160c52ddd42e75fb50b2703dd5a488"
+    },
+    {
+      "source": "tools/fixtures/COMMON_UNION_APPROVED_LITERAL_GUARDS.jsonl",
+      "sha256": "c98d53e792f889523ec8727b97ec6b3cbc0d58c5adad536db7b9f6e2de0196b5"
+    }
+  ],
+  "union_applicability_review": {
+    "verdict": "APPROVE",
+    "review_sha256": "93e9d765350c7036efcae0a956854cb89c85f6f6af9d2ddca16aaed958ed3dd5",
+    "raw_929_presence_PASS": false,
+    "present": 928,
+    "absent_unused": 1
+  }
+}

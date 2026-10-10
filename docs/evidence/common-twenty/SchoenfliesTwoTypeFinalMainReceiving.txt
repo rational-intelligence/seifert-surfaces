@@ -1,0 +1,34 @@
+warning: mathlib: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/mathlib
+warning: plausible: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/plausible
+warning: LeanSearchClient: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/LeanSearchClient
+warning: importGraph: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/importGraph
+warning: proofwidgets: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/proofwidgets
+warning: aesop: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/aesop
+warning: Qq: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Qq
+warning: batteries: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/batteries
+warning: Cli: repository has local changes:
+  /home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository/.lake/packages/Cli
+OLD Schoenflies.Plane.exists_closedSquare_of_finite: ∀ {ι : Type u_1} {S : ι → Set Schoenflies.Plane} {t : Set ι},
+  t.Finite → (∀ i ∈ t, Bornology.IsBounded (S i)) → ∃ r, 0 ≤ r ∧ ⋃ i ∈ t, S i ⊆ Schoenflies.Plane.closedSquare 0 r
+CURRENT Schoenflies.Plane.exists_closedSquare_of_finite: ∀ {ι : Type u_1} {S : ι → Set Schoenflies.Plane} {t : Set ι},
+  t.Finite → (∀ i ∈ t, Bornology.IsBounded (S i)) → ∃ r, 0 ≤ r ∧ ⋃ i ∈ t, S i ⊆ Schoenflies.Plane.closedSquare 0 r
+PASS normal synchronous kernel current proof against exact entire old type Schoenflies.Plane.exists_closedSquare_of_finite
+OLD Schoenflies.Plane.isOpen_compl_of_finite_isCompact: ∀ {ι : Type u_1} {S : ι → Set Schoenflies.Plane} {t : Set ι},
+  t.Finite → (∀ i ∈ t, IsCompact (S i)) → IsOpen (⋃ i ∈ t, S i)ᶜ
+CURRENT Schoenflies.Plane.isOpen_compl_of_finite_isCompact: ∀ {ι : Type u_1} {S : ι → Set Schoenflies.Plane}
+  {t : Set ι}, t.Finite → (∀ i ∈ t, IsCompact (S i)) → IsOpen (⋃ i ∈ t, S i)ᶜ
+PASS normal synchronous kernel current proof against exact entire old type Schoenflies.Plane.isOpen_compl_of_finite_isCompact
+'AuditExactOldType_Schoenflies_Plane_exists_closedSquare_of_finite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AuditExactOldType_Schoenflies_Plane_isOpen_compl_of_finite_isCompact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

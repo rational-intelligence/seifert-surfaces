@@ -1,0 +1,16 @@
+import VM03OwedRequests
+import VM03WeakJets
+import Mathlib.Topology.PartialHomeomorph.Basic
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.MeasureTheory.Measure.Count
+noncomputable section
+open Set Topology Function MeasureTheory
+open scoped ContDiff BigOperators NNReal ENNReal
+namespace SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03BranchResiduals
+open SeifertSurfaces.AppendixACoordinates
+set_option maxHeartbeats 0
+
+
+
+
+end SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03BranchResiduals

@@ -1,5 +1,5 @@
-/- Common source-build entry for thirteen historically accepted originals.
-Integration of the remaining seven is pending. -/
+import CommonTwentyNativeCaptureOwners
+/- Common source-build entry for all twenty historically accepted original assertions. -/
 import Section2.TheoremB
 import Section2.TieBreaking
 import Section2.Downsets
@@ -14,3 +14,10 @@ import OriginalC6C11
 import OriginalSection61
 import OriginalA2ScaffoldV464
 import OriginalA3Final
+import Original62CompletionV510
+import OriginalB1_v468
+import OriginalB2B5V480
+import OriginalA5ScaffoldV464
+import OriginalSection5Whole
+import CommonTwentyGraphCompatibility
+import CommonTwentyHistoricalReplay

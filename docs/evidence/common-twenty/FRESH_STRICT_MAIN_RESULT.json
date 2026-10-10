@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "command": "lake build MainTheorems",
+  "cwd": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/repository",
+  "utc": "2026-10-10T15:28:21.573123+00:00",
+  "log": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/integrator/prepare_clean_release_v518/COMMON_TWENTY_FRESH_STRICT_MAIN_BUILD.txt",
+  "log_sha256": "092560b8c8b0ec6da2729a4da5b54e15cd85fe159700f1fe25f1977c7bae6607",
+  "jobs": 11722,
+  "source_snapshot_scan": "COMMON_TWENTY_WHOLE_SOURCE_FRESH_STRICT_SCAN.json",
+  "source_snapshot_scan_sha256": "3a72bce360d5530857dff0ddfb6cefb957b9eb382e56aa2728fff1f1a0a027ef",
+  "MainTheorems_sha256": "47d6b49e30f99fbb891f101ef66df29c3195b3da61dc3c8649aa7e9efc72ecc4"
+}

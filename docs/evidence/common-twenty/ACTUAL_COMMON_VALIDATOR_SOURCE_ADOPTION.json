@@ -1,0 +1,49 @@
+{
+  "status": "EXACT_VALIDATOR_ADOPTED_ACTUAL_MAIN_RECEIVING_PENDING",
+  "ready_source": "/home/caoyichuan/test/seifert-surfaces-release-work/scratch/f-generator/common_twenty_receiving_fidelity/VALIDATOR_READY.json",
+  "ready_sha256": "4b970eae94e11d6579275c7af008f3a74882e002a2fe9eac4363cc26d6624229",
+  "rows": [
+    {
+      "source": "tools/actual-common/AuditActualCommon.lean",
+      "sha256": "ba74d91dafef4318f31fb3e844e91b3e15d39cb412489dd4606f8aae7fb0e0c2"
+    },
+    {
+      "source": "tools/actual-common/CAPTURE_FROZEN_CIS.jsonl",
+      "sha256": "a40c781bd67c47274daff3339e180b823314f712354167b25c2657c680cd6232"
+    },
+    {
+      "source": "tools/actual-common/FAMILY_PARTIAL_LITERAL_CIS.jsonl",
+      "sha256": "c007afdb51752ddf76acad4fc00400984844b225fb30fed184985715c812283b"
+    },
+    {
+      "source": "tools/actual-common/GRAPH_LITERAL_FIXTURES.jsonl",
+      "sha256": "44bb7bbd78efcc118de845558b89fa090d4ab202b864380b5b16f168968dd6af"
+    },
+    {
+      "source": "tools/actual-common/PART104_ORIGINAL_WHOLE_CI.jsonl",
+      "sha256": "b4d2c00a41b485e2b10fcbba691c329ae2eaaded52872580cda7b4c8a2f73907"
+    },
+    {
+      "source": "tools/actual-common/REPLAY_LITERAL_FIXTURES.jsonl",
+      "sha256": "013810e692b6719f5cfd680a4420be2d6904567cb300dfa6897bb6eef14b1e86"
+    },
+    {
+      "source": "tools/actual-common/SAFE_LITERAL_FIXTURES.jsonl",
+      "sha256": "5979ef0da661702836bc8519f368d696f0625037020209a50c43e5296cc7fb0b"
+    },
+    {
+      "source": "tools/actual-common/TWO_OWNER_CHOICES.json",
+      "sha256": "cfebf43f49e6aae6c0b03d60d7c0f447e4d287b943087886f80fe8973cc038bf"
+    },
+    {
+      "source": "tools/actual-common/ACTUAL_COMMON_EXPECTED_MANIFEST.json",
+      "sha256": "50941714bb5f1466d2bf1468be90c0a5ae76f2a51e996d22e36b14ae5a9bf2de"
+    },
+    {
+      "source": "tools/actual-common/validate_actual_common.py",
+      "sha256": "80c02afcf551d0a6e5f6d29e85db2f869ce1ecaf2d2e35a6c7082d73984d6ea5"
+    }
+  ],
+  "exact_frozen_manifest_preserved": true,
+  "no_Lean_expression_rewriting": true
+}
