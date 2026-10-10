@@ -6,8 +6,8 @@ Incompressible Seifert Surfaces: The Knot Case of Kakimizu’s Problem*
 
 **20 of 46 original assertions were historically accepted. 26 remain open.**
 Theorem B is complete; headline Theorems A, C and D remain unfinished.
-The common Lean entry freshly compiles ten originals from source: **B,2.2,2.4,
-A.4,A.7,C.6,C.7,C.8,C.9,C.11**. Integration of the remaining ten historically
+The common Lean entry freshly compiles thirteen originals from source: **B,2.2,2.4,6.1,A.2,A.3,
+A.4,A.7,C.6,C.7,C.8,C.9,C.11**. Integration of the remaining seven historically
 accepted originals is in progress. Their source archives and rebuild evidence are preserved. These are distinct
 verification claims; see [the full result checklist](docs/PAPER_RESULTS.md).
 
@@ -17,7 +17,7 @@ or proof logic and creates no additional original result credit.
 
 ## What can be built
 
-[MainTheorems.lean](MainTheorems.lean) imports all ten reproducible originals
+[MainTheorems.lean](MainTheorems.lean) imports all thirteen reproducible originals
 into one Lean environment. The exchange-complex results assert that
 every exchange complex has contractible weak geometric realization, its
 well-founded complexity admits an injective refinement, and the qualified
@@ -25,6 +25,8 @@ downward full subcomplexes and descending links inherit exchange structure.
 There is no finite-vertex or finite-descending-link hypothesis in Theorem B.
 The same entry proves A.4’s boundary tangent-plane conclusion, A.7’s
 transversality/neatness implication and C.6/C.11’s supplied-minimizer barrier results.
+
+The same entry additionally proves the original 6.1, A.2 and A.3 endpoints.
 
 The same entry also imports C.7’s smooth metric
 representative, C.8’s local reflection normal form and C.9’s boundary

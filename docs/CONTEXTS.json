@@ -19,7 +19,12 @@
     ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
+      "seifert-surfaces/unified/Section2/FlagComplex.lean",
+      "seifert-surfaces/unified/Section2/Heredity.lean"
+    ]
   },
   "canonical-section61": {
     "project": "target",
@@ -27,11 +32,17 @@
       "OriginalSection61"
     ],
     "historical_dependency_rule": "Exact 265 native provider pins and 120 adjacent proof-data files recorded by canonical receipt.",
-    "portable_source_rebuild": "NOT_CLAIMED",
+    "portable_source_rebuild": "PASS",
     "source_entries": [
       "seifert-surfaces/historical/canonical/OriginalSection61.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalSection61.lean"
+    ],
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
   },
   "canonical-a7": {
     "project": "target",
@@ -39,14 +50,17 @@
       "OriginalA7ScaffoldV463"
     ],
     "historical_dependency_rule": "Exact24 sources plus canonical provider/actual closure from v465 receipt.",
-    "portable_source_rebuild": "NOT_CLAIMED",
+    "portable_source_rebuild": "PASS",
     "source_entries": [
       "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalA7ScaffoldV463.lean"
+    ],
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
   },
   "canonical-c6-c11": {
     "project": "target",
@@ -54,15 +68,18 @@
       "OriginalC6C11"
     ],
     "historical_dependency_rule": "Canonical v466 138 finite pins, exact232 native entries/35 approved prerequisites and C12Topology object context.",
-    "portable_source_rebuild": "NOT_CLAIMED",
+    "portable_source_rebuild": "PASS",
     "source_entries": [
       "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
       "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalC6C11.lean"
+    ],
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
   },
   "canonical-c7": {
     "project": "target",
@@ -76,7 +93,10 @@
     ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalC7.lean"
+    ]
   },
   "canonical-c8": {
     "project": "target",
@@ -90,7 +110,10 @@
     ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalC8.lean"
+    ]
   },
   "canonical-c9": {
     "project": "target",
@@ -104,7 +127,10 @@
     ],
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalC9Final3.lean"
+    ]
   },
   "original-a2": {
     "project": "target",
@@ -113,11 +139,17 @@
     ],
     "wrapper": "target/A2ProofData/with_native_context.sh",
     "historical_dependency_rule": "A2ProofData/OrdinaryImports precedes canonical objects and A5ProofData/OrdinaryImports; two distinct projection owners are not merged.",
-    "portable_source_rebuild": "NOT_CLAIMED",
+    "portable_source_rebuild": "PASS",
     "source_entries": [
       "seifert-surfaces/historical/canonical/OriginalA2ScaffoldV464.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalA2ScaffoldV464.lean"
+    ],
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
   },
   "original-a3": {
     "project": "target",
@@ -125,11 +157,17 @@
       "OriginalA3Final"
     ],
     "historical_dependency_rule": "Current28/public fixture v112 accepted context; recover selected provider map from ROOT_ORIGINAL_A3_ACCEPTANCE_RECEIPT, not old OriginalA3 scaffold.",
-    "portable_source_rebuild": "NOT_CLAIMED",
+    "portable_source_rebuild": "PASS",
     "source_entries": [
       "seifert-surfaces/historical/canonical/OriginalA3Final.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
+    "fresh_validation": "PASS_COMMON_ENVIRONMENT",
+    "fresh_entry": "MainTheorems.lean",
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalA3Final.lean"
+    ],
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
   },
   "original-a4": {
     "project": "target",
@@ -138,14 +176,17 @@
     ],
     "historical_type_project": "scratch/integrator/prepare_wave6_clean_support_admission/final_canonical_A4_collar86_v1/A4",
     "historical_dependency_rule": "Canonical original A4 plus separate exact collar86 context; same root full type/opaque closure from public fixture receipt.",
-    "portable_source_rebuild": "NOT_CLAIMED",
+    "portable_source_rebuild": "PASS",
     "source_entries": [
       "seifert-surfaces/historical/canonical/OriginalA4.lean"
     ],
-    "source_only_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified.",
     "fresh_validation": "PASS_COMMON_ENVIRONMENT",
     "fresh_entry": "MainTheorems.lean",
-    "historical_native_context_preserved_for_provenance": true
+    "historical_native_context_preserved_for_provenance": true,
+    "fresh_source_entries": [
+      "seifert-surfaces/unified/OriginalA4.lean"
+    ],
+    "historical_rebuild_boundary": "Exact root and available provider sources preserved. Historical objects, adjacent serialized proof data, and private replay donor environments are omitted; no portable source build of this context is certified."
   },
   "original-a5": {
     "project": "target/FullOriginalA5ProofData",

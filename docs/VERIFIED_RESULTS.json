@@ -321,7 +321,7 @@
             "Section2.WeakRealization",
             "OrdinalAssembly.Induction"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/Section2/TheoremB.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/TheoremB.lean",
           "release_sha256": "1536cc08c959edcdb9e611dddf432006df8c38dcbdcf94b9384fed743cf97273"
@@ -380,7 +380,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "2.2",
@@ -411,7 +413,7 @@
           "imports": [
             "Section2.Definitions"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/Section2/TieBreaking.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/TieBreaking.lean",
           "release_sha256": "4e059327647fe9b27f1baf06b4867d797f892b8c3d1434b901414f03bca0992e"
@@ -459,7 +461,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "2.3",
@@ -542,7 +546,7 @@
             "Section2.FlagComplex",
             "Section2.Heredity"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/FlagExchangeComplex.lean",
           "release_sha256": "389ca78275d6d3092c867f160d416231b65731b2b6221c46c40440a02bff3c39"
@@ -553,7 +557,7 @@
           "imports": [
             "Section2.Definitions"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/Section2/FlagComplex.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/FlagComplex.lean",
           "release_sha256": "f870f1cf9ca715b56a0ad034472b2cbb54b60556b6ec69f67398205f40bb1f12"
@@ -564,7 +568,7 @@
           "imports": [
             "Section2.Downsets"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/Section2/Heredity.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/Heredity.lean",
           "release_sha256": "93846e04e0edf29fdf91d6823ebb7ac0c82a6570854cf7384439e698cbe465df"
@@ -605,7 +609,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "3.1",
@@ -1238,7 +1244,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "open",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.OriginalEndpoints.original_6_1"
       ],
@@ -1250,8 +1256,10 @@
           "imports": [
             "LinkingHomology"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalSection61.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
+          "release_source": "seifert-surfaces/unified/OriginalSection61.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalSection61.lean",
+          "release_sha256": "154f6f931855732fc47d86ee565b498f9fea483dbe7e91b47dd7d6f1ea576000"
         }
       ],
       "evidence": [
@@ -1300,7 +1308,9 @@
         "report_locators": [],
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "6.2",
@@ -1422,7 +1432,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "open",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original"
       ],
@@ -1455,8 +1465,10 @@
             "Mathlib.Geometry.Manifold.BumpFunction",
             "Mathlib.Geometry.Manifold.VectorBundle.ContMDiffSection"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalA2ScaffoldV464.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
+          "release_source": "seifert-surfaces/unified/OriginalA2ScaffoldV464.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalA2ScaffoldV464.lean",
+          "release_sha256": "a3952338b71336316ec97db539802dea4cf275e4ff6453ec9c92530496d0f198"
         }
       ],
       "evidence": [
@@ -1517,7 +1529,9 @@
         ],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "A.3",
@@ -1536,7 +1550,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.OriginalEndpoints.A3_original"
       ],
@@ -1549,8 +1563,10 @@
             "A3Recovery",
             "A3SharedGraph"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalA3Final.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
+          "release_source": "seifert-surfaces/unified/OriginalA3Final.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalA3Final.lean",
+          "release_sha256": "e079f7b66d5ec3360b546627f1e22f7ef1d07eea6fafe036967db1d17b09bd20"
         }
       ],
       "evidence": [
@@ -1601,7 +1617,9 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "A.4",
@@ -1633,7 +1651,7 @@
             "EndpointGeometry",
             "A4Coordinate"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalA4.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalA4.lean",
           "release_sha256": "401913ff90c2910a9aed772c3a161ad98a9aec6446fc3bf034f6f7c6fd4b9bb2"
@@ -1680,7 +1698,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "A.5",
@@ -1838,10 +1858,10 @@
             "A7CollarPlaneIdentityV464",
             "A7NativeImmersionCriterionV464"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalA7ScaffoldV463.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean",
-          "release_sha256": "cd41bc22cd3a8f4695903f38423eb99f09a2dfb9723f1c6d4f51d0af933511d9"
+          "release_sha256": "410d6ebcd00a4df8d92f51a798401ff098b5eea3fa92e467d653781e63bd016a"
         }
       ],
       "evidence": [
@@ -1891,7 +1911,9 @@
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "B.1",
@@ -2391,7 +2413,7 @@
             "C12Topology",
             "GeometricArea"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalC6C11.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
           "release_sha256": "b74af65928b60de520d9353fe053170deeff18a02819f9ed8e8e1c987a0b52ca"
@@ -2442,7 +2464,9 @@
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "C.7",
@@ -2473,7 +2497,7 @@
           "imports": [
             "C7Conformal"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalC7.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/conformal/OriginalC7.lean",
           "release_sha256": "4a02a486944e8c57f4c775187a4bcacc29116c554715a202c48a14b2455331f6"
@@ -2519,7 +2543,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "C.8",
@@ -2552,7 +2578,7 @@
             "C9Compatibility",
             "Mathlib.Analysis.Complex.Convex"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalC8.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/conformal/OriginalC8.lean",
           "release_sha256": "cda0520194382d865e8802aa5f37b216722be6ff37fb10c17975dc7115b25dc9"
@@ -2598,7 +2624,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "C.9",
@@ -2631,7 +2659,7 @@
           "imports": [
             "C9BoundaryHelpers"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalC9Final3.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/conformal/OriginalC9Final3.lean",
           "release_sha256": "1b35d5f29185a4672d94b15db41d5b625e3c975e1978357c82be9acf9e3eba63"
@@ -2679,7 +2707,9 @@
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "C.11",
@@ -2717,7 +2747,7 @@
             "C12Topology",
             "GeometricArea"
           ],
-          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_NATIVE_GUARDS",
           "release_source": "seifert-surfaces/unified/OriginalC6C11.lean",
           "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
           "release_sha256": "b74af65928b60de520d9353fe053170deeff18a02819f9ed8e8e1c987a0b52ca"
@@ -2768,7 +2798,9 @@
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
       "provenance_gaps": [],
-      "fresh_verification_entry": "MainTheorems.lean"
+      "fresh_verification_entry": "MainTheorems.lean",
+      "fresh_entry": "MainTheorems.lean",
+      "fresh_verification": "PASS same common environment compiler/base3 axioms; original full type and protected header receipts"
     },
     {
       "source_id": "C.12",
@@ -3100,37 +3132,40 @@
     "B",
     "2.2",
     "2.4",
+    "6.1",
+    "A.2",
+    "A.3",
+    "A.4",
+    "A.7",
+    "C.6",
     "C.7",
     "C.8",
-    "C.9"
+    "C.9",
+    "C.11"
   ],
   "historical_source_only_original_source_ids": [
     "5.5",
     "5.7",
-    "6.1",
     "6.2",
-    "A.2",
-    "A.3",
-    "A.4",
     "A.5",
-    "A.7",
     "B.1",
     "B.2",
-    "B.3",
-    "C.6",
-    "C.11"
+    "B.3"
   ],
   "fresh_common_source_ids": [
     "B",
     "2.2",
     "2.4",
-    "C.7",
-    "C.8",
-    "C.9",
+    "6.1",
+    "A.2",
+    "A.3",
     "A.4",
     "A.7",
     "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
     "C.11"
   ],
-  "fresh_common_count": 10
+  "fresh_common_count": 13
 }

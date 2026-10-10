@@ -1,18 +1,21 @@
 {
-  "status": "PASS_TEN_ORIGINAL_COMMON_ENVIRONMENT",
+  "status": "PASS_THIRTEEN_ORIGINAL_COMMON_ENVIRONMENT",
   "fresh_original_source_ids": [
     "B",
     "2.2",
     "2.4",
-    "C.7",
-    "C.8",
-    "C.9",
+    "6.1",
+    "A.2",
+    "A.3",
     "A.4",
     "A.7",
     "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
     "C.11"
   ],
-  "historical_only_original_count": 10,
+  "historical_only_original_count": 7,
   "fresh_root_axioms": {
     "SeifertSurfaces.exchange_complex_contractible": [
       "Classical.choice",
@@ -88,11 +91,26 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.original_6_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.A3_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
-  "portable_source_files": 395,
-  "placeholder_scan": "PASS zero sorry/admit outside comments/strings",
-  "compile": "PASS MainTheorems simultaneously imports all ten originals plus verified shared surface foundation; facade zero errors",
+  "portable_source_files": 1186,
+  "placeholder_scan": "Affected entry/A7 scans PASS plus exact-hash union of prior common10 and sealed canonical source scans; no sorry/admit in compiled source graph.",
+  "compile": "PASS MainTheorems simultaneously imports thirteen original results in one source tree; facade zero errors",
   "statement_guards": "PASS protected snapshot receipts and newly added full raw native type guards; no original statement changed",
   "guard_tasks": [
     "section2_exchange_complex_contractible",
@@ -102,7 +120,7 @@
     "originalC89_416c8a5f13993886",
     "originalC89_276286abf651cc87"
   ],
-  "source_custody": "PASS all copied source bytes / canonical hashes",
+  "source_custody": "Copied source hashes match sealed worker sources; GeometricCategory keeps the prior verified repo-local certificate provider.",
   "project_object_policy": "Fresh generated objects are ignored; no project objects copied or committed. Pinned external Mathlib package caches reused locally.",
   "environment_boundary": "Pinned Lean4.35.0-rc3 and Mathlib revision; local dependency cache reuse, not independent source reconstruction of Mathlib.",
   "commands": [
@@ -115,8 +133,8 @@
     "core": "PASS seven original roots; no violations or unaudited declarations",
     "conformal": "PASS three original roots; no violations or unaudited declarations"
   },
-  "portable_verifier": "PASS custody8322files, portable source scan, same-entry source compilation and classical-base axiom audit15roots",
-  "scope": "Preserved six-result baseline; executable integration of all20 historically accepted results is now the active release objective.",
+  "portable_verifier": "PASS 9113 source/certificate custody hashes, portable source scan, same-entry source compilation and classical-base axiom audit of18 roots",
+  "scope": "Twenty historically accepted originals are the final integration goal; current common environment certifies thirteen, remaining seven still pending. Historical assertion count remains 20/46.",
   "owned_evidence_sha256": {
     "FINAL_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849",
     "FACADE_CORE_AXIOMS.json": "0e5882097e4cc697f24c421abe2ad2dc014af5a6972b370547d7ec0c3a0d55bf",
@@ -137,16 +155,37 @@
     "COMMON_TEN_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1",
     "COMMON_TEN_ADDED_FACADE_AXIOMS.json": "680450db1c790ce541265dda9168e35d38401080630f30521e32bb9e74d46499",
     "COMMON_TEN_NATIVE_TYPE_GUARD.txt": "7f6bb5402891103b3d00178a9be797d0c20e8f1899e2c72f1e6e815e24ab87f1",
-    "COMMON_TEN_PORTABLE_VERIFICATION.txt": "b48efbf745141431d2aed52ace4fa47b6ddd7a9ebdf17b06e771d60ac5d50848"
+    "COMMON_TEN_PORTABLE_VERIFICATION.txt": "b48efbf745141431d2aed52ace4fa47b6ddd7a9ebdf17b06e771d60ac5d50848",
+    "COMMON_THIRTEEN_BUILD.txt": "355c3257e38fa161cf1015e528e2b02fce3f97abf5a099447296b089d0819909",
+    "COMMON_THIRTEEN_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1",
+    "COMMON_THIRTEEN_FACADE_AXIOMS.json": "8c3aea6766d87ef905f46913c5a455e8c6b691d5b9a8dcf822d594fcd0405519",
+    "COMMON_THIRTEEN_CANONICAL_NATIVE_TYPE_GUARD.txt": "a0da71e8ee9cb1127db6430f4df0522ba55e94de3fe596629dd089327494231a",
+    "COMMON_THIRTEEN_SCAN.json": "edc620738923d1d223f9512d216439f652589a2e6a380a2d25e5bffa2d743697",
+    "COMMON_THIRTEEN_PROTECTED_GUARDS.json": "653d7215be749b259e7ab8d2ef6846a4a256706ac28b514e70ae2f3514980b1f",
+    "COMMON_THIRTEEN_SOURCE_ADOPTION.json": "fc8ef201021cea69a11ffd5ff8686a1b4bc51bae28df9fe7f899c7af8537c4ed",
+    "COMMON_THIRTEEN_EXECUTED_SOURCE_CLOSURE.json": "f1bfebede456f7df042a2a270b1ae254063291c11ae045911d8d7cb329565220",
+    "COMMON_THIRTEEN_PORTABLE_VERIFICATION.txt": "bd54c838be24e326bf5994f8792ae99a8d1c51cf05ac39cef5053dd1e22d59aa"
   },
-  "common_entry": "MainTheorems.lean",
-  "raw_native_fidelity": "Six original baseline full raw types and231847 transitive type/value comparisons PASS in common environment; four newly added original full raw type+level guards PASS against canonical accepted CIs. Original data/source headers retained; only3proof-certificate path strings made local.",
-  "common_environment_result_count": 10,
-  "common_environment_native_original_root_count": 14,
+  "common_entry": "MainTheorems.lean: all thirteen originals in one pinned environment",
+  "raw_native_fidelity": "Current seven affected originals PASS exact native levelParams + Expr.equal + ExprStructEq full types; current six original roots retain prior protected/raw type receipts. Exact paid Linking 2340 and Schoenflies 40 CIs have sealed native guards with one explicitly recorded same-type existing theorem provider choice; no computational provider normalization.",
+  "common_environment_result_count": 13,
+  "common_environment_native_original_root_count": 17,
   "common_environment_support_root_count": 1,
   "worker_added_four_roots": "PASS final common source build/scan/base3 axioms and full native type/level guard",
-  "updated_utc": "2026-10-10T09:10:29.722511+00:00",
-  "source_build_scope": "10 of historically20 accepted originals integrated into MainTheorems;10 still pending source integration. Whole article/mainA/C/D remain open.",
+  "updated_utc": "2026-10-10T09:59:53.557250+00:00",
+  "source_build_scope": {
+    "entry": "MainTheorems",
+    "actually_imported_project_modules": 1180,
+    "retained_source_modules": 1186,
+    "unused_source_modules": [
+      "CanonicalSeven",
+      "Section5Analysis",
+      "Section5Arithmetic",
+      "Section5Combinatorics",
+      "Section6",
+      "SurfaceFiniteCW"
+    ]
+  },
   "portable_certificate_files": 3,
   "required_Lake_options": [
     "maxSynthPendingDepth=3",

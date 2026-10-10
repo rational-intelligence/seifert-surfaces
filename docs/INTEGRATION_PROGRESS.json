@@ -1,29 +1,50 @@
 {
-  "status": "PASS_TEN_ORIGINAL_COMMON_ENVIRONMENT",
-  "updated_utc": "2026-10-10T09:10:29.722511+00:00",
+  "status": "PASS_THIRTEEN_ORIGINAL_COMMON_ENVIRONMENT",
+  "updated_utc": "2026-10-10T09:59:53.557250+00:00",
   "source_ids": [
     "B",
     "2.2",
     "2.4",
-    "C.7",
-    "C.8",
-    "C.9",
+    "6.1",
+    "A.2",
+    "A.3",
     "A.4",
     "A.7",
     "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
     "C.11"
   ],
-  "fresh_result_count": 10,
-  "native_original_roots": 14,
+  "fresh_result_count": 13,
+  "native_original_roots": 17,
   "support_roots": 1,
-  "unified_lean_modules": 395,
+  "unified_lean_modules": 1186,
+  "actual_imported_project_modules": 1180,
+  "retained_unused_source_modules": [
+    "CanonicalSeven",
+    "Section5Analysis",
+    "Section5Arithmetic",
+    "Section5Combinatorics",
+    "Section6",
+    "SurfaceFiniteCW"
+  ],
   "binary_copies": 0,
   "old_workspace_runtime_dependencies": 0,
-  "certificate_policy": "3byte-identical existing paid proof JSONs now repository-local, elaborated via original normal goal.apply; no historical project objects",
+  "certificate_policy": "Three byte-identical paid proof JSON files loaded from repository-local paths by the prior standard proof loader; other recovered expressions are embedded textual Lean source and normal kernel checked",
   "required_options": [
     "maxSynthPendingDepth=3",
     "maxHeartbeats=0"
   ],
-  "remaining_originals": 10,
+  "remaining_originals": 7,
+  "remaining_source_ids": [
+    "5.5",
+    "5.7",
+    "6.2",
+    "A.5",
+    "B.1",
+    "B.2",
+    "B.3"
+  ],
   "final_goal": "All20 same environment; not complete"
 }

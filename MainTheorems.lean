@@ -1,5 +1,5 @@
-/- Common source-build entry for the ten reproducible original results.
-Integration of the remaining ten historical results is pending. -/
+/- Common source-build entry for thirteen historically accepted originals.
+Integration of the remaining seven is pending. -/
 import Section2.TheoremB
 import Section2.TieBreaking
 import Section2.Downsets
@@ -11,3 +11,6 @@ import SurfaceInvariants
 import OriginalA4
 import OriginalA7ScaffoldV463
 import OriginalC6C11
+import OriginalSection61
+import OriginalA2ScaffoldV464
+import OriginalA3Final
