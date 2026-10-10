@@ -82,10 +82,10 @@ def main():
     print(f"PASS: {len(files)} custody hashes; portable source scan")
     if args.sources_only:
         return
-    run(["lake", "build", "MainTheorems", "ConformalOriginals"])
+    run(["lake", "build", "MainTheorems"])
     expected = json.loads((ROOT / "docs/VERIFICATION.json").read_text())["fresh_root_axioms"]
     observed = {}
-    for file in ["tools/Verify.lean", "tools/VerifyConformal.lean"]:
+    for file in ["tools/Verify.lean"]:
         output = run(["lake", "env", "lean", file])
         for name, axioms in re.findall(r"'([^']+)' depends on axioms: \[([^\]]*)\]", output):
             used = {x.strip() for x in axioms.split(",") if x.strip()}

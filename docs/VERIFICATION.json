@@ -1,5 +1,5 @@
 {
-  "status": "PASS_SIX_ORIGINAL_SOURCE_BASELINE",
+  "status": "PASS_SIX_ORIGINAL_COMMON_ENVIRONMENT_BASELINE",
   "fresh_original_source_ids": [
     "B",
     "2.2",
@@ -68,7 +68,7 @@
   },
   "portable_source_files": 78,
   "placeholder_scan": "PASS zero sorry/admit outside comments/strings",
-  "compile": "PASS final portable command built MainTheorems and ConformalOriginals; affected MainTheorems facade check has no errors",
+  "compile": "PASS lake build MainTheorems simultaneously imports Section2 and OriginalC9Final3; facade compile zero errors",
   "statement_guards": "PASS six original guarded snapshots, byte-identical exported full sources; no proof statements or native module identifiers modified",
   "guard_tasks": [
     "section2_exchange_complex_contractible",
@@ -82,9 +82,8 @@
   "project_object_policy": "Fresh generated objects are ignored; no project objects copied or committed. Pinned external Mathlib package caches reused locally.",
   "environment_boundary": "Pinned Lean4.35.0-rc3 and Mathlib revision; local dependency cache reuse, not independent source reconstruction of Mathlib.",
   "commands": [
-    "lake build MainTheorems ConformalOriginals",
+    "lake build MainTheorems",
     "lake env lean tools/Verify.lean",
-    "lake env lean tools/VerifyConformal.lean",
     "python3 tools/verify.py"
   ],
   "historical_documentary_tree": "Not source-build-certified, not globally placeholder-free, excluded from portable compilation",
@@ -92,12 +91,23 @@
     "core": "PASS seven original roots; no violations or unaudited declarations",
     "conformal": "PASS three original roots; no violations or unaudited declarations"
   },
-  "portable_verifier": "PASS custody7924files, source scan78files, compilation, classical-base axiom audit11roots including one qualified support root",
+  "portable_verifier": "PASS custody7924files, scan78files, common MainTheorems compilation, classical-base axiom audit11roots",
   "scope": "Preserved six-result baseline; executable integration of all20 historically accepted results is now the active release objective.",
   "owned_evidence_sha256": {
     "FINAL_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849",
     "FACADE_CORE_AXIOMS.json": "0e5882097e4cc697f24c421abe2ad2dc014af5a6972b370547d7ec0c3a0d55bf",
     "FACADE_CONFORMAL_AXIOMS.json": "0e5882097e4cc697f24c421abe2ad2dc014af5a6972b370547d7ec0c3a0d55bf",
-    "FINAL_MAIN_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1"
-  }
+    "FINAL_MAIN_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1",
+    "COMMON_SIX_BUILD.txt": "abda24a10ee3802f9e37ab22e4934bb08d5ac19ef84bfca773d51191c1b629e0",
+    "COMMON_SIX_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1",
+    "COMMON_SIX_FACADE_AXIOMS.json": "110d7a33b2bad27791064d137b9b9ba66978248454a28d45b55e6fc3bfd7739a",
+    "COMMON_SIX_GUARDS.json": "7ae0acc68049fcbf0d57beb10a6a95ef958dd2150a0c7dfbfa041a5deafbb822",
+    "COMMON_SIX_RAW_CLOSURE.txt": "26898e0b3b8b180cd23612f211af2e584d866fc36b68c18ea2aa955db3ed7e1a",
+    "COMMON_SIX_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849"
+  },
+  "common_entry": "MainTheorems.lean",
+  "raw_native_fidelity": "PASS every11 audited root full raw type, level parameters and 231847 transitive declaration type/value comparisons against the previously source-built native entries; no normalization",
+  "common_environment_result_count": 6,
+  "common_environment_native_original_root_count": 10,
+  "common_environment_support_root_count": 1
 }

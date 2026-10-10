@@ -17,25 +17,20 @@ or proof logic and creates no additional original result credit.
 
 ## What can be built
 
-[MainTheorems.lean](MainTheorems.lean) imports the exchange-complex results:
+[MainTheorems.lean](MainTheorems.lean) imports all six reproducible originals
+into one Lean environment. The exchange-complex results assert that
 every exchange complex has contractible weak geometric realization, its
 well-founded complexity admits an injective refinement, and the qualified
 downward full subcomplexes and descending links inherit exchange structure.
 There is no finite-vertex or finite-descending-link hypothesis in Theorem B.
 
-The separate `ConformalOriginals` Lake target proves C.7’s smooth metric
+The same entry also imports C.7’s smooth metric
 representative, C.8’s local reflection normal form and C.9’s boundary
 compatibility result. C.9 retains the manuscript’s L2′/L2″ conditions.
 
 ```lean
 import MainTheorems
 #check SeifertSurfaces.exchange_complex_contractible
-```
-
-In a separate consumer file:
-
-```lean
-import OriginalC9Final3
 #check SeifertSurfaces.AppendixC.Original.paper_C7
 #check SeifertSurfaces.AppendixC.Original.paper_C8
 #check SeifertSurfaces.AppendixC.Original.paper_C9
@@ -50,7 +45,7 @@ then run:
 git clone https://github.com/rational-intelligence/seifert-surfaces.git
 cd seifert-surfaces
 lake exe cache get
-lake build MainTheorems ConformalOriginals
+lake build MainTheorems
 python3 tools/verify.py
 ```
 

@@ -8,3 +8,6 @@ import MainTheorems
 #print axioms SeifertSurfaces.nonempty_strict_sublevel_exchange_graph
 #print axioms SeifertSurfaces.descending_link_nonempty_of_not_least
 #print axioms SeifertSurfaces.full_subcomplex_is_flag
+#print axioms SeifertSurfaces.AppendixC.Original.paper_C7
+#print axioms SeifertSurfaces.AppendixC.Original.paper_C8
+#print axioms SeifertSurfaces.AppendixC.Original.paper_C9

@@ -7,8 +7,8 @@ python3 tools/verify.py
 ```
 
 This checks the committed custody hashes, scans portable source entries for
-placeholders outside comments/strings, builds `MainTheorems` and
-`ConformalOriginals`, and requires the exact documented root axiom output to
+placeholders outside comments/strings, builds the common `MainTheorems` entry,
+and requires the exact documented root axiom output to
 stay within the classical base. It does not verify the historical archive.
 
 Direct Lean audit commands are:
