@@ -11,3 +11,7 @@ import MainTheorems
 #print axioms SeifertSurfaces.AppendixC.Original.paper_C7
 #print axioms SeifertSurfaces.AppendixC.Original.paper_C8
 #print axioms SeifertSurfaces.AppendixC.Original.paper_C9
+#print axioms SeifertSurfaces.OriginalEndpoints.A4_original
+#print axioms SeifertSurfaces.OriginalEndpoints.A7.A7_original
+#print axioms SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6
+#print axioms SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11

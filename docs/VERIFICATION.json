@@ -1,14 +1,18 @@
 {
-  "status": "PASS_SIX_ORIGINAL_COMMON_ENVIRONMENT_BASELINE",
+  "status": "PASS_TEN_ORIGINAL_COMMON_ENVIRONMENT",
   "fresh_original_source_ids": [
     "B",
     "2.2",
     "2.4",
     "C.7",
     "C.8",
-    "C.9"
+    "C.9",
+    "A.4",
+    "A.7",
+    "C.6",
+    "C.11"
   ],
-  "historical_only_original_count": 14,
+  "historical_only_original_count": 10,
   "fresh_root_axioms": {
     "SeifertSurfaces.exchange_complex_contractible": [
       "Classical.choice",
@@ -64,12 +68,32 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.A4_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.OriginalEndpoints.A7.A7_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
-  "portable_source_files": 78,
+  "portable_source_files": 395,
   "placeholder_scan": "PASS zero sorry/admit outside comments/strings",
-  "compile": "PASS lake build MainTheorems simultaneously imports Section2 and OriginalC9Final3; facade compile zero errors",
-  "statement_guards": "PASS six original guarded snapshots, byte-identical exported full sources; no proof statements or native module identifiers modified",
+  "compile": "PASS MainTheorems simultaneously imports all ten originals plus verified shared surface foundation; facade zero errors",
+  "statement_guards": "PASS protected snapshot receipts and newly added full raw native type guards; no original statement changed",
   "guard_tasks": [
     "section2_exchange_complex_contractible",
     "section2_exists_injective_exchange_complexity",
@@ -91,7 +115,7 @@
     "core": "PASS seven original roots; no violations or unaudited declarations",
     "conformal": "PASS three original roots; no violations or unaudited declarations"
   },
-  "portable_verifier": "PASS custody7924files, scan78files, common MainTheorems compilation, classical-base axiom audit11roots",
+  "portable_verifier": "PASS custody8322files, portable source scan, same-entry source compilation and classical-base axiom audit15roots",
   "scope": "Preserved six-result baseline; executable integration of all20 historically accepted results is now the active release objective.",
   "owned_evidence_sha256": {
     "FINAL_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849",
@@ -103,11 +127,29 @@
     "COMMON_SIX_FACADE_AXIOMS.json": "110d7a33b2bad27791064d137b9b9ba66978248454a28d45b55e6fc3bfd7739a",
     "COMMON_SIX_GUARDS.json": "7ae0acc68049fcbf0d57beb10a6a95ef958dd2150a0c7dfbfa041a5deafbb822",
     "COMMON_SIX_RAW_CLOSURE.txt": "26898e0b3b8b180cd23612f211af2e584d866fc36b68c18ea2aa955db3ed7e1a",
-    "COMMON_SIX_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849"
+    "COMMON_SIX_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849",
+    "COMMON_FOUNDATION_BUILD.txt": "cfaf544a864693d87ac5745337d1a2f8f9096aad71c6c33b4d2552b8ab778b48",
+    "COMMON_FOUNDATION_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1",
+    "COMMON_FOUNDATION_FACADE_AXIOMS.json": "a4589d04a6886328b5a0e18c2e1fea0103dbb6685b2b2275621dc818ac95fd55",
+    "COMMON_FOUNDATION_RAW_CLOSURE.txt": "5249cfe75d8e48aab960011548c9ade170133df2a682e392d45e777d1ecfcb05",
+    "COMMON_FOUNDATION_PORTABLE_VERIFICATION.txt": "ba00b57cbfe103831e86aa1e272c0d0c6c735ef19b8a11d85e095eb6d96cba5e",
+    "COMMON_TEN_BUILD_RETRY.txt": "0d7fafb4235a4bc845303ede710267038075690b3a3fb33f302a5d4a8c963125",
+    "COMMON_TEN_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1",
+    "COMMON_TEN_ADDED_FACADE_AXIOMS.json": "680450db1c790ce541265dda9168e35d38401080630f30521e32bb9e74d46499",
+    "COMMON_TEN_NATIVE_TYPE_GUARD.txt": "7f6bb5402891103b3d00178a9be797d0c20e8f1899e2c72f1e6e815e24ab87f1",
+    "COMMON_TEN_PORTABLE_VERIFICATION.txt": "b48efbf745141431d2aed52ace4fa47b6ddd7a9ebdf17b06e771d60ac5d50848"
   },
   "common_entry": "MainTheorems.lean",
-  "raw_native_fidelity": "PASS every11 audited root full raw type, level parameters and 231847 transitive declaration type/value comparisons against the previously source-built native entries; no normalization",
-  "common_environment_result_count": 6,
-  "common_environment_native_original_root_count": 10,
-  "common_environment_support_root_count": 1
+  "raw_native_fidelity": "Six original baseline full raw types and231847 transitive type/value comparisons PASS in common environment; four newly added original full raw type+level guards PASS against canonical accepted CIs. Original data/source headers retained; only3proof-certificate path strings made local.",
+  "common_environment_result_count": 10,
+  "common_environment_native_original_root_count": 14,
+  "common_environment_support_root_count": 1,
+  "worker_added_four_roots": "PASS final common source build/scan/base3 axioms and full native type/level guard",
+  "updated_utc": "2026-10-10T09:10:29.722511+00:00",
+  "source_build_scope": "10 of historically20 accepted originals integrated into MainTheorems;10 still pending source integration. Whole article/mainA/C/D remain open.",
+  "portable_certificate_files": 3,
+  "required_Lake_options": [
+    "maxSynthPendingDepth=3",
+    "maxHeartbeats=0"
+  ]
 }

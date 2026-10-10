@@ -1,6 +1,6 @@
 {
   "schema": "SeifertSurfaces.partial-release-inventory.v518",
-  "verdict": "PASS_PARTIAL_SOURCE_RELEASE_SIX_ORIGINALS_FRESH_TWENTY_HISTORICALLY_ACCEPTED",
+  "verdict": "PASS_HISTORICAL20_INVENTORY_TEN_FRESH_COMMON_ENVIRONMENT",
   "audit_scope": "Bounded read-only inventory; no new proofs, no all-history replay, no declaration/ledger/source edits.",
   "historical_workspace": "seifert-surfaces",
   "frozen_target_head": "a2bf8eb443d6e3a8656c3893709a30ad920e153d",
@@ -11,7 +11,7 @@
     "text_sha256": "3558fb893638e96f989508467386127869f8e8734cf1874795a6c2f1537d4009",
     "source_pages": 48
   },
-  "source_title": "Contractibility of the Complex of Incompressible Seifert Surfaces: The Knot Case of Kakimizu\u2019s Problem",
+  "source_title": "Contractibility of the Complex of Incompressible Seifert Surfaces: The Knot Case of Kakimizu’s Problem",
   "counts": {
     "strict_original_total": 46,
     "historically_accepted": 20,
@@ -307,7 +307,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.exchange_complex_contractible"
       ],
@@ -321,8 +321,10 @@
             "Section2.WeakRealization",
             "OrdinalAssembly.Induction"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/core/Section2/TheoremB.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/Section2/TheoremB.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/TheoremB.lean",
+          "release_sha256": "1536cc08c959edcdb9e611dddf432006df8c38dcbdcf94b9384fed743cf97273"
         }
       ],
       "evidence": [
@@ -377,7 +379,8 @@
         ],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "2.2",
@@ -396,7 +399,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.exists_injective_exchange_complexity"
       ],
@@ -408,8 +411,10 @@
           "imports": [
             "Section2.Definitions"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/core/Section2/TieBreaking.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/Section2/TieBreaking.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/TieBreaking.lean",
+          "release_sha256": "4e059327647fe9b27f1baf06b4867d797f892b8c3d1434b901414f03bca0992e"
         }
       ],
       "evidence": [
@@ -453,7 +458,8 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "2.3",
@@ -519,7 +525,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.nonempty_full_downset_exchange_complex",
         "SeifertSurfaces.nonempty_full_descending_link_exchange_complex",
@@ -536,8 +542,10 @@
             "Section2.FlagComplex",
             "Section2.Heredity"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/core/Section2/FlagExchangeComplex.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/Section2/FlagExchangeComplex.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/FlagExchangeComplex.lean",
+          "release_sha256": "389ca78275d6d3092c867f160d416231b65731b2b6221c46c40440a02bff3c39"
         },
         {
           "canonical_source": "target/Section2/FlagComplex.lean",
@@ -545,8 +553,10 @@
           "imports": [
             "Section2.Definitions"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/core/Section2/FlagComplex.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/Section2/FlagComplex.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/FlagComplex.lean",
+          "release_sha256": "f870f1cf9ca715b56a0ad034472b2cbb54b60556b6ec69f67398205f40bb1f12"
         },
         {
           "canonical_source": "target/Section2/Heredity.lean",
@@ -554,8 +564,10 @@
           "imports": [
             "Section2.Downsets"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/core/Section2/Heredity.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/Section2/Heredity.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/core/Section2/Heredity.lean",
+          "release_sha256": "93846e04e0edf29fdf91d6823ebb7ac0c82a6570854cf7384439e698cbe465df"
         }
       ],
       "evidence": [
@@ -592,7 +604,8 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "3.1",
@@ -1607,7 +1620,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.OriginalEndpoints.A4_original"
       ],
@@ -1620,8 +1633,10 @@
             "EndpointGeometry",
             "A4Coordinate"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalA4.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalA4.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalA4.lean",
+          "release_sha256": "401913ff90c2910a9aed772c3a161ad98a9aec6446fc3bf034f6f7c6fd4b9bb2"
         }
       ],
       "evidence": [
@@ -1664,7 +1679,8 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "A.5",
@@ -1805,7 +1821,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "open",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.OriginalEndpoints.A7.A7_original"
       ],
@@ -1822,8 +1838,10 @@
             "A7CollarPlaneIdentityV464",
             "A7NativeImmersionCriterionV464"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalA7ScaffoldV463.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean",
+          "release_sha256": "cd41bc22cd3a8f4695903f38423eb99f09a2dfb9723f1c6d4f51d0af933511d9"
         }
       ],
       "evidence": [
@@ -1872,7 +1890,8 @@
         "report_locators": [],
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "B.1",
@@ -2353,7 +2372,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "open",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6"
       ],
@@ -2372,8 +2391,10 @@
             "C12Topology",
             "GeometricArea"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalC6C11.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
+          "release_sha256": "b74af65928b60de520d9353fe053170deeff18a02819f9ed8e8e1c987a0b52ca"
         }
       ],
       "evidence": [
@@ -2420,7 +2441,8 @@
         "report_locators": [],
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "C.7",
@@ -2439,7 +2461,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.AppendixC.Original.paper_C7"
       ],
@@ -2451,8 +2473,10 @@
           "imports": [
             "C7Conformal"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/conformal/OriginalC7.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalC7.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/conformal/OriginalC7.lean",
+          "release_sha256": "4a02a486944e8c57f4c775187a4bcacc29116c554715a202c48a14b2455331f6"
         }
       ],
       "evidence": [
@@ -2494,7 +2518,8 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "C.8",
@@ -2513,7 +2538,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.AppendixC.Original.paper_C8"
       ],
@@ -2527,8 +2552,10 @@
             "C9Compatibility",
             "Mathlib.Analysis.Complex.Convex"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/conformal/OriginalC8.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalC8.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/conformal/OriginalC8.lean",
+          "release_sha256": "cda0520194382d865e8802aa5f37b216722be6ff37fb10c17975dc7115b25dc9"
         }
       ],
       "evidence": [
@@ -2570,7 +2597,8 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "C.9",
@@ -2591,7 +2619,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "proved",
-      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.AppendixC.Original.paper_C9"
       ],
@@ -2603,8 +2631,10 @@
           "imports": [
             "C9BoundaryHelpers"
           ],
-          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
-          "release_source": "seifert-surfaces/conformal/OriginalC9Final3.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalC9Final3.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/conformal/OriginalC9Final3.lean",
+          "release_sha256": "1b35d5f29185a4672d94b15db41d5b625e3c975e1978357c82be9acf9e3eba63"
         }
       ],
       "evidence": [
@@ -2648,7 +2678,8 @@
         "report_locators": [],
         "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "C.11",
@@ -2667,7 +2698,7 @@
       "strict_original_credit": true,
       "ledger_status_at_freeze": "proved",
       "dag_status_at_freeze": "open",
-      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "packaging_status": "FRESH_COMMON_ENVIRONMENT_VERIFIED",
       "native_declarations": [
         "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11"
       ],
@@ -2686,8 +2717,10 @@
             "C12Topology",
             "GeometricArea"
           ],
-          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
-          "release_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
+          "rebuild_validation": "PASS_COMMON_SOURCE_COMPILE_SCAN_BASE3_AXIOMS_AND_FULL_NATIVE_TYPE_GUARD",
+          "release_source": "seifert-surfaces/unified/OriginalC6C11.lean",
+          "baseline_or_historical_archive_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean",
+          "release_sha256": "b74af65928b60de520d9353fe053170deeff18a02819f9ed8e8e1c987a0b52ca"
         }
       ],
       "evidence": [
@@ -2734,7 +2767,8 @@
         "report_locators": [],
         "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
       },
-      "provenance_gaps": []
+      "provenance_gaps": [],
+      "fresh_verification_entry": "MainTheorems.lean"
     },
     {
       "source_id": "C.12",
@@ -3085,5 +3119,18 @@
     "B.3",
     "C.6",
     "C.11"
-  ]
+  ],
+  "fresh_common_source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "C.7",
+    "C.8",
+    "C.9",
+    "A.4",
+    "A.7",
+    "C.6",
+    "C.11"
+  ],
+  "fresh_common_count": 10
 }

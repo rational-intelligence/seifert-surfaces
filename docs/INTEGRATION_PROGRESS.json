@@ -1,0 +1,29 @@
+{
+  "status": "PASS_TEN_ORIGINAL_COMMON_ENVIRONMENT",
+  "updated_utc": "2026-10-10T09:10:29.722511+00:00",
+  "source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "C.7",
+    "C.8",
+    "C.9",
+    "A.4",
+    "A.7",
+    "C.6",
+    "C.11"
+  ],
+  "fresh_result_count": 10,
+  "native_original_roots": 14,
+  "support_roots": 1,
+  "unified_lean_modules": 395,
+  "binary_copies": 0,
+  "old_workspace_runtime_dependencies": 0,
+  "certificate_policy": "3byte-identical existing paid proof JSONs now repository-local, elaborated via original normal goal.apply; no historical project objects",
+  "required_options": [
+    "maxSynthPendingDepth=3",
+    "maxHeartbeats=0"
+  ],
+  "remaining_originals": 10,
+  "final_goal": "All20 same environment; not complete"
+}

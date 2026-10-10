@@ -6,9 +6,9 @@ Incompressible Seifert Surfaces: The Knot Case of Kakimizu’s Problem*
 
 **20 of 46 original assertions were historically accepted. 26 remain open.**
 Theorem B is complete; headline Theorems A, C and D remain unfinished.
-This clean release freshly compiles six originals from source: **B, 2.2, 2.4,
-C.7, C.8 and C.9**. The other fourteen historically accepted originals are
-preserved as source archives with documented rebuild gaps. These are distinct
+The common Lean entry freshly compiles ten originals from source: **B,2.2,2.4,
+A.4,A.7,C.6,C.7,C.8,C.9,C.11**. Integration of the remaining ten historically
+accepted originals is in progress. Their source archives and rebuild evidence are preserved. These are distinct
 verification claims; see [the full result checklist](docs/PAPER_RESULTS.md).
 
 Proof development stopped at canonical revision
@@ -17,12 +17,14 @@ or proof logic and creates no additional original result credit.
 
 ## What can be built
 
-[MainTheorems.lean](MainTheorems.lean) imports all six reproducible originals
+[MainTheorems.lean](MainTheorems.lean) imports all ten reproducible originals
 into one Lean environment. The exchange-complex results assert that
 every exchange complex has contractible weak geometric realization, its
 well-founded complexity admits an injective refinement, and the qualified
 downward full subcomplexes and descending links inherit exchange structure.
 There is no finite-vertex or finite-descending-link hypothesis in Theorem B.
+The same entry proves A.4’s boundary tangent-plane conclusion, A.7’s
+transversality/neatness implication and C.6/C.11’s supplied-minimizer barrier results.
 
 The same entry also imports C.7’s smooth metric
 representative, C.8’s local reflection normal form and C.9’s boundary
@@ -65,8 +67,8 @@ does not independently rebuild the pinned Mathlib dependency.
 
 | Location | Contents |
 | --- | --- |
-| [seifert-surfaces/core/](seifert-surfaces/core/) | Exchange complexes, weak realizations, ordinal/CW machinery, and retained arithmetic/topological support. |
-| [seifert-surfaces/conformal/](seifert-surfaces/conformal/) | Source-buildable C.7/C.8/C.9 import chain. |
+| [seifert-surfaces/unified/](seifert-surfaces/unified/) | One source tree for the common Lean entry and shared geometric foundations. |
+| [seifert-surfaces/core/](seifert-surfaces/core/), [seifert-surfaces/conformal/](seifert-surfaces/conformal/) | Preserved byte-identical six-result baseline copies; current compilation uses the unified source tree. |
 | [seifert-surfaces/historical/](seifert-surfaces/historical/) | Exact original and available provider sources from the other historical native contexts; excluded from Lake build targets. |
 | [docs/](docs/) | All-46 result checklist, exact declarations, native contexts, custody hashes and historical acceptance summaries. |
 | [tools/](tools/) | Portable source verification and Lean axiom audit entries. |
@@ -79,8 +81,8 @@ root closures were audited separately; the documentary tree is not claimed
 globally complete or buildable. See [BUILD_STATUS.md](docs/BUILD_STATUS.md)
 for concrete source rebuild boundaries.
 
-Original 5.5/5.7 and the B.2/B.3 providers must retain their separate native
-environments. A.2/A.5/A.7 assume supplied minimizers; C.6/C.11 assume a full
+The historical 5.5/5.7 and B.2/B.3 receipts came from separate native
+environments. Source integration into this common entry is in progress. A.2/A.5/A.7 assume supplied minimizers; C.6/C.11 assume a full
 Lemaire minimizer. Those accepted implications do not establish the open
 existence or headline results. The exchange-pair and geometric producers
 needed for Theorem A remain unfinished.

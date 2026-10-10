@@ -1,6 +1,6 @@
 # Source build status
 
-`lake build MainTheorems ConformalOriginals` builds two separate public import chains from source. `tools/Verify.lean` audits the exchange-complex roots; `tools/VerifyConformal.lean` audits C.7/C.8/C.9. All retained portable source files are byte-identical to the canonical source, and native module names, private-name directives, universes and statement binders are preserved through Lake `srcDir`.
+`lake build MainTheorems` builds ten verified original results in one common environment. `tools/Verify.lean` audits fifteen roots, including one qualified support result. The shared surface foundation also passes source build and base-axiom gates. Native module names, private-name directives, universes and original statement binders are preserved.
 
 | Entry | Fresh source build | Original credit represented |
 | --- | --- | --- |
