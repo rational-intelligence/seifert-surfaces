@@ -1,0 +1,3089 @@
+{
+  "schema": "SeifertSurfaces.partial-release-inventory.v518",
+  "verdict": "PASS_PARTIAL_SOURCE_RELEASE_SIX_ORIGINALS_FRESH_TWENTY_HISTORICALLY_ACCEPTED",
+  "audit_scope": "Bounded read-only inventory; no new proofs, no all-history replay, no declaration/ledger/source edits.",
+  "historical_workspace": "seifert-surfaces",
+  "frozen_target_head": "a2bf8eb443d6e3a8656c3893709a30ad920e153d",
+  "source": {
+    "source_date": "2026-09-11",
+    "author_label": "Apex Intelligence",
+    "pdf_sha256": "34f17d7d99780d3fd3626d9e5d7b35d6aa76661c404f191b6df341b300c0c06f",
+    "text_sha256": "3558fb893638e96f989508467386127869f8e8734cf1874795a6c2f1537d4009",
+    "source_pages": 48
+  },
+  "source_title": "Contractibility of the Complex of Incompressible Seifert Surfaces: The Knot Case of Kakimizu\u2019s Problem",
+  "counts": {
+    "strict_original_total": 46,
+    "historically_accepted": 20,
+    "open": 26,
+    "qualified_2_3_extra_credit": 0
+  },
+  "accepted_source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "5.5",
+    "5.7",
+    "6.1",
+    "6.2",
+    "A.2",
+    "A.3",
+    "A.4",
+    "A.5",
+    "A.7",
+    "B.1",
+    "B.2",
+    "B.3",
+    "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
+    "C.11"
+  ],
+  "headline_status": {
+    "A": "OPEN",
+    "B": "ACCEPTED",
+    "C": "OPEN",
+    "D": "OPEN"
+  },
+  "accepted_axiom_policy": "Each accepted root closure is bounded to the classical Lean/Mathlib base; mixed inherited sources are not globally sorry-free.",
+  "native_contexts": {
+    "canonical-section2": {
+      "project": "target",
+      "entries": [
+        "Section2.TheoremB",
+        "Section2.TieBreaking",
+        "Section2.FlagExchangeComplex",
+        "Section2.FlagComplex",
+        "Section2.Heredity"
+      ],
+      "dependency_rule": "Exact transitive import closure, including OrdinalAssembly.Induction and weak-realization/CW infrastructure; preserve module names."
+    },
+    "canonical-section61": {
+      "project": "target",
+      "entries": [
+        "OriginalSection61"
+      ],
+      "dependency_rule": "Exact 265 native provider pins and 120 adjacent proof-data files recorded by canonical receipt."
+    },
+    "canonical-a7": {
+      "project": "target",
+      "entries": [
+        "OriginalA7ScaffoldV463"
+      ],
+      "dependency_rule": "Exact24 sources plus canonical provider/actual closure from v465 receipt."
+    },
+    "canonical-c6-c11": {
+      "project": "target",
+      "entries": [
+        "OriginalC6C11"
+      ],
+      "dependency_rule": "Canonical v466 138 finite pins, exact232 native entries/35 approved prerequisites and C12Topology object context."
+    },
+    "canonical-c7": {
+      "project": "target",
+      "entries": [
+        "OriginalC7"
+      ],
+      "dependency_rule": "Exact Q2/C7/C8 admission context from original_C7_full_source_contract task receipt; global default target does not certify it."
+    },
+    "canonical-c8": {
+      "project": "target",
+      "entries": [
+        "OriginalC8"
+      ],
+      "dependency_rule": "Exact Q2/C7/C8 admission context from originalC89_416c8a5f13993886 task receipt."
+    },
+    "canonical-c9": {
+      "project": "target",
+      "entries": [
+        "OriginalC9Final3"
+      ],
+      "dependency_rule": "Exact OriginalC9 admission context and helper closure from canonical_v1 receipt."
+    },
+    "original-a2": {
+      "project": "target",
+      "entries": [
+        "OriginalA2ScaffoldV464"
+      ],
+      "wrapper": "target/A2ProofData/with_native_context.sh",
+      "dependency_rule": "A2ProofData/OrdinaryImports precedes canonical objects and A5ProofData/OrdinaryImports; two distinct projection owners are not merged."
+    },
+    "original-a3": {
+      "project": "target",
+      "entries": [
+        "OriginalA3Final"
+      ],
+      "dependency_rule": "Current28/public fixture v112 accepted context; recover selected provider map from ROOT_ORIGINAL_A3_ACCEPTANCE_RECEIPT, not old OriginalA3 scaffold."
+    },
+    "original-a4": {
+      "project": "target",
+      "entries": [
+        "OriginalA4"
+      ],
+      "historical_type_project": "scratch/integrator/prepare_wave6_clean_support_admission/final_canonical_A4_collar86_v1/A4",
+      "dependency_rule": "Canonical original A4 plus separate exact collar86 context; same root full type/opaque closure from public fixture receipt."
+    },
+    "original-a5": {
+      "project": "target/FullOriginalA5ProofData",
+      "entries": [
+        "OriginalA5ScaffoldV464"
+      ],
+      "wrapper": "target/FullOriginalA5ProofData/with_native_context.sh",
+      "dependency_rule": "Primary1990 and producer1478 context object archives and compile-time CI replay stay separate. Current wrapper has absolute historical paths; portability work pending."
+    },
+    "original55": {
+      "project": "target/Original55WholeProofData",
+      "entries": [
+        "OriginalSection5Whole"
+      ],
+      "wrapper": "target/Original55WholeProofData/with_native_context.sh",
+      "environment": "target/Original55WholeProofData/environment.json",
+      "dependency_rule": "Finite source_object/provider pairs in CANONICAL_BINDING_v491 plus replay_environment.json; exact B2OriginalLeafPushOffWholeProofData donor."
+    },
+    "original57": {
+      "project": "target/Original57WholeProofData",
+      "entries": [
+        "OriginalSection5Whole"
+      ],
+      "wrapper": "target/Original57WholeProofData/with_native_context.sh",
+      "environment": "target/Original57WholeProofData/environment.json",
+      "dependency_rule": "Finite provider/source pins and separate producer donor context in CANONICAL_BINDING_v494; historical source literals remain donor-dependent."
+    },
+    "original-b1": {
+      "project": "target/B1WholeOriginalProofData",
+      "entries": [
+        "OriginalB1_v468"
+      ],
+      "wrapper": "target/B1WholeOriginalProofData/with_native_context.sh",
+      "environment": "target/B1WholeOriginalProofData/environment.json",
+      "dependency_rule": "1245 frozen project provider objects,146 adjacent VM03 data objects; raw809 heads and finite changed replay boundary in CANONICAL_WHOLE_BINDING_v480."
+    },
+    "original-b2": {
+      "project": "target/B2OriginalLeafPushOffWholeProofData",
+      "entries": [
+        "OriginalB2B5V480"
+      ],
+      "wrapper": "target/B2OriginalLeafPushOffWholeProofData/with_native_context.sh",
+      "environment": "target/B2OriginalLeafPushOffWholeProofData/environment.json",
+      "dependency_rule": "401 finite frozen source-associated provider modules selected by CANONICAL_BINDING_v490; never another OriginalB2B5V480 overlay."
+    },
+    "original-b3-two-contexts": {
+      "project": "separate contexts",
+      "entries": [
+        "OriginalB2B5V480"
+      ],
+      "contexts": [
+        {
+          "project": "target/B3WholeOriginalProofData/interior",
+          "wrapper": "target/B3WholeOriginalProofData/interior/with_native_context.sh",
+          "environment": "target/B3WholeOriginalProofData/interior/environment.json"
+        },
+        {
+          "project": "target/B3OriginalCollarWholeProofData",
+          "wrapper": "target/B3OriginalCollarWholeProofData/with_native_context.sh",
+          "environment": "target/B3OriginalCollarWholeProofData/environment.json"
+        }
+      ],
+      "dependency_rule": "Both exact guarded root types and complete source-associated custody. Same module names, different native environments; build independently."
+    },
+    "original62": {
+      "project": "target/Original62WholeProofData",
+      "entries": [
+        "Original62CompletionV510"
+      ],
+      "dependency_rule": "evidence/PACKAGE_MANIFEST.json and final TASK_MAPPING select exact provider/project sources and finite native replay mapping; five guards,304 pin rechecks. Standalone lakefile has no default target and a historical local Mathlib path."
+    }
+  },
+  "results": [
+    {
+      "source_id": "A",
+      "source_heading": "Theorem A",
+      "source_pages": [
+        2,
+        2
+      ],
+      "source_lines": [
+        58,
+        58
+      ],
+      "statement_summary": "Non-trivial knot K in S3: the weak realization of IS(K) is contractible.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section3_main_whole_v479.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "C",
+      "source_heading": "Theorem C",
+      "source_pages": [
+        2,
+        2
+      ],
+      "source_lines": [
+        63,
+        66
+      ],
+      "statement_summary": "For integers ell >= g(K), genus truncation IS_ell is isometric in IS(K) and contractible; printed area clause uses g<=ell AND A<=a0 for every a0>0.",
+      "source_finding_ids": [
+        "SF-01",
+        "SF-02"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section3_main_whole_v479.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "D",
+      "source_heading": "Theorem D",
+      "source_pages": [
+        2,
+        2
+      ],
+      "source_lines": [
+        77,
+        78
+      ],
+      "statement_summary": "Non-split linking-indecomposable link, excluding the unknot: IS(L) is contractible.",
+      "source_finding_ids": [
+        "SF-08"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section3_main_whole_v479.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "B",
+      "source_heading": "Theorem B",
+      "source_pages": [
+        4,
+        4
+      ],
+      "source_lines": [
+        148,
+        148
+      ],
+      "statement_summary": "Every exchange complex is contractible; realization carries the weak CW topology.",
+      "source_finding_ids": [
+        "SF-07"
+      ],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "native_declarations": [
+        "SeifertSurfaces.exchange_complex_contractible"
+      ],
+      "native_context": "canonical-section2",
+      "source_entries": [
+        {
+          "canonical_source": "target/Section2/TheoremB.lean",
+          "source_sha256": "1536cc08c959edcdb9e611dddf432006df8c38dcbdcf94b9384fed743cf97273",
+          "imports": [
+            "Section2.FlagComplex",
+            "Section2.WeakRealization",
+            "OrdinalAssembly.Induction"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/core/Section2/TheoremB.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/merge_ordinal_theoremB/sealed_receipt.json",
+          "exists": true,
+          "bytes": 104769,
+          "sha256": "d8693444cf7a15c573a215242765791f1fd542715d3c8dd283f502906d682fd2",
+          "recorded_summary": {
+            "commit": "cc0bb2610419484c9f4f08b2f3f76327227d1561"
+          }
+        },
+        {
+          "path": "scratch/regulator/wave4_audit/report.md",
+          "exists": true,
+          "bytes": 13060,
+          "sha256": "ed623a156a024fdf4ab61555f9fa536ea15f18a3b0bc6f327250480c029fc7cd"
+        },
+        {
+          "path": "scratch/statement-readback/readback_final_theoremB/report.md",
+          "exists": true,
+          "bytes": 12538,
+          "sha256": "b4036f4b59b59234a6f61b4e78d3a5702f1ba4c61f0e6a8eed00add8864bd16c"
+        },
+        {
+          "path": "scratch/integrator/merge_ordinal_theoremB/logs/merged/Section2_TheoremB.lean.check.json",
+          "exists": true,
+          "bytes": 597,
+          "sha256": "f50319d3d616c9b82766f03ac5cbc32bb03ca7a8610a15c4af4c017aa5342902",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Actual nonempty connected flag exchange complex; independent vertex/complexity universes; weak CW realization; no descending-link finiteness premise.",
+      "historical_commit": "cc0bb2610419484c9f4f08b2f3f76327227d1561",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "efd5b298c2323d4e893905eef1c3c296949ad2d70fb32e5f2c1db0cbde806103",
+        "report_locators": [
+          "scratch/statement-readback/readback_final_theoremB/report.md"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "2.2",
+      "source_heading": "Lemma 2.2",
+      "source_pages": [
+        4,
+        4
+      ],
+      "source_lines": [
+        149,
+        150
+      ],
+      "statement_summary": "An exchange structure can be refined to an injective complexity that well-orders the vertices; no vertex finiteness assumed.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "native_declarations": [
+        "SeifertSurfaces.exists_injective_exchange_complexity"
+      ],
+      "native_context": "canonical-section2",
+      "source_entries": [
+        {
+          "canonical_source": "target/Section2/TieBreaking.lean",
+          "source_sha256": "4e059327647fe9b27f1baf06b4867d797f892b8c3d1434b901414f03bca0992e",
+          "imports": [
+            "Section2.Definitions"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/core/Section2/TieBreaking.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/merge_s2_foundations/report.md",
+          "exists": true,
+          "bytes": 16768,
+          "sha256": "379fd97d9946f2a51ae3ca7ada057f21838de4ea4e70943992ff6ba994578db1"
+        },
+        {
+          "path": "scratch/regulator/wave2_audit/report.md",
+          "exists": true,
+          "bytes": 10816,
+          "sha256": "a810446653618c1bdcc3ab5cdd5d7f77dc153ba4a19d8257db2bc6f4de57fbef"
+        },
+        {
+          "path": "scratch/f-reviewer/review_whitehead_port/tie_type_receipt.json",
+          "exists": true,
+          "bytes": 1874,
+          "sha256": "8a98ffb4ff2ebc70d076da4ee45ccd83a892d7aa6cf5722f4b1d4e235deef6ef",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Existential well-order refining strict complexity comparisons; no finite vertex assumption or prescribed ordinal type.",
+      "historical_commit": "c3debb49d570a6b76f368a7a6ba2c9e25cdb0265",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "e19c0420f0fd93eacfa12252984c5e069052a4a5a82c40d6a23a40779ac4af2c",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "2.3",
+      "source_heading": "Corollary 2.3",
+      "source_pages": [
+        4,
+        4
+      ],
+      "source_lines": [
+        156,
+        159
+      ],
+      "statement_summary": "Every downward vertex subset is isometric and connected; any p,q have a geodesic bounded by max of endpoint complexities. Empty-D connectivity convention must be specified.",
+      "source_finding_ids": [
+        "SF-03"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "open",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "orchestrator",
+        "blocker_class": null,
+        "next_action": "Qualified all-D edist/Preconnected plus nonempty Connected complete under SF03; strict literal parent remains distinct."
+      },
+      "qualified_coverage": {
+        "native_declarations": [
+          "SeifertSurfaces.exists_geodesic_below_max",
+          "SeifertSurfaces.complexity_downset_edist",
+          "SeifertSurfaces.complexity_downset_preconnected",
+          "SeifertSurfaces.nonempty_complexity_downset_connected"
+        ],
+        "credit": 0,
+        "evidence": {
+          "path": "scratch/f-reviewer/review_section23_disposition_v463/REVIEW.md",
+          "exists": true,
+          "bytes": 10430,
+          "sha256": "9820e960ec1c622ee9152ee5cef60a10149b11a8c3b249412726d6a20cdee313"
+        },
+        "scope": "SF03 disposition covers preconnected empty sets and connected nonempty sets; strict original46 accounting keeps this row OPEN."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "2.4",
+      "source_heading": "Lemma 2.4",
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_lines": [
+        180,
+        193
+      ],
+      "statement_summary": "Nonempty downward full subcomplexes and nonempty descending links inherit exchange structure; descending links are nonempty for nonleast vertices.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "native_declarations": [
+        "SeifertSurfaces.nonempty_full_downset_exchange_complex",
+        "SeifertSurfaces.nonempty_full_descending_link_exchange_complex",
+        "SeifertSurfaces.nonempty_strict_sublevel_exchange_graph",
+        "SeifertSurfaces.descending_link_nonempty_of_not_least",
+        "SeifertSurfaces.full_subcomplex_is_flag"
+      ],
+      "native_context": "canonical-section2",
+      "source_entries": [
+        {
+          "canonical_source": "target/Section2/FlagExchangeComplex.lean",
+          "source_sha256": "389ca78275d6d3092c867f160d416231b65731b2b6221c46c40440a02bff3c39",
+          "imports": [
+            "Section2.FlagComplex",
+            "Section2.Heredity"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/core/Section2/FlagExchangeComplex.lean"
+        },
+        {
+          "canonical_source": "target/Section2/FlagComplex.lean",
+          "source_sha256": "f870f1cf9ca715b56a0ad034472b2cbb54b60556b6ec69f67398205f40bb1f12",
+          "imports": [
+            "Section2.Definitions"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/core/Section2/FlagComplex.lean"
+        },
+        {
+          "canonical_source": "target/Section2/Heredity.lean",
+          "source_sha256": "93846e04e0edf29fdf91d6823ebb7ac0c82a6570854cf7384439e698cbe465df",
+          "imports": [
+            "Section2.Downsets"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/core/Section2/Heredity.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/merge_s2_foundations/report.md",
+          "exists": true,
+          "bytes": 16768,
+          "sha256": "379fd97d9946f2a51ae3ca7ada057f21838de4ea4e70943992ff6ba994578db1"
+        },
+        {
+          "path": "scratch/regulator/wave2_audit/report.md",
+          "exists": true,
+          "bytes": 10816,
+          "sha256": "a810446653618c1bdcc3ab5cdd5d7f77dc153ba4a19d8257db2bc6f4de57fbef"
+        }
+      ],
+      "scope_limitations": "Full conjunction supplied by five declarations; nonempty downsets/descending links, injective refined complexity, and nonleast-vertex qualifications retained.",
+      "historical_commit": "c3debb49d570a6b76f368a7a6ba2c9e25cdb0265",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "dec6084d0b71d825b0a2fea3f941a6de61f5a602e1c461b322f9947b37d9e882",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "3.1",
+      "source_heading": "Theorem 3.1",
+      "source_pages": [
+        7,
+        7
+      ],
+      "source_lines": [
+        300,
+        305
+      ],
+      "statement_summary": "U(i): minimizers from disjoint-representable classes are disjoint or coincide; U(ii): finite pairwise nonisotopic disjoint input classes have disjoint minimizing images.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section3_main_whole_v479.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "3.2",
+      "source_heading": "Theorem 3.2",
+      "source_pages": [
+        7,
+        7
+      ],
+      "source_lines": [
+        308,
+        315
+      ],
+      "statement_summary": "E(i): fixed-boundary piecewise-smooth isotopy-class infimum attained within that class; E(ii): sliding-boundary infimum attained by stable minimal smooth proper embedded surface.",
+      "source_finding_ids": [
+        "SF-04"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section3_main_whole_v479.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "3.3",
+      "source_heading": "Theorem 3.3",
+      "source_pages": [
+        7,
+        7
+      ],
+      "source_lines": [
+        322,
+        326
+      ],
+      "statement_summary": "Fin: area-bounded stable-minimal embedding space of a fixed compact connected surface is C1-compact and a disjoint union of finitely many clopen mutually-isotopic subsets.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section3_main_whole_v479.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.2",
+      "source_heading": "Lemma 4.2",
+      "source_pages": [
+        8,
+        8
+      ],
+      "source_lines": [
+        369,
+        372
+      ],
+      "statement_summary": "Incompressible neatly embedded link spanning surface with longitudinal boundary is boundary-incompressible.",
+      "source_finding_ids": [
+        "SF-08"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_section4_topology_whole_v480.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.3",
+      "source_heading": "Lemma 4.3",
+      "source_pages": [
+        9,
+        9
+      ],
+      "source_lines": [
+        400,
+        406
+      ],
+      "statement_summary": "Minimizers chosen independently in distinct adjacent classes are disjoint; IS and genus truncations are flag; common neighbor minimizer is disjoint from both endpoint minimizers.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "WholeSection4proofowner generate_original_section4_whole_v479;24guardsreboundPASS."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.4",
+      "source_heading": "Lemma 4.4",
+      "source_pages": [
+        9,
+        10
+      ],
+      "source_lines": [
+        420,
+        430
+      ],
+      "statement_summary": "Oriented normal exchange preserves total Euler characteristic; compression retaining knot boundary strictly lowers genus and terminates in an incompressible Seifert surface.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "WholeSection4proofowner generate_original_section4_whole_v479;24guardsreboundPASS."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.5",
+      "source_heading": "Lemma 4.5",
+      "source_pages": [
+        10,
+        10
+      ],
+      "source_lines": [
+        440,
+        444
+      ],
+      "statement_summary": "In irreducible orientable M, compress connected neat P with nonempty boundary away from disjoint incompressible Q while preserving the prescribed intermediate/final isotopy classes.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "WholeSection4proofowner generate_original_section4_whole_v479;24guardsreboundPASS."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.6",
+      "source_heading": "Corollary 4.6",
+      "source_pages": [
+        10,
+        10
+      ],
+      "source_lines": [
+        462,
+        465
+      ],
+      "statement_summary": "In the knot complex, every incompressible compression descendant of P disjoint from Q has class equal or adjacent to [Q].",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "WholeSection4proofowner generate_original_section4_whole_v479;24guardsreboundPASS."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.8",
+      "source_heading": "Lemma 4.8",
+      "source_pages": [
+        11,
+        11
+      ],
+      "source_lines": [
+        483,
+        489
+      ],
+      "statement_summary": "Fixed-genus bounded-area vertex sets are finite; each area fiber set is closed/discrete with order type <= omega; W well-ordered of type <= omega^2; vertices countable.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "WholeSection4proofowner generate_original_section4_whole_v479;24guardsreboundPASS."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "4.9",
+      "source_heading": "Lemma 4.9",
+      "source_pages": [
+        11,
+        11
+      ],
+      "source_lines": [
+        509,
+        520
+      ],
+      "statement_summary": "Connected Seifert inputs S,S+,S- with S disjoint from both, transverse meeting endpoints with disjoint boundaries and no disc patch give two outputs with disjointness, universal fixed-class neighbor robustness, Euler accounting and discarded closed components of chi<=0.",
+      "source_finding_ids": [
+        "SF-09"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "WholeSection4proofowner generate_original_section4_whole_v479;24guardsreboundPASS."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "5.1",
+      "source_heading": "Theorem 5.1",
+      "source_pages": [
+        13,
+        13
+      ],
+      "source_lines": [
+        581,
+        589
+      ],
+      "statement_summary": "For x adjacent to u,w at distance two, exist two output vertices BEFORE every z; output adjacency to x,u,w, robustness for all common closed-neighborhood vertices z, genus sum <= input sum, and strict area-sum decrease at genus equality.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "formalizer",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section5_approved26_v480.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "5.2",
+      "source_heading": "Proposition 5.2",
+      "source_pages": [
+        13,
+        13
+      ],
+      "source_lines": [
+        597,
+        604
+      ],
+      "statement_summary": "Two-intervals in IS(K) have apices; some apex strictly lowers maximum endpoint complexity; genus-bounded endpoints have a genus-bounded apex; IS(K) is an exchange complex.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "formalizer",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section5_approved26_v480.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "5.4",
+      "source_heading": "Lemma 5.4",
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_lines": [
+        639,
+        694
+      ],
+      "statement_summary": "Pointwise corner rounding: positive geometric widths/derivative bounds, supported smoothing with same boundary, CLOSED-side containment and collar, ambient isotopy, nonnegative slicewise integral area gain, preservation of complementary regions. All five clauses retained.",
+      "source_finding_ids": [
+        "SF-09"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "formalizer",
+        "blocker_class": null,
+        "next_action": "One whole original source package under formalize_original_section5_whole_v478; retain original hypotheses and named owed geometric producers; no proof credit."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "5.5",
+      "source_heading": "Lemma 5.5",
+      "source_pages": [
+        15,
+        15
+      ],
+      "source_lines": [
+        695,
+        701
+      ],
+      "statement_summary": "After rounding, sufficiently small positive push-off into open U keeps foliation-leaf boundary and isotopy class, with area increase <= C sigma.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.original_5_5"
+      ],
+      "native_context": "original55",
+      "source_entries": [
+        {
+          "canonical_source": "target/Original55WholeProofData/source/OriginalSection5Whole.lean",
+          "source_sha256": "ea066aa9746baa2d11cda78b798bd4c16f4a44e96ccbb0204bb0a51352ab8eef",
+          "imports": [
+            "Section5GraphAssemblyV480",
+            "OriginalSection4Whole",
+            "Section5ExchangeBranchesV481",
+            "Section5AnalyticConsumerLinksV481",
+            "B3LocalInteriorDonorBridgeV481",
+            "B3FullCollarDonorBridgeV488",
+            "Section5CollarOrientationV481"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/Original55WholeProofData/source/OriginalSection5Whole.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/Original_5_5_whole_v491/CANONICAL_ORIGINAL_5_5_WHOLE_RECEIPT_v491.json",
+          "exists": true,
+          "bytes": 14916,
+          "sha256": "bcc55f878ad3436d26035a938f1b9ae4026845875fd751c8e83605bc629c5f79",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_5_ADOPTION_COMPLETE",
+            "canonical_head": "68f3a6be061a9d5bdc7f5af150290e2beb8d7624",
+            "four_gates": "PASS_BOUNDED_TWO_ROOT_SCOPE",
+            "actual_closure_base3_no_sorryAx": true
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/Original55_whole_v491/READY.json",
+          "exists": true,
+          "bytes": 3492,
+          "sha256": "163107d0fd16bbd773f02b1814fd451d88e73522825e66288b971b97fe393028",
+          "recorded_summary": {
+            "status": "SEALED_CANONICAL_WHOLE_ORIGINAL_5_5_AUDIT_PASS",
+            "verdict": "PASS",
+            "canonical_commit": "68f3a6be061a9d5bdc7f5af150290e2beb8d7624"
+          }
+        },
+        {
+          "path": "target/Original55WholeProofData/CANONICAL_BINDING_v491.json",
+          "exists": true,
+          "bytes": 14080,
+          "sha256": "2fcbbcea52e95c28c632ade4c3c3e291bbe44c09de26176d60f72644a8df43e0",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_5_B2_CONSUMER_EXACT_CONTEXT",
+            "four_gates": "PASS_BOUNDED_TWO_ROOT_SCOPE",
+            "actual_closure_base3_no_sorryAx": true
+          }
+        }
+      ],
+      "scope_limitations": "Only original 5.5 and its B2 consumer accepted. Mixed original provider sources retain three placeholders; accepted root closure does not reach held declarations. Compile-time replay requires the exact frozen B2 donor.",
+      "historical_commit": "68f3a6be061a9d5bdc7f5af150290e2beb8d7624",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/Original55_whole_v491/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "5.6",
+      "source_heading": "Lemma 5.6",
+      "source_pages": [
+        15,
+        15
+      ],
+      "source_lines": [
+        710,
+        717
+      ],
+      "statement_summary": "If near-minimal transverse isotopic perturbation A of minimizer A0 and minimizer B have a disc patch, two closed intersection curves, possibly equal, have combined rounding gain <= area error e.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "formalizer",
+        "blocker_class": null,
+        "next_action": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/dispatch/generate_original_section5_approved26_v480.md"
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "5.7",
+      "source_heading": "Proposition 5.7",
+      "source_pages": [
+        19,
+        19
+      ],
+      "source_lines": [
+        900,
+        914
+      ],
+      "statement_summary": "Tangencies of distinct distance-two minimizers: isolated interior finite-order sign-changing critical points with gradient estimate; common-boundary collar has no interior critical points and finitely many boundary critical points; finite tangency set in both configurations.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.original_5_7"
+      ],
+      "native_context": "original57",
+      "source_entries": [
+        {
+          "canonical_source": "target/Original57WholeProofData/source/OriginalSection5Whole.lean",
+          "source_sha256": "ea066aa9746baa2d11cda78b798bd4c16f4a44e96ccbb0204bb0a51352ab8eef",
+          "imports": [
+            "Section5GraphAssemblyV480",
+            "OriginalSection4Whole",
+            "Section5ExchangeBranchesV481",
+            "Section5AnalyticConsumerLinksV481",
+            "B3LocalInteriorDonorBridgeV481",
+            "B3FullCollarDonorBridgeV488",
+            "Section5CollarOrientationV481"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/Original57WholeProofData/source/OriginalSection5Whole.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/original57_whole_v494/CANONICAL_ORIGINAL_5_7_WHOLE_RECEIPT_v494.json",
+          "exists": true,
+          "bytes": 13242,
+          "sha256": "24c1cb25d5a9e68fd26a21e1843d49d53f6551ba704a5979458fd943b3f657ed",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_7_ALL_FOUR_CLAUSES_COMPLETE",
+            "canonical_head": "1ba01756aff7bf47799130e29a302c52df5984f7",
+            "four_gates": "PASS_STAGE_AND_CANONICAL"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/original57_whole_v495/READY.json",
+          "exists": true,
+          "bytes": 3128,
+          "sha256": "140b5f077ab49fc302c92a180ce37a47fd9e778efc0e49894544b7611d678b52",
+          "recorded_summary": {
+            "status": "READY",
+            "verdict": "PASS",
+            "canonical_commit": "1ba01756aff7bf47799130e29a302c52df5984f7",
+            "four_gates": "55 stage + 55 canonical PASS",
+            "source_review": "APPROVE unchanged original32 context"
+          }
+        },
+        {
+          "path": "target/Original57WholeProofData/CANONICAL_BINDING_v494.json",
+          "exists": true,
+          "bytes": 12524,
+          "sha256": "48b6c3b84e1ffc9f4d1537bdcf5c1fbf973e27fbc4e6e79a11bd42d6116ee5d6",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_7_ALL_FOUR_CLAUSES_COMPLETE",
+            "four_gates": "PASS_STAGE_AND_CANONICAL"
+          }
+        }
+      ],
+      "scope_limitations": "All four original clauses accepted in dedicated context; minimizer_common_leaf_graph is separately paid support. Other Section5 roots, SF09 and whole-provider/source rebuild remain held.",
+      "historical_commit": "1ba01756aff7bf47799130e29a302c52df5984f7",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/original57_whole_v495/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "6.1",
+      "source_heading": "Lemma 6.1",
+      "source_pages": [
+        20,
+        20
+      ],
+      "source_lines": [
+        972,
+        974
+      ],
+      "statement_summary": "Linking-indecomposable link: every intended spanning surface has no closed component, is connected and has exactly n boundary curves; frontier outputs inherit it.",
+      "source_finding_ids": [
+        "SF-08"
+      ],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.original_6_1"
+      ],
+      "native_context": "canonical-section61",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalSection61.lean",
+          "source_sha256": "154f6f931855732fc47d86ee565b498f9fea483dbe7e91b47dd7d6f1ea576000",
+          "imports": [
+            "LinkingHomology"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalSection61.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_ORIGINAL_SECTION61_RECEIPT_v464.json",
+          "exists": true,
+          "bytes": 8352,
+          "sha256": "b34bbe666e137f0d261567d3d8c9f1143f2b772258330064550279b1aa170862",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED_COMPLETE_ORIGINAL_SECTION61",
+            "commit": "6316ccf5be96b703e7accd072a5e5c37714aa0e7",
+            "four_actual_canonical_gates": "PASS",
+            "accepted_axioms": [
+              "Classical.choice",
+              "propext",
+              "Quot.sound"
+            ],
+            "unexpected_axioms": []
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/SECTION61_CREDIT_LEDGER_PATCH.json",
+          "exists": true,
+          "bytes": 1127,
+          "sha256": "950b5b4dbb04f2b58dfe4aeeaf14f90a8289d98f6420de982b7dcfedde82cdce",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "No closed components is part of the intended link-spanning-surface scope (SF08); fourteen subordinate original conclusions are one numbered result, not fourteen credits.",
+      "historical_commit": "6316ccf5be96b703e7accd072a5e5c37714aa0e7",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/generate_original_section61_v464.v1.statement.lean",
+        "hash": "sha256:fe6fda3b2b8cabb655a8fc55dead08495b6e2b6aac5b81c1dc98b1f6a6967b6f",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "6.2",
+      "source_heading": "Lemma 6.2",
+      "source_pages": [
+        21,
+        21
+      ],
+      "source_lines": [
+        992,
+        997
+      ],
+      "statement_summary": "Essential separating compression leaves exactly one boundary-bearing component, carrying all n curves and lower genus; nonseparating compression also lowers genus; iteration terminates.",
+      "source_finding_ids": [
+        "SF-08"
+      ],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.original_6_2"
+      ],
+      "native_context": "original62",
+      "source_entries": [
+        {
+          "canonical_source": "target/Original62WholeProofData/Original62CompletionV510.lean",
+          "source_sha256": "f5bddcb6b858ec07d3d98ee6eda0e746e4c818f6500fbe283d99a1afd19babb1",
+          "imports": [
+            "project.OriginalSection62",
+            "GeometrySupportV510",
+            "EndpointSupportV510",
+            "PaidClosureSupportV510"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/Original62WholeProofData/Original62CompletionV510.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/regulator/audit_original62_final_v512/READY.json",
+          "exists": true,
+          "bytes": 4531,
+          "sha256": "4179e5215fc8e843972f94ae110215ca4b1ca3f6085e97747d2510058064aaca",
+          "recorded_summary": {
+            "status": "READY_FINAL_ACCEPTANCE",
+            "verdict": "PASS",
+            "commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_original62_final_v512/TASK_MAPPING.json",
+          "exists": true,
+          "bytes": 11950,
+          "sha256": "c5c6140bb70163ef5e6e7e643b2b1f9351c0ccf325620f07e66eba3464f51a79",
+          "recorded_summary": {
+            "status": "PASS_EXACT_FIVE_ROOT_ADOPTION_MAPPING",
+            "commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13"
+          }
+        },
+        {
+          "path": "target/Original62WholeProofData/evidence/PACKAGE_MANIFEST.json",
+          "exists": true,
+          "bytes": 2289,
+          "sha256": "f8bb5c7815c0f134fe29811d84e7aab4b3ee904df55059c2b305755ab22671ad"
+        },
+        {
+          "path": "logs/wave6_root/checkpoint_v511/NUMBERED_CREDIT_FINAL_v511.json",
+          "exists": true,
+          "bytes": 325,
+          "sha256": "b7002508cf6b1ef32eed833c050bcdc381913806d59a31aae54efce9bb110d3d",
+          "recorded_summary": {
+            "status": "PASS",
+            "commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13"
+          }
+        }
+      ],
+      "scope_limitations": "Exact original input/output and five whole-v1 guards retained. Four separately adopted helpers confer zero numbered credit. Provider placements changed under exact type/value/owner mapping; no global provider identity assertion.",
+      "historical_commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_original62_final_v512/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.2",
+      "source_heading": "Lemma A.2",
+      "source_pages": [
+        23,
+        23
+      ],
+      "source_lines": [
+        1120,
+        1128
+      ],
+      "statement_summary": "Attained fixed-boundary minimizer is stationary under all compactly interior-supported smooth vector fields; pieces are minimal and adjacent sheets have opposite conormals.",
+      "source_finding_ids": [
+        "SF-04"
+      ],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A2_original"
+      ],
+      "native_context": "original-a2",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalA2ScaffoldV464.lean",
+          "source_sha256": "a7d6a943df0acb7c8c313defcf261da309b5825c4511e2937f88e3e5493af9db",
+          "imports": [
+            "OriginalA25SourceDefinitionsV464",
+            "A2NativeSeamIncidenceV468",
+            "NativeHalfStripRelativeWindowProbe",
+            "DifferentialGeometry.Analysis.ODE.Flow.CompactSupport",
+            "SectorRegularityHelpers",
+            "B1FiniteRefinement",
+            "Mathlib.Geometry.Manifold.VectorField.Pullback",
+            "Mathlib.Analysis.Calculus.FDeriv.Symmetric",
+            "OriginalA4GeometryBridges",
+            "A2NativeNormalProjection",
+            "A2NormalSmoothProbe",
+            "A2EuclideanRetractionProbe",
+            "A2MetricFluxV468",
+            "A2AffineHalfboxV470",
+            "A2OutwardSignProbe",
+            "A2NativeHalfstripClosedBoxProbe",
+            "A2NativeAffineVolumeProbe",
+            "A2PositiveGramRankReadyV469",
+            "A2NativeIncidenceSupportV469",
+            "DifferentialGeometry.Topology.InvarianceOfDomainManifold",
+            "Mathlib.Geometry.Manifold.BumpFunction",
+            "Mathlib.Geometry.Manifold.VectorBundle.ContMDiffSection"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalA2ScaffoldV464.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_ORIGINAL_A2_RECEIPT_v472.json",
+          "exists": true,
+          "bytes": 78699,
+          "sha256": "158a0130c6b4ea7f94236bbb8c4f7bdf89f9df58c562ef1f8ff1814f1bd7176f",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_ORIGINAL_A2",
+            "commit": "c11f019c9041ff227734a4be5e3b136e8442e3d1",
+            "four_gates": "PASS",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_original_A2_A5_flat_v472/POST_CANONICAL_A2_READY.json",
+          "exists": true,
+          "bytes": 1501,
+          "sha256": "8d220329aba86f87af0aa812f1583af6d97e5238a90f9bf405eaaf2cb3643960",
+          "recorded_summary": {
+            "status": "READY_ORIGINAL_A2_NUMBERED_CREDIT",
+            "verdict": "PASS",
+            "canonical_head": "c11f019c9041ff227734a4be5e3b136e8442e3d1"
+          }
+        },
+        {
+          "path": "scratch/statement-readback/readback_original_A2_clean_v465/READBACK.md",
+          "exists": true,
+          "bytes": 20194,
+          "sha256": "8c1a957f142b3d12084b1e4e2bcba743accc5fb35ee1e1380b8bc19f1c485cc4"
+        }
+      ],
+      "scope_limitations": "Given an attained original minimizer. Exact projection provider overlay required. Cross-A5 coimport was not cleared; Schoenflies.Plane.mk has competing owners.",
+      "historical_commit": "c11f019c9041ff227734a4be5e3b136e8442e3d1",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/generate_original_A2_v464.v1.statement.lean",
+        "hash": "sha256:a187732f8d185aac6d16403435a9e37a6e30b04f1c5915de6cd76953982857e6",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_original_A2_A5_flat_v472/POST_CANONICAL_A2_READY.json",
+          "scratch/statement-readback/readback_original_A2_clean_v465/READBACK.md"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.3",
+      "source_heading": "Lemma A.3",
+      "source_pages": [
+        24,
+        24
+      ],
+      "source_lines": [
+        1153,
+        1156
+      ],
+      "statement_summary": "Two otherwise disjoint smooth minimal sheets sharing boundary arc and opposite conormals glue to a smooth minimal surface near each interior arc point.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.A3_original"
+      ],
+      "native_context": "original-a3",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalA3Final.lean",
+          "source_sha256": "e079f7b66d5ec3360b546627f1e22f7ef1d07eea6fafe036967db1d17b09bd20",
+          "imports": [
+            "A3Recovery",
+            "A3SharedGraph"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalA3Final.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "logs/wave6_root/paper_A3_admission_v112/ROOT_ORIGINAL_A3_ACCEPTANCE_RECEIPT.json",
+          "exists": true,
+          "bytes": 1254,
+          "sha256": "8a88a9c983b50663983fe6d2f8b257c2c5bac8afbc60b2ed0e7ed4dad9beebad",
+          "recorded_summary": {
+            "status": "PASS_ORIGINAL_LEMMA_A3_CANONICAL_PUBLIC_AND_LEDGER_ACCEPTED",
+            "canonical_commit": "9a769b950073b21b4c22f1ea0e8a33734abf174b"
+          }
+        },
+        {
+          "path": "logs/wave6_root/paper_A3_admission_v112/PUBLIC_PAPER_A3_TERMINAL_PASS.json",
+          "exists": true,
+          "bytes": 1031,
+          "sha256": "9ac18d938de1ce3772116a8853482576417a5a99a44bae04532125903cb07220",
+          "recorded_summary": {
+            "status": "PASS_ORDINARY_ORIGINAL_PAPER_A_3_ADMITTED",
+            "canonical_commit": "9a769b950073b21b4c22f1ea0e8a33734abf174b"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_A3_current28_original_numbering/REPORT.md",
+          "exists": true,
+          "bytes": 10032,
+          "sha256": "55a9e0c0221f2e63b22ef58d0494fa4d33b43e580727fc04e6b4449049001c3d"
+        }
+      ],
+      "scope_limitations": "Exact universal whole-sheet-union conclusion. Historical invalid packet alias paper_A3 and earlier native FALSE diagnostics are excluded.",
+      "historical_commit": "9a769b950073b21b4c22f1ea0e8a33734abf174b",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "d15a4810f8f885d3395e3e47528b7d979a1cc47f2b084786af723cd52a3edc3c",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.4",
+      "source_heading": "Lemma A.4",
+      "source_pages": [
+        24,
+        24
+      ],
+      "source_lines": [
+        1174,
+        1180
+      ],
+      "statement_summary": "Minimal C1 graph in convex collar with positive interior distance and interior-sphere-condition projection domain has tangent plane different from ambient boundary tangent plane.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.A4_original"
+      ],
+      "native_context": "original-a4",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalA4.lean",
+          "source_sha256": "401913ff90c2910a9aed772c3a161ad98a9aec6446fc3bf034f6f7c6fd4b9bb2",
+          "imports": [
+            "EndpointGeometry",
+            "A4Coordinate"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalA4.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/setup_post_Weyl_ready_batches/A4/CANONICAL_FOUR_GATES.json",
+          "exists": true,
+          "bytes": 501,
+          "sha256": "b58d487120ca61e5259675a3716135aa4f32838f74e658e97200456dc7a15346",
+          "recorded_summary": {
+            "status": "PASS"
+          }
+        },
+        {
+          "path": "scratch/integrator/prepare_wave6_clean_support_admission/final_canonical_A4_collar86_v1/A4/CANONICAL_TYPE_PUBLIC_FIXTURE_RECEIPT.json",
+          "exists": true,
+          "bytes": 1184,
+          "sha256": "e71ff6e24ba213e3d2f348c57d74f67ff08f78ca7e215827c0dc1a0b9c064d15",
+          "recorded_summary": {
+            "status": "PASS"
+          }
+        }
+      ],
+      "scope_limitations": "Exact C1 minimal graph and interior sphere-condition scope; same originalendpoint companion is an alias, not another result.",
+      "historical_commit": "714629efacd551eeb035cc163aeeb821fd055ed2",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "7b9a1407ce2ad907b90658a69b7374e284de4e660ed1aa5d0e01ee773b042cc4",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.5",
+      "source_heading": "Proposition A.5",
+      "source_pages": [
+        25,
+        25
+      ],
+      "source_lines": [
+        1207,
+        1208
+      ],
+      "statement_summary": "Given an attained minimizer within the Definition-A.1 class, it is globally smooth embedded minimal, stable, smooth up to boundary with exact boundary intersection.",
+      "source_finding_ids": [
+        "SF-04"
+      ],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original"
+      ],
+      "native_context": "original-a5",
+      "source_entries": [
+        {
+          "canonical_source": "target/FullOriginalA5ProofData/project/OriginalA5ScaffoldV464.lean",
+          "source_sha256": "dd691179a55b72dc7bd8adcab42cd49c12fa9efcb614bcee478a8843dbaf7d91",
+          "imports": [
+            "OriginalA25SourceDefinitionsV464",
+            "A5PaidBoundaryGeometryCompatibility"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/FullOriginalA5ProofData/project/OriginalA5ScaffoldV464.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/A5_full_original_v477/CANONICAL_FULL_ORIGINAL_A5_RECEIPT_v477.json",
+          "exists": true,
+          "bytes": 9405,
+          "sha256": "415df225fc93da14ff24167ae40d5d40fc552b9dcf75a7a5afae4b8f4c81501c",
+          "recorded_summary": {
+            "status": "CANONICAL_ADOPTED_ALL_AFFECTED_GATES_PASS",
+            "canonical_commit": "0a92b39d26dbe4df00a13e1a6b7a46e78aeba48c",
+            "guard_status": "PASS original v1 immutable owned-source guard, canonical source byte-exact and original raw types/proof values separately bound",
+            "full_actual_closure_base_axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_T2_C1_canonical_v475/A5_G1_v478/READY.json",
+          "exists": true,
+          "bytes": 2136,
+          "sha256": "45218cc1454693e8b63d416230158714890599590d7c0197ea96533b15da71b0",
+          "recorded_summary": {
+            "status": "PASS_BOTH_BOUNDED_POSTCANONICAL_AUDITS"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_T2_C1_canonical_v475/A5_G1_v478/A5_POST_AUDIT.md",
+          "exists": true,
+          "bytes": 4645,
+          "sha256": "814ac377ca7ad977326a8737ec43428653a75e47b9a9edc0045ac91623f70571"
+        }
+      ],
+      "scope_limitations": "Given attained Definition-A1 minimizer. Primary 1990-module context and producer 1478-module context remain separate; no A6 existence or generic coimport credit.",
+      "historical_commit": "0a92b39d26dbe4df00a13e1a6b7a46e78aeba48c",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "1c374a982a034b9343f7f99985e4fafc1bff73d0278b01170d6778d435495bfa",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.6",
+      "source_heading": "Theorem A.6",
+      "source_pages": [
+        27,
+        27
+      ],
+      "source_lines": [
+        1288,
+        1296
+      ],
+      "statement_summary": "Piecewise-smooth incompressible isotopy class with sliding longitudinal boundary attains its area infimum at smooth proper stable minimal embedding with exact boundary intersection.",
+      "source_finding_ids": [
+        "SF-04"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "generate_original_A6_v464 and existing whole K/E/D/Fin/M/C/T6 owners; original composition sourceapproved."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "A.7",
+      "source_heading": "Lemma A.7",
+      "source_pages": [
+        27,
+        27
+      ],
+      "source_lines": [
+        1326,
+        1327
+      ],
+      "statement_summary": "Every minimizer as in A.6 is transverse to ambient boundary and hence neat.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.A7.A7_original"
+      ],
+      "native_context": "canonical-a7",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalA7ScaffoldV463.lean",
+          "source_sha256": "cd41bc22cd3a8f4695903f38423eb99f09a2dfb9723f1c6d4f51d0af933511d9",
+          "imports": [
+            "OriginalA4",
+            "GeometricCategory",
+            "A7GraphToA4V464",
+            "A7BoundaryTransferV464",
+            "A7CollarPlaneIdentityV464",
+            "A7NativeImmersionCriterionV464"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalA7ScaffoldV463.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_ORIGINAL_A7_RECEIPT_v465.json",
+          "exists": true,
+          "bytes": 13024,
+          "sha256": "a315e670133219b1e08e5fb2bbb7c63598e9d6fc68767891bf4fe45d1aae3e2e",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED_COMPLETE_ORIGINAL_A7",
+            "commit": "8b5376c19e3a89de787fa7742c9e7a760b27bc3e",
+            "four_actual_canonical_gates": "PASS",
+            "accepted_axioms": [
+              "Classical.choice",
+              "propext",
+              "Quot.sound"
+            ],
+            "guard": "generate_original_A7_v464 PASS on actual canonical source"
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/A7_CANONICAL_CREDIT_PATCH.json",
+          "exists": true,
+          "bytes": 2125,
+          "sha256": "a17922cddf80cf3ad4221b9bf2d3121c26a34b824ca402d44fa029f1b5cd81b9",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Supplied A6 minimizer; all three transversality/neatness conjuncts proved, with identical parametrized map. A6 existence remains open.",
+      "historical_commit": "8b5376c19e3a89de787fa7742c9e7a760b27bc3e",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/generate_original_A7_v464.v1.statement.lean",
+        "hash": "sha256:84ec575540752ddcff28a49b2fcdc44d25271d6151909bcbf393291e33f855d5",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.1",
+      "source_heading": "Lemma B.1",
+      "source_pages": [
+        33,
+        33
+      ],
+      "source_lines": [
+        1634,
+        1636
+      ],
+      "statement_summary": "Common-boundary graph difference has nonzero boundary normal derivative somewhere; choose sign, closed boundary arc and positive a0,r1 with signed f>=a0*r/2>0 there.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.B1_original"
+      ],
+      "native_context": "original-b1",
+      "source_entries": [
+        {
+          "canonical_source": "target/B1WholeOriginalProofData/source/OriginalB1_v468.lean",
+          "source_sha256": "c4ffd9490da6cc614ccc7bf22738092793747802b873c4f7ba9fad6cbed73363",
+          "imports": [
+            "B1ActualGeometry_v468"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/B1WholeOriginalProofData/source/OriginalB1_v468.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/B1_whole_frozen_v480/CANONICAL_WHOLE_ORIGINAL_B1_RECEIPT_v480.json",
+          "exists": true,
+          "bytes": 5690,
+          "sha256": "aaf145e0014707878d598eca2dbc32498b91fd8c7cf51222f8a21ca0874ba739",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B1_ADOPTION_COMPLETE",
+            "canonical_head": "7a1b143bcc3b781569aa1f70dc261b16ab638871",
+            "four_gates": "PASS",
+            "source_applicability_reconciliation": "APPROVE: actual frozen PartialHomeomorph has no target openness field; whole 260-declaration, 1225-edge readback reconciled",
+            "independent_reader_literal_status": "READBACK-DIVERGENT",
+            "reader_divergence_disposition": "FReviewer exactnativeKernelPartialHomeomorph hasno targetopennessfield; all260decls1225edges and52pins audited; readersectorimpossibilityflag rejected; arcsandradiusboundsreconciled. BothB1sourcepublicsnapshotsAPPROVE unchanged."
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/canonical_binding_v481/READY.json",
+          "exists": true,
+          "bytes": 2296,
+          "sha256": "c820bfc8574e9448c637eba3632de523640f7ad198634c130f9e1c509c0c1d53",
+          "recorded_summary": {
+            "status": "READY_CANONICAL_BINDING_PASS",
+            "verdict": "PASS",
+            "canonical_head": "7a1b143bcc3b781569aa1f70dc261b16ab638871"
+          }
+        },
+        {
+          "path": "target/B1WholeOriginalProofData/CANONICAL_WHOLE_BINDING_v480.json",
+          "exists": true,
+          "bytes": 4761,
+          "sha256": "2b3c11cce410b5bad83dbb693492564b1465a45be106ef249cc0545604ed2e59",
+          "recorded_summary": {
+            "status": "WHOLE_ORIGINAL_TWO_ROOT_CANONICAL_EXACT_CONTEXT",
+            "four_gates": "PASS",
+            "source_applicability_reconciliation": "APPROVE: actual frozen PartialHomeomorph has no target openness field; whole 260-declaration, 1225-edge readback reconciled",
+            "independent_reader_literal_status": "READBACK-DIVERGENT",
+            "reader_divergence_disposition": "FReviewer exactnativeKernelPartialHomeomorph hasno targetopennessfield; all260decls1225edges and52pins audited; readersectorimpossibilityflag rejected; arcsandradiusboundsreconciled. BothB1sourcepublicsnapshotsAPPROVE unchanged."
+          }
+        },
+        {
+          "path": "scratch/f-reviewer/review_original_B2_B5_v475/B1_whole_sector_readback_v481/REVIEW.md",
+          "exists": true,
+          "bytes": 11246,
+          "sha256": "9a5deacaf50671d0aa413e585e0748ab2562f93b1daa66abd308aed88c54521d"
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/canonical_binding_v481/REGULATOR_REPORT.md",
+          "exists": true,
+          "bytes": 4520,
+          "sha256": "d66cbf520d2ca131a0750241fed19690fba95a2ac570329717108d4864b29a66"
+        }
+      ],
+      "scope_limitations": "Blind reader remains READBACK-DIVERGENT, explicitly reconciled APPROVE: actual native PartialHomeomorph has no target-openness field. Do not rewrite that reader verdict as CLEAN. Nearby tangency support is not full original5.7 credit.",
+      "historical_commit": "7a1b143bcc3b781569aa1f70dc261b16ab638871",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "a729b92e3bde26e737f5970ed607722f68b591b50af10319c6a2189cc1faed58",
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/canonical_binding_v481/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.2",
+      "source_heading": "Lemma B.2",
+      "source_pages": [
+        34,
+        34
+      ],
+      "source_lines": [
+        1660,
+        1661
+      ],
+      "statement_summary": "For all sufficiently small perturbations in T2, every closed intersection component has a uniform positive diameter.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off"
+      ],
+      "native_context": "original-b2",
+      "source_entries": [
+        {
+          "canonical_source": "target/B2OriginalLeafPushOffWholeProofData/source/OriginalB2B5V480.lean",
+          "source_sha256": "b1baf56e03a43d212aeb5b07b1ef1ab1a684636596ef363734e2873d60d525b1",
+          "imports": [
+            "A7NativeImmersionCriterionV464",
+            "ExtensionObligation",
+            "MetricAreaAnalysis.Assembly",
+            "DifferentialGeometry.Topology.Manifold.IntervalExtension",
+            "DifferentialGeometry.Topology.Manifold.InverseFunctionTheorem.Basic",
+            "Mathlib.Analysis.Calculus.Deriv.Slope",
+            "Mathlib.Analysis.Calculus.Deriv.MeanValue",
+            "DifferentialGeometry.Topology.Embedding.Extension",
+            "DifferentialGeometry.Topology.Manifold.ImmersionCriterion",
+            "DifferentialGeometry.Topology.Manifold.SmoothEmbeddingComposition",
+            "DifferentialGeometry.Topology.InvarianceOfDomainManifold",
+            "OriginalB1",
+            "B1TangencyGraph",
+            "KnotLinkConditions",
+            "KnotGenus",
+            "Section5Combinatorics",
+            "Mathlib.Geometry.Manifold.Riemannian.PathELength",
+            "Mathlib.Topology.Covering.Basic"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/B2OriginalLeafPushOffWholeProofData/source/OriginalB2B5V480.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/B2_original_leaf_push_off_v490/CANONICAL_B2_ORIGINAL_LEAF_PUSH_OFF_WHOLE_RECEIPT_v490.json",
+          "exists": true,
+          "bytes": 10520,
+          "sha256": "9bec96d6446e834b8217c971f31fb6ed07e830b6fe1d7512d13197910238983c",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B2_ADOPTION_COMPLETE",
+            "canonical_head": "ad94e003c5ab0e49449d05ef897356c6782dab8f",
+            "four_gates": "PASS_BOUNDED_B2_SCOPE",
+            "base3_only_no_sorryAx_in_actual_B2_root_closure": true
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/B2_original_push_off_v491/READY_FINAL.json",
+          "exists": true,
+          "bytes": 1550,
+          "sha256": "85b2fac93e4be285d24aa98562c14d5f31cb37e4ea8735317c0d8e9fdc2603ad",
+          "recorded_summary": {
+            "status": "SEALED_CANONICAL_ORIGINAL_B2_FINAL_AUDIT_PASS",
+            "verdict": "PASS",
+            "canonical_commit": "ad94e003c5ab0e49449d05ef897356c6782dab8f"
+          }
+        },
+        {
+          "path": "target/B2OriginalLeafPushOffWholeProofData/CANONICAL_BINDING_v490.json",
+          "exists": true,
+          "bytes": 9662,
+          "sha256": "c3313aaaaa3820b856d3a9ebb442271c41c4ccae1bf26e3466e153cc1c46ec26",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B2_BOUNDED_EXACT_CONTEXT",
+            "four_gates": "PASS_BOUNDED_B2_SCOPE",
+            "base3_only_no_sorryAx_in_actual_B2_root_closure": true
+          }
+        }
+      ],
+      "scope_limitations": "Whole original B2 only. Ten external native deltas and four sibling placeholders held, unreachable from accepted closure; mixed provider scan fails. No blanket 991/450 native fidelity claim.",
+      "historical_commit": "ad94e003c5ab0e49449d05ef897356c6782dab8f",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/B2_original_push_off_v491/READY_FINAL.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.3",
+      "source_heading": "Lemma B.3",
+      "source_pages": [
+        34,
+        34
+      ],
+      "source_lines": [
+        1680,
+        1688
+      ],
+      "statement_summary": "T2 perturbation intersections avoid fixed boundary strip, collar loops are not null-homotopic, and every closed component has a uniform positive length away from boundary and tangency neighborhoods.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior",
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar"
+      ],
+      "native_context": "original-b3-two-contexts",
+      "source_entries": [
+        {
+          "canonical_source": "target/B3WholeOriginalProofData/interior/source/OriginalB2B5V480.lean",
+          "source_sha256": "4f7f49eb7f38254b22b9a68c8671ddc686c1af8f0462942ca4d6f5f837265bf1",
+          "imports": [
+            "B1InteriorMetricChart_v475",
+            "B1TangencyGraph",
+            "KnotLinkConditions",
+            "KnotGenus",
+            "Section5Combinatorics",
+            "Mathlib.Geometry.Manifold.Riemannian.PathELength",
+            "Mathlib.Topology.Covering.Basic"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/B3WholeOriginalProofData/interior/source/OriginalB2B5V480.lean"
+        },
+        {
+          "canonical_source": "target/B3OriginalCollarWholeProofData/source/OriginalB2B5V480.lean",
+          "source_sha256": "0239748638714784a591f251d23031546a8ce53e25ee7a6ad1cbd45e43fd5cd1",
+          "imports": [
+            "B1InteriorMetricChart_v475",
+            "B1TangencyGraph",
+            "KnotLinkConditions",
+            "KnotGenus",
+            "Section5Combinatorics",
+            "Mathlib.Geometry.Manifold.Riemannian.PathELength",
+            "Mathlib.Topology.Covering.Basic"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/B3OriginalCollarWholeProofData/source/OriginalB2B5V480.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/B3_whole_original_v491/CANONICAL_B3_WHOLE_ORIGINAL_TWO_HEAD_RECEIPT_v491.json",
+          "exists": true,
+          "bytes": 10814,
+          "sha256": "e8b2ad8bd0828d107dea411647261493770b1817bf540d6863dbb3afecd9e04f",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B3_TWO_HEAD_ADOPTION_COMPLETE",
+            "canonical_head": "cd4e249171580af8d7b6d99e322c2b1b1336bcc0",
+            "four_gates": "PASS_BOTH_BOUNDED_ORIGINAL_B3_ROOTS",
+            "base3_only_no_sorryAx_both_accepted_closures": true
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/B3_whole_original_v492/READY.json",
+          "exists": true,
+          "bytes": 3880,
+          "sha256": "45dfd1f21fff87ac4d0f37fe8c11e518c17f852c73dde6132242006e88a1812b",
+          "recorded_summary": {
+            "status": "SEALED_CANONICAL_WHOLE_ORIGINAL_B3_TWO_HEAD_AUDIT_PASS",
+            "verdict": "PASS",
+            "canonical_commit": "cd4e249171580af8d7b6d99e322c2b1b1336bcc0"
+          }
+        },
+        {
+          "path": "target/B3WholeOriginalProofData/CANONICAL_BINDING_v491.json",
+          "exists": true,
+          "bytes": 9967,
+          "sha256": "2c0145f58ca698e3e492f3959b6772bbf63d128aa27e36c6fb65e683993103af",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B3_TWO_HEAD_EXACT_CONTEXTS",
+            "four_gates": "PASS_BOTH_BOUNDED_ORIGINAL_B3_ROOTS",
+            "base3_only_no_sorryAx_both_accepted_closures": true
+          }
+        },
+        {
+          "path": "target/B3OriginalCollarWholeProofData/CANONICAL_BINDING_v489.json",
+          "exists": true,
+          "bytes": 8673,
+          "sha256": "1bed02aa22fb653d77efb9ad33543baff81cf305625213d1315073d5fe6f479d",
+          "recorded_summary": {
+            "status": "CANONICAL_FULL_ORIGINAL_B3_COLLAR_EXACT_FROZEN_CONTEXT",
+            "four_gates": "PASS_BOUNDED_B3_COLLAR_SCOPE"
+          }
+        }
+      ],
+      "scope_limitations": "One numbered original supplied by two separately accepted roots in different OriginalB2B5V480 environments. They cannot be coimported. Mixed sources retain unaccepted siblings; both exact root closures base3-only.",
+      "historical_commit": "cd4e249171580af8d7b6d99e322c2b1b1336bcc0",
+      "protected_statement": {
+        "state": "uninitialized",
+        "snapshot_path": null,
+        "hash": null,
+        "version": 0
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/B3_whole_original_v492/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.4",
+      "source_heading": "Corollary B.4",
+      "source_pages": [
+        35,
+        35
+      ],
+      "source_lines": [
+        1716,
+        1723
+      ],
+      "statement_summary": "T2 bounds independent of perturbation parameter: uniform length outside tangency balls, two-sided angle lower bound on specified region away from boundary, and positive geometric rounding-width/derivative bounds.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "Whole B4/B5 transferred to b4_b5_whole_fresh_v485, scratch generate_B4_B5_whole_fresh_v485; exact source copy then Root guard rebind before proof. Original B2/B3 owner retained three heads."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "B.5",
+      "source_heading": "Lemma B.5",
+      "source_pages": [
+        38,
+        38
+      ],
+      "source_lines": [
+        1874,
+        1883
+      ],
+      "statement_summary": "T1 perturbations have uniform positive diameter and exterior length, two-sided angle bounds, and geometric rounding bounds outside nested tangency neighborhoods.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "Whole B4/B5 transferred to b4_b5_whole_fresh_v485, scratch generate_B4_B5_whole_fresh_v485; exact source copy then Root guard rebind before proof. Original B2/B3 owner retained three heads."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "C.1",
+      "source_heading": "Lemma C.1",
+      "source_pages": [
+        40,
+        40
+      ],
+      "source_lines": [
+        1964,
+        1974
+      ],
+      "statement_summary": "Boundaryless outward extension is complete/homogeneously regular; M inclusion is homotopy equivalence and pi2 vanishes; Hess r nonpositive with exact radial equality; retraction is 1-Lipschitz, non-area-increasing, relative-homotopy-preserving.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "generate_C1_sphere_and_prerequisites_v468 whole sphere/compressionowner."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "C.3",
+      "source_heading": "Proposition C.3",
+      "source_pages": [
+        41,
+        41
+      ],
+      "source_lines": [
+        2034,
+        2037
+      ],
+      "statement_summary": "Cited existence of a full Lemaire minimizer in the inclusion relative homotopy class with area <= every piecewise-smooth properly isotopic fixed-boundary competitor.",
+      "source_finding_ids": [
+        "SF-05"
+      ],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "Whole original C3 existing attainment/interior/boundary/double/moduli proofowners; no numberedcredit until actual endpoint."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "C.6",
+      "source_heading": "Lemma C.6",
+      "source_pages": [
+        42,
+        42
+      ],
+      "source_lines": [
+        2091,
+        2099
+      ],
+      "statement_summary": "Given full Lemaire minimizer, Laplacian of collar coordinate equals Hessian trace <=0 with radial equality case; C2,alpha and smooth uniformly elliptic operator.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C6"
+      ],
+      "native_context": "canonical-c6-c11",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalC6C11.lean",
+          "source_sha256": "b74af65928b60de520d9353fe053170deeff18a02819f9ed8e8e1c987a0b52ca",
+          "imports": [
+            "NativeWarpedHessian",
+            "DifferentialGeometry.Analysis.Schauder.Holder.Bilinear",
+            "MetricAreaAnalysis.ChartCalculus",
+            "EllipticPdes.Existence.StrongMaximum",
+            "BoundaryFoliation",
+            "C2Analytic",
+            "C12Topology",
+            "GeometricArea"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_C6_C11_RECEIPT_v466.json",
+          "exists": true,
+          "bytes": 6722,
+          "sha256": "369dc84c0ff54f63f4f79e8536a9d7964a4b13b114e75238cde5d0bd04965c07",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED",
+            "commit": "568cad90093eead3913176e1f90293cd63610e6c",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/C6_C11_CANONICAL_CREDIT_PATCH_v466.json",
+          "exists": true,
+          "bytes": 3366,
+          "sha256": "dafcab9f17c65800410b1ad39d2f62e1fa3350c8bd582acb94d68c13a6c8a798",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Given full Lemaire minimizer; no original C3 existence credit. Generalized companion is supporting mathematics, not extra numbered credit.",
+      "historical_commit": "568cad90093eead3913176e1f90293cd63610e6c",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/generate_original_C6_v464.v1.statement.lean",
+        "hash": "sha256:ee81e63a91b009646176f31a000d1afc7da97e031689bcc81494efc60a9c0add",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.7",
+      "source_heading": "Lemma C.7",
+      "source_pages": [
+        42,
+        42
+      ],
+      "source_lines": [
+        2123,
+        2126
+      ],
+      "statement_summary": "Smooth conformal class field on smooth surface has global smooth representing metric; restriction to a compact smooth subsurface gives boundary-smooth representative.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "native_declarations": [
+        "SeifertSurfaces.AppendixC.Original.paper_C7"
+      ],
+      "native_context": "canonical-c7",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalC7.lean",
+          "source_sha256": "4a02a486944e8c57f4c775187a4bcacc29116c554715a202c48a14b2455331f6",
+          "imports": [
+            "C7Conformal"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/conformal/OriginalC7.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/prepare_q2_148_admission/task_receipts/original_C7_full_source_contract.json",
+          "exists": true,
+          "bytes": 1316095,
+          "sha256": "5f269c6a612ab947ec9f39d40d327e375816e5980f38d76a570da9d6836ceb0d",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_AND_ADMISSION_GATES",
+            "canonical_commit": "73733656b6a6f0605846e44bf987f547161b1a40"
+          }
+        },
+        {
+          "path": "scratch/integrator/merge_original_C7/logs/merged/approved_type_comparison.json",
+          "exists": true,
+          "bytes": 535,
+          "sha256": "f06918740e41c81697b64c18b72b06f315a1df84eaac42dc4d85e352aff3d178",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Global ambient metric requires no compactness; subsurface consequence explicitly assumes compact ambient M and compact S. Divergent reader flag reconciled by exact source scope in DAG note, not silently relabelled.",
+      "historical_commit": "73733656b6a6f0605846e44bf987f547161b1a40",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/original_C7_full_source_contract.v1.statement.lean",
+        "hash": "sha256:87850c378f0595cbc140a2d8f90692e3850be9ba30d92f36c17e802e903c122c",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "f006ee92bdb3c6c1ae00be91f8f8078fb81a4eeb991de56fcf02ab8420579055",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.8",
+      "source_heading": "Lemma C.8",
+      "source_pages": [
+        43,
+        43
+      ],
+      "source_lines": [
+        2144,
+        2148
+      ],
+      "statement_summary": "Anti-holomorphic involution at a fixed point has invariant holomorphic chart in which it is conjugation; fixed set is locally real-analytic separating arc.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "native_declarations": [
+        "SeifertSurfaces.AppendixC.Original.paper_C8"
+      ],
+      "native_context": "canonical-c8",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalC8.lean",
+          "source_sha256": "cda0520194382d865e8802aa5f37b216722be6ff37fb10c17975dc7115b25dc9",
+          "imports": [
+            "OriginalC7",
+            "C9Compatibility",
+            "Mathlib.Analysis.Complex.Convex"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/conformal/OriginalC8.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/prepare_q2_148_admission/task_receipts/originalC89_416c8a5f13993886.json",
+          "exists": true,
+          "bytes": 943634,
+          "sha256": "1b5fbcb075ec0311581732e8497b71b995e13ceefe6a5cca1ec71f45a1ce81a9",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_AND_ADMISSION_GATES",
+            "canonical_commit": "0c8dbb1028e6d09969bbbdbc29bf8c33b0c6e1ba"
+          }
+        },
+        {
+          "path": "scratch/integrator/merge_original_C8_clean4/logs/merged/approved_type_comparison.json",
+          "exists": true,
+          "bytes": 797,
+          "sha256": "71702fb90f56691315bf811e505fc96c497b1943c0b6e3714a29baabadea4e28",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Supplied anti-holomorphic involution at a fixed point; actual chart/normal-form scope, not an existence theorem for a global double.",
+      "historical_commit": "0c8dbb1028e6d09969bbbdbc29bf8c33b0c6e1ba",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/originalC89_416c8a5f13993886.v1.statement.lean",
+        "hash": "sha256:9cdb8e5b0684cca3a4ef00e5918eefdbbe84acf5eb04133e1af4f8c53bfdd478",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "1ea953bd43e74c7df1c27c929f6a5f5038f3ea2751460257fdd94521699ce151",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.9",
+      "source_heading": "Proposition C.9",
+      "source_pages": [
+        43,
+        43
+      ],
+      "source_lines": [
+        2169,
+        2181
+      ],
+      "statement_summary": "Either subsurface-preserving diffeomorphism compatibility L2-prime or suitable doubled anti-conformal-involution compatibility L2-double-prime yields boundary-smooth representative; latter gives analytic boundary.",
+      "source_finding_ids": [
+        "SF-05"
+      ],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "proved",
+      "packaging_status": "FRESH_SOURCE_VERIFIED",
+      "native_declarations": [
+        "SeifertSurfaces.AppendixC.Original.paper_C9"
+      ],
+      "native_context": "canonical-c9",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalC9Final3.lean",
+          "source_sha256": "1b35d5f29185a4672d94b15db41d5b625e3c975e1978357c82be9acf9e3eba63",
+          "imports": [
+            "C9BoundaryHelpers"
+          ],
+          "rebuild_validation": "FRESH_SOURCE_COMPILE_AXIOMS_SCAN_SOURCE_GUARD_PASS",
+          "release_source": "seifert-surfaces/conformal/OriginalC9Final3.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/prepare_original_C9_admission/canonical_v1/task_receipts/originalC89_276286abf651cc87.json",
+          "exists": true,
+          "bytes": 1246962,
+          "sha256": "4b37e69f19bf1ffb2e2bedd257c56fd384dca3d81deeb66f2fccea6267733ad9",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_C9_FOUR_GATES_FULL_CONTEXT",
+            "canonical_commit": "15746073c17234dcc61693ec3f8349ba85e81dee"
+          }
+        },
+        {
+          "path": "scratch/integrator/merge_original_C9_final3/sealed_receipt.json",
+          "exists": true,
+          "bytes": 28162,
+          "sha256": "2323aa3046639bfa31c8668ef574366236360276631f2f846ac1f9de8e69daa2",
+          "recorded_summary": {
+            "commit": "15746073c17234dcc61693ec3f8349ba85e81dee"
+          }
+        }
+      ],
+      "scope_limitations": "Explicit L2-prime or L2-double-prime compatibility is a genuine source condition. Original C9 is complete conditionally; raw producers and unconditional L2 are not inferred.",
+      "historical_commit": "15746073c17234dcc61693ec3f8349ba85e81dee",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/originalC89_276286abf651cc87.v1.statement.lean",
+        "hash": "sha256:42f3d3583d2ad0c4a54efa19e09b69190ffd0f29c9f4b176bc51c73f384f24c6",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "68d7f60c9aa2d41a596008a4b5ce02cff88d58eadab56a5cd4142714cde62203",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.11",
+      "source_heading": "Proposition C.11",
+      "source_pages": [
+        44,
+        44
+      ],
+      "source_lines": [
+        2218,
+        2219
+      ],
+      "statement_summary": "Every full Lemaire minimizer stays in M by the barrier argument.",
+      "source_finding_ids": [],
+      "historical_status": "ACCEPTED",
+      "strict_original_credit": true,
+      "ledger_status_at_freeze": "proved",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "HISTORICAL_SOURCE_ONLY",
+      "native_declarations": [
+        "SeifertSurfaces.AppendixC.OriginalEndpoints.original_C11"
+      ],
+      "native_context": "canonical-c6-c11",
+      "source_entries": [
+        {
+          "canonical_source": "target/OriginalC6C11.lean",
+          "source_sha256": "b74af65928b60de520d9353fe053170deeff18a02819f9ed8e8e1c987a0b52ca",
+          "imports": [
+            "NativeWarpedHessian",
+            "DifferentialGeometry.Analysis.Schauder.Holder.Bilinear",
+            "MetricAreaAnalysis.ChartCalculus",
+            "EllipticPdes.Existence.StrongMaximum",
+            "BoundaryFoliation",
+            "C2Analytic",
+            "C12Topology",
+            "GeometricArea"
+          ],
+          "rebuild_validation": "HISTORICAL_ONLY_SOURCE_REBUILD_NOT_CLAIMED",
+          "release_source": "seifert-surfaces/historical/canonical/OriginalC6C11.lean"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_C6_C11_RECEIPT_v466.json",
+          "exists": true,
+          "bytes": 6722,
+          "sha256": "369dc84c0ff54f63f4f79e8536a9d7964a4b13b114e75238cde5d0bd04965c07",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED",
+            "commit": "568cad90093eead3913176e1f90293cd63610e6c",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/C6_C11_CANONICAL_CREDIT_PATCH_v466.json",
+          "exists": true,
+          "bytes": 3366,
+          "sha256": "dafcab9f17c65800410b1ad39d2f62e1fa3350c8bd582acb94d68c13a6c8a798",
+          "recorded_summary": {}
+        }
+      ],
+      "scope_limitations": "Barrier conclusion for a supplied full Lemaire minimizer; no original C3 existence or global embedding credit.",
+      "historical_commit": "568cad90093eead3913176e1f90293cd63610e6c",
+      "protected_statement": {
+        "state": "snapshotted",
+        "snapshot_path": ".claude/state/statements/generate_original_C11_v464.v1.statement.lean",
+        "hash": "sha256:e30b5141d483841654f8f24aa0b23e52291cb47f7abf7debcad22ec2f4596234",
+        "version": 1
+      },
+      "kernel_evidence_boundary": "Historical native acceptance; fresh source gates independently recorded in VERIFICATION.json.",
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.12",
+      "source_heading": "Proposition C.12",
+      "source_pages": [
+        44,
+        45
+      ],
+      "source_lines": [
+        2233,
+        2243
+      ],
+      "statement_summary": "Full Lemaire minimizer: interior positive collar distance; positive inward normal derivative; boundary rank two/transversality/nonzero tangential derivative; boundary homeomorphism and nearby immersion; global immersion also uses interior branch exclusion.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "Fresh c12_whole_fresh_v485 owns whole original C12 and downstream C14/C15; no numbered credit yet."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "C.14",
+      "source_heading": "Corollary C.14",
+      "source_pages": [
+        46,
+        46
+      ],
+      "source_lines": [
+        2291,
+        2293
+      ],
+      "statement_summary": "Full minimizer is globally injective for image points in a fixed near-boundary collar; its double point set is compact and uniformly interior.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "Existing c12_original_v474 whole C12/C14/C15 package, consumers wait fulloriginalC12."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    },
+    {
+      "source_id": "C.15",
+      "source_heading": "Corollary C.15",
+      "source_pages": [
+        46,
+        46
+      ],
+      "source_lines": [
+        2310,
+        2316
+      ],
+      "statement_summary": "Universal-cover translates meeting near old boundary are the same image; distinct translates and intermediate-cover images intersect only uniformly away from old boundary.",
+      "source_finding_ids": [],
+      "historical_status": "OPEN",
+      "strict_original_credit": false,
+      "ledger_status_at_freeze": "assigned",
+      "dag_status_at_freeze": "open",
+      "packaging_status": "OPEN",
+      "native_declarations": [],
+      "source_entries": [],
+      "scope_limitations": "Supporting proofs or reviewed scaffold may exist; no complete exact numbered original acceptance.",
+      "current_routing": {
+        "last_owner": null,
+        "next_owner": "f-generator",
+        "blocker_class": null,
+        "next_action": "Existing c12_original_v474 whole C12/C14/C15 package, consumers wait fulloriginalC12."
+      },
+      "kernel_evidence_boundary": "Open obligation"
+    }
+  ],
+  "source_issues": [
+    {
+      "id": "SF01",
+      "scope": "Theorem C",
+      "finding": "Printed rectangular genus/area cutoff differs from lexicographic cutoff used in proof; predicates must remain distinct."
+    },
+    {
+      "id": "SF02",
+      "scope": "Theorem C",
+      "finding": "Every positive area cutoff may yield an empty complex; missing nonemptiness prevents the literal contractibility claim."
+    },
+    {
+      "id": "SF03",
+      "scope": "Corollary2.3",
+      "finding": "Empty downsets: induced distance/preconnectedness paid; Mathlib Connected requires nonempty. Explicit qualified coverage, zero strict original credit."
+    },
+    {
+      "id": "SF04",
+      "scope": "Appendix A",
+      "finding": "The precise attained fixed-boundary piecewise-smooth isotopy class is indispensable; do not substitute an easier class."
+    },
+    {
+      "id": "SF05",
+      "scope": "Appendix C",
+      "finding": "L2 compatibility stays conditional; C9 proves its source-conditioned conclusion without proving unconditional L2."
+    },
+    {
+      "id": "SF06",
+      "scope": "Appendix C",
+      "finding": "Near-boundary injectivity does not supply global embedding; Appendix C is not the original global-existence replacement."
+    },
+    {
+      "id": "SF07",
+      "scope": "Theorem B",
+      "finding": "Weak CW topology and universal induction required; exact B acceptance uses this scope, without finite descending-link assumption."
+    },
+    {
+      "id": "SF08",
+      "scope": "Links",
+      "finding": "No closed components is implicit in intended spanning surfaces; accepted6.1 retains that scope."
+    },
+    {
+      "id": "SF09",
+      "scope": "Lemma5.4/B4/B5",
+      "finding": "Rounding isotopy-category conflict, compact/neat input omissions and C1-width versus smooth exact-profile gap; original5.4/B4/B5 remain open."
+    },
+    {
+      "id": "SF10",
+      "scope": "Manuscript proof fragments",
+      "finding": "Reported913-line fragments are unrecovered and not proof certificates."
+    },
+    {
+      "id": "SF11",
+      "scope": "C1(iv)",
+      "finding": "Confirmed mismatch with adopted relative-homotopy definition: arbitrary continuous pair maps need not have monotone surjective boundary trace. Corrected split scope tracked separately, literal C1 remains open."
+    }
+  ],
+  "separate_support_results": [
+    {
+      "name": "Qualified Corollary2.3",
+      "roots": [
+        "SeifertSurfaces.exists_geodesic_below_max",
+        "SeifertSurfaces.complexity_downset_edist",
+        "SeifertSurfaces.complexity_downset_preconnected",
+        "SeifertSurfaces.nonempty_complexity_downset_connected"
+      ],
+      "source_roots": [
+        "Section2/Downsets.lean",
+        "Section2/Geodesics.lean"
+      ],
+      "scope": "Convention-qualified coverage; zero strict original credit."
+    },
+    {
+      "name": "Section5 native infimum",
+      "package": "Section5NativeInfimumWholeProofData",
+      "root": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_realizes_native_infimum",
+      "scope": "Original native infimum producer plus nine internal consumers; original5.1/5.2 remain open."
+    },
+    {
+      "name": "Section5 common-leaf graph",
+      "package": "Original57WholeProofData",
+      "root": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_common_leaf_graph",
+      "scope": "Paid support for original5.7; no additional numbered result."
+    },
+    {
+      "name": "Section5 compact area",
+      "package": "Section5CompactAreaWholeProofData",
+      "scope": "55 source-approved support roots. Universal exchange, compatible compression and original5.1/5.2/5.6 remain open."
+    },
+    {
+      "name": "C3 class/energy attainment",
+      "package": "C3ClassAttainmentWholeProofData",
+      "scope": "27 conditional support roots; whole C3 minimizer existence/regularity remains open."
+    },
+    {
+      "name": "Empty-area branches",
+      "package": "Section5AreaEmptyWholeProofData",
+      "scope": "11 accepted lower roots; source mixed and SF09 held. This is not original5.4."
+    },
+    {
+      "name": "Compression6.2 prerequisites",
+      "package": "Original62WholeProofData",
+      "scope": "Four accepted exact whole-operation helpers in TASK_MAPPING.json; zero extra numbered credit."
+    }
+  ],
+  "formalization_issue_boundary": {
+    "source": "FORMALIZATION_ISSUES.md and FI sections in SOURCE_ISSUES.md",
+    "examples": [
+      "Analytic outer-top instead of smooth infinity notation",
+      "Native instance/provider drift and duplicate module owners",
+      "Wrong auxiliary ray signs, endpoint categories and inferred time domains",
+      "Private native source custody and rejected generic refinement recipes"
+    ],
+    "interpretation": "These are Lean implementation or auxiliary-interface findings; do not present them as counterexamples to the original main knot theorem."
+  },
+  "third_party": [
+    {
+      "component": "DifferentialGeometry",
+      "upstream": "https://github.com/qinz1yang/differential-geometry",
+      "revision": "777299070a5529e96345e0033979706fd00c7e62",
+      "notices": [
+        "target/LICENSE",
+        "target/NOTICE",
+        "target/WEYL_PORT_MODIFICATIONS.md"
+      ],
+      "scope": "Existing Apache2 notice belongs to differential-geometry/provider sources; do not infer a project-wide grant for newly authored Seifert sources."
+    },
+    {
+      "component": "Schoenflies",
+      "upstream": "https://github.com/alonamaloh/schoenflies-lean",
+      "notices": [
+        "target/C1SchoenfliesProofData/PublicSources/LICENSE",
+        "target/DifferentialGeometry/External/Schoenflies/LICENSE",
+        "target/DifferentialGeometry/External/Schoenflies/MODIFICATIONS.md",
+        "target/C1SchoenfliesProofData/MANIFEST.json"
+      ],
+      "scope": "Apache2, preserve exact actually selected revision/context; PublicSources manifest public_commit=788efe97894474c032de6dfb1289d515f613d15a. Do not substitute curve-complex release revision."
+    },
+    {
+      "component": "TauCeti",
+      "upstream": "https://github.com/TauCetiProject/TauCeti",
+      "revision": "3358033ba2fd35f321356dceaf2372a0fd6c0bfd",
+      "notices": [
+        "target/NOTICE",
+        "target/DifferentialGeometry/External/TauCeti/LICENSE",
+        "target/DifferentialGeometry/External/TauCeti/SOURCE_MAP.json",
+        "target/DifferentialGeometry/External/TauCeti/MODIFICATIONS.md"
+      ]
+    },
+    {
+      "component": "CanonicalTopology/ClassificationOfSurfaces/HopfProblem/DeGiorgi",
+      "notices": [
+        "target/NOTICE",
+        "target/DifferentialGeometry/External/CanonicalTopology/",
+        "target/DifferentialGeometry/External/ClassificationOfSurfaces/",
+        "target/DifferentialGeometry/External/DeGiorgi/LICENSE"
+      ],
+      "scope": "Retain consumed nested LICENSE, provenance, SOURCE_MAP and MODIFICATIONS; root Apache notice is not a replacement for each attribution."
+    },
+    {
+      "component": "Lean/Mathlib",
+      "toolchain": "leanprover/lean4:v4.35.0-rc3",
+      "mathlib_revision": "3f6737de4761ec7bf368491fe9faccc991ebd6ca",
+      "scope": "Historical lakefile uses local paths, not portable remote pins; release must pin dependencies and retain licenses."
+    },
+    {
+      "component": "Apex theorem-B reference",
+      "notices": [
+        "references/apex-p01-seifert-theorem-b-lean-c720e48/LICENSE",
+        "references/apex-p01-seifert-theorem-b-lean-c720e48/README.md"
+      ],
+      "scope": "Historical reference contains its own license; inventory does not claim this reference is a production dependency."
+    }
+  ],
+  "publication_checklist": [
+    "Describe a PARTIAL formalization: exact20 historically accepted,26 open; A/C/D incomplete, B complete.",
+    "Preserve per-context original modules, full guarded types, computational definitions, selected provider maps and adjacent compilation inputs.",
+    "Build only minimal accepted source/import/replay closure per context; cannot derive source closure by copying only import lines.",
+    "Do not coimport B2/B3 duplicate OriginalB2B5V480 contexts, original55/original57 duplicate OriginalSection5Whole contexts, or assume A2/A5 compatibility.",
+    "Fresh-build relocated project/provider sources with pinned Lean/Mathlib; report each source-only gap separately from historical object acceptance.",
+    "Scan exact accepted source slices and audit transitive root axioms; if mixed source placeholders are retained, disclose them and exclude held roots from public verification targets.",
+    "Compare full native types/values/owners where supported; document finite replay placement differences, never blanket normalization.",
+    "Retain compact hashed historical receipts and selected source/readback reconciliation; giant native dumps stay in frozen backup.",
+    "Preserve third-party licenses/NOTICE/source maps; do not assign the imported Apache license to unrelated Seifert work.",
+    "Keep compiler objects/caches, logs, scratch candidates and historical giant dumps out of Git release; update public links after Integrator fixes the final layout."
+  ],
+  "ledger_patch_recommendation": "No mathematical credit changes. Keep proof work paused, record package-specific rebuild outcomes independently, and preserve source-only/accepted-object distinctions.",
+  "inputs": [
+    {
+      "path": "references/source_manifest.json",
+      "exists": true,
+      "bytes": 97434,
+      "sha256": "f09347dfecd050cbbb72d52ef0620caa3e347e9a0f601ce54e0e4ed74fbf0d30"
+    },
+    {
+      "path": "dag.json",
+      "exists": true,
+      "bytes": 364126415,
+      "sha256": "e8c9bc6ad091a78b84e8f53454e45a2fd16c40f58c0c64deaa3490c27d45bc05"
+    },
+    {
+      "path": ".claude/state/proof_tasks.json",
+      "exists": true,
+      "bytes": 76776259,
+      "sha256": "4477b03d43e8a0d9fa8be0fe902ef85fcb305d64e39c79b1d3e4d5f30455af59"
+    },
+    {
+      "path": "logs/wave6_root/checkpoint_v511/NUMBERED_CREDIT_FINAL_v511.json",
+      "exists": true,
+      "bytes": 325,
+      "sha256": "b7002508cf6b1ef32eed833c050bcdc381913806d59a31aae54efce9bb110d3d"
+    },
+    {
+      "path": "logs/wave6_root/checkpoint_v516/CHECKPOINT.md",
+      "exists": true,
+      "bytes": 2552,
+      "sha256": "9793d6a21574c979caf22d77d29fb3b24c2ca1b144843e423b41ec34d7499dc3"
+    },
+    {
+      "path": "logs/wave6_root/checkpoint_v518/CHECKPOINT.md",
+      "exists": true,
+      "bytes": 2258,
+      "sha256": "b540f2502ed78bf6772c541d880f89ed28c303ba041d24438427d772f56bb4a7"
+    },
+    {
+      "path": "SOURCE_ISSUES.md",
+      "exists": true,
+      "bytes": 83100,
+      "sha256": "8f998767efd851281d80606c9d3c975b260c4d2567b7326f4fa6eb5a96559730"
+    },
+    {
+      "path": "FORMALIZATION_ISSUES.md",
+      "exists": true,
+      "bytes": 33530,
+      "sha256": "97e8fe17572971188fef067035202d663b7ffd4c922bad818d9b755009cf69c2"
+    }
+  ],
+  "historical_evidence_location": "Original preserved workspace and its full -bak backup; historical target/scratch/logs locators are archival identifiers, not links into this release.",
+  "fresh_original_source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "C.7",
+    "C.8",
+    "C.9"
+  ],
+  "historical_source_only_original_source_ids": [
+    "5.5",
+    "5.7",
+    "6.1",
+    "6.2",
+    "A.2",
+    "A.3",
+    "A.4",
+    "A.5",
+    "A.7",
+    "B.1",
+    "B.2",
+    "B.3",
+    "C.6",
+    "C.11"
+  ]
+}

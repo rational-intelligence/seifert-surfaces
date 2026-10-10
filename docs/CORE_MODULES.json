@@ -1,0 +1,342 @@
+[
+  {
+    "module": "AppendixBAnalysis",
+    "source": "AppendixBAnalysis.lean",
+    "release": "seifert-surfaces/core/AppendixBAnalysis.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.ConePairSDR",
+    "source": "CurveComplexGenusTwo/Foundations/ConePairSDR.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/ConePairSDR.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.ConeRealization",
+    "source": "CurveComplexGenusTwo/Foundations/ConeRealization.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/ConeRealization.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.FiniteSupportTopology",
+    "source": "CurveComplexGenusTwo/Foundations/FiniteSupportTopology.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/FiniteSupportTopology.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.FullSubcomplex",
+    "source": "CurveComplexGenusTwo/Foundations/FullSubcomplex.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/FullSubcomplex.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.FullSubcomplexWeakTopology",
+    "source": "CurveComplexGenusTwo/Foundations/FullSubcomplexWeakTopology.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/FullSubcomplexWeakTopology.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.GenericRealization",
+    "source": "CurveComplexGenusTwo/Foundations/GenericRealization.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/GenericRealization.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.JoinFiniteSupport",
+    "source": "CurveComplexGenusTwo/Foundations/JoinFiniteSupport.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/JoinFiniteSupport.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Foundations.RealizationCW",
+    "source": "CurveComplexGenusTwo/Foundations/RealizationCW.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Foundations/RealizationCW.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.Basic",
+    "source": "CurveComplexGenusTwo/Topology/Basic.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/Basic.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.CurveCombinatorics",
+    "source": "CurveComplexGenusTwo/Topology/CurveCombinatorics.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/CurveCombinatorics.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.FaceCoverAssembly",
+    "source": "CurveComplexGenusTwo/Topology/FaceCoverAssembly.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/FaceCoverAssembly.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.FiniteLinkCompact",
+    "source": "CurveComplexGenusTwo/Topology/FiniteLinkCompact.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/FiniteLinkCompact.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.LinkWeakTopology",
+    "source": "CurveComplexGenusTwo/Topology/LinkWeakTopology.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/LinkWeakTopology.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.RealizationStarDeletion",
+    "source": "CurveComplexGenusTwo/Topology/RealizationStarDeletion.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/RealizationStarDeletion.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarCompatibleFace",
+    "source": "CurveComplexGenusTwo/Topology/StarCompatibleFace.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarCompatibleFace.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarConeChart",
+    "source": "CurveComplexGenusTwo/Topology/StarConeChart.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarConeChart.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarConeTopology",
+    "source": "CurveComplexGenusTwo/Topology/StarConeTopology.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarConeTopology.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarFaceAssembly",
+    "source": "CurveComplexGenusTwo/Topology/StarFaceAssembly.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarFaceAssembly.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarInterpolation",
+    "source": "CurveComplexGenusTwo/Topology/StarInterpolation.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarInterpolation.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarLinkGeometry",
+    "source": "CurveComplexGenusTwo/Topology/StarLinkGeometry.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarLinkGeometry.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarRadialCoordinates",
+    "source": "CurveComplexGenusTwo/Topology/StarRadialCoordinates.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarRadialCoordinates.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarSDRConditional",
+    "source": "CurveComplexGenusTwo/Topology/StarSDRConditional.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarSDRConditional.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.StarSubcomplexTopology",
+    "source": "CurveComplexGenusTwo/Topology/StarSubcomplexTopology.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/StarSubcomplexTopology.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.WeakCoverProduct",
+    "source": "CurveComplexGenusTwo/Topology/WeakCoverProduct.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/WeakCoverProduct.lean"
+  },
+  {
+    "module": "CurveComplexGenusTwo.Topology.WeakProduct",
+    "source": "CurveComplexGenusTwo/Topology/WeakProduct.lean",
+    "release": "seifert-surfaces/core/CurveComplexGenusTwo/Topology/WeakProduct.lean"
+  },
+  {
+    "module": "OrdinalAssembly.CompactContainment",
+    "source": "OrdinalAssembly/CompactContainment.lean",
+    "release": "seifert-surfaces/core/OrdinalAssembly/CompactContainment.lean"
+  },
+  {
+    "module": "OrdinalAssembly.Induction",
+    "source": "OrdinalAssembly/Induction.lean",
+    "release": "seifert-surfaces/core/OrdinalAssembly/Induction.lean"
+  },
+  {
+    "module": "OrdinalAssembly.OrderType",
+    "source": "OrdinalAssembly/OrderType.lean",
+    "release": "seifert-surfaces/core/OrdinalAssembly/OrderType.lean"
+  },
+  {
+    "module": "Section2.Definitions",
+    "source": "Section2/Definitions.lean",
+    "release": "seifert-surfaces/core/Section2/Definitions.lean"
+  },
+  {
+    "module": "Section2.Downsets",
+    "source": "Section2/Downsets.lean",
+    "release": "seifert-surfaces/core/Section2/Downsets.lean"
+  },
+  {
+    "module": "Section2.FlagComplex",
+    "source": "Section2/FlagComplex.lean",
+    "release": "seifert-surfaces/core/Section2/FlagComplex.lean"
+  },
+  {
+    "module": "Section2.FlagExchangeComplex",
+    "source": "Section2/FlagExchangeComplex.lean",
+    "release": "seifert-surfaces/core/Section2/FlagExchangeComplex.lean"
+  },
+  {
+    "module": "Section2.Geodesics",
+    "source": "Section2/Geodesics.lean",
+    "release": "seifert-surfaces/core/Section2/Geodesics.lean"
+  },
+  {
+    "module": "Section2.Heredity",
+    "source": "Section2/Heredity.lean",
+    "release": "seifert-surfaces/core/Section2/Heredity.lean"
+  },
+  {
+    "module": "Section2.TheoremB",
+    "source": "Section2/TheoremB.lean",
+    "release": "seifert-surfaces/core/Section2/TheoremB.lean"
+  },
+  {
+    "module": "Section2.TieBreaking",
+    "source": "Section2/TieBreaking.lean",
+    "release": "seifert-surfaces/core/Section2/TieBreaking.lean"
+  },
+  {
+    "module": "Section2.WeakRealization",
+    "source": "Section2/WeakRealization.lean",
+    "release": "seifert-surfaces/core/Section2/WeakRealization.lean"
+  },
+  {
+    "module": "Section5Analysis",
+    "source": "Section5Analysis.lean",
+    "release": "seifert-surfaces/core/Section5Analysis.lean"
+  },
+  {
+    "module": "Section5Arithmetic",
+    "source": "Section5Arithmetic.lean",
+    "release": "seifert-surfaces/core/Section5Arithmetic.lean"
+  },
+  {
+    "module": "Section5Combinatorics",
+    "source": "Section5Combinatorics.lean",
+    "release": "seifert-surfaces/core/Section5Combinatorics.lean"
+  },
+  {
+    "module": "Section6",
+    "source": "Section6.lean",
+    "release": "seifert-surfaces/core/Section6.lean"
+  },
+  {
+    "module": "TopologyAdapters.FullSubcomplexTopology",
+    "source": "TopologyAdapters/FullSubcomplexTopology.lean",
+    "release": "seifert-surfaces/core/TopologyAdapters/FullSubcomplexTopology.lean"
+  },
+  {
+    "module": "TopologyAdapters.StarDeletionAdapter",
+    "source": "TopologyAdapters/StarDeletionAdapter.lean",
+    "release": "seifert-surfaces/core/TopologyAdapters/StarDeletionAdapter.lean"
+  },
+  {
+    "module": "TopologyAdapters.VertexAttachment",
+    "source": "TopologyAdapters/VertexAttachment.lean",
+    "release": "seifert-surfaces/core/TopologyAdapters/VertexAttachment.lean"
+  },
+  {
+    "module": "TopologyAdapters.WeakBridge",
+    "source": "TopologyAdapters/WeakBridge.lean",
+    "release": "seifert-surfaces/core/TopologyAdapters/WeakBridge.lean"
+  },
+  {
+    "module": "WhiteheadSupport.BasedLoops",
+    "source": "WhiteheadSupport/BasedLoops.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/BasedLoops.lean"
+  },
+  {
+    "module": "WhiteheadSupport.CWBackbone",
+    "source": "WhiteheadSupport/CWBackbone.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/CWBackbone.lean"
+  },
+  {
+    "module": "WhiteheadSupport.CompactFactorization",
+    "source": "WhiteheadSupport/CompactFactorization.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/CompactFactorization.lean"
+  },
+  {
+    "module": "WhiteheadSupport.PointWhitehead",
+    "source": "WhiteheadSupport/PointWhitehead.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/PointWhitehead.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWBasic",
+    "source": "WhiteheadSupport/Port/CWBasic.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWBasic.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWBoundaryFaces",
+    "source": "WhiteheadSupport/Port/CWBoundaryFaces.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWBoundaryFaces.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWCellularHomotopyGlue",
+    "source": "WhiteheadSupport/Port/CWCellularHomotopyGlue.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWCellularHomotopyGlue.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWColimitT2Repaired",
+    "source": "WhiteheadSupport/Port/CWColimitT2Repaired.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWColimitT2Repaired.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWCylinderCube",
+    "source": "WhiteheadSupport/Port/CWCylinderCube.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWCylinderCube.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWCylinderStep",
+    "source": "WhiteheadSupport/Port/CWCylinderStep.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWCylinderStep.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWInfiniteCoherence",
+    "source": "WhiteheadSupport/Port/CWInfiniteCoherence.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWInfiniteCoherence.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWSphereNormBridge",
+    "source": "WhiteheadSupport/Port/CWSphereNormBridge.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWSphereNormBridge.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWStepT2",
+    "source": "WhiteheadSupport/Port/CWStepT2.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWStepT2.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWWeakSkeletonContinuity",
+    "source": "WhiteheadSupport/Port/CWWeakSkeletonContinuity.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWWeakSkeletonContinuity.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWWhiteheadConditional",
+    "source": "WhiteheadSupport/Port/CWWhiteheadConditional.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWWhiteheadConditional.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CWWhiteheadFromCellStep",
+    "source": "WhiteheadSupport/Port/CWWhiteheadFromCellStep.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CWWhiteheadFromCellStep.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.CellDiskExtension",
+    "source": "WhiteheadSupport/Port/CellDiskExtension.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/CellDiskExtension.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.DiskExtension",
+    "source": "WhiteheadSupport/Port/DiskExtension.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/DiskExtension.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.WeakBasic",
+    "source": "WhiteheadSupport/Port/WeakBasic.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/WeakBasic.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.WeakCoverProduct",
+    "source": "WhiteheadSupport/Port/WeakCoverProduct.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/WeakCoverProduct.lean"
+  },
+  {
+    "module": "WhiteheadSupport.Port.WeakProduct",
+    "source": "WhiteheadSupport/Port/WeakProduct.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/Port/WeakProduct.lean"
+  },
+  {
+    "module": "WhiteheadSupport.RealizationConsumer",
+    "source": "WhiteheadSupport/RealizationConsumer.lean",
+    "release": "seifert-surfaces/core/WhiteheadSupport/RealizationConsumer.lean"
+  }
+]

@@ -1,0 +1,3 @@
+import OriginalB2B5V480
+#check SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar
+#print axioms SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar

@@ -1,0 +1,35 @@
+{
+  "modules": [
+    "OriginalSection5Whole",
+    "Section5OpenObligations"
+  ],
+  "roots": [
+    "SeifertSurfaces.OriginalEndpoints.original_5_7",
+    "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_common_leaf_graph"
+  ],
+  "tasks": [
+    "Section5Whole_v480_5",
+    "Section5Whole_v480_22"
+  ],
+  "consumer": "Original57ConsumerV494",
+  "new_proof_modules": [
+    "Section5LongitudeLocalLogV489",
+    "Section5SurfaceHeightExtensionV489",
+    "Section5CommonRealHeightsV489",
+    "Section5UnitLeafDiffeomorphV489",
+    "Section5StraightenedStripV489",
+    "Section5StraightenedRankV489",
+    "Section5StraightenedImmersionV489",
+    "Section5StraightenedTimeCollarV489",
+    "Section5StraightenedTimeGraphsV489",
+    "Section5RadialCylinderRescalingV489",
+    "Section5RadialCylinderEmbeddingV489",
+    "Section5StraightenedRealCollarV489",
+    "Section5StraightenedRealGraphsV489",
+    "Section5OriginalCommonLeafDataV489",
+    "Section5CommonLeafNativeReplayV489"
+  ],
+  "canonical_package": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData",
+  "scope": "all four original5.7 clauses and actual minimizer common-leaf consumer; other Section5 debt held",
+  "numbered_credit": false
+}

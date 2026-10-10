@@ -1,0 +1,4 @@
+import OriginalB1_v468
+import B1ActualGeometry_v468
+#print axioms SeifertSurfaces.OriginalEndpoints.B1_original
+#print axioms SeifertSurfaces.OriginalEndpoints.original_prop57_tangencies

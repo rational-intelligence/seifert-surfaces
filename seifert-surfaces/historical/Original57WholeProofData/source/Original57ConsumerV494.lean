@@ -1,0 +1,5 @@
+import OriginalSection5Whole
+#check SeifertSurfaces.OriginalEndpoints.original_5_7
+#print axioms SeifertSurfaces.OriginalEndpoints.original_5_7
+#check SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_common_leaf_graph
+#print axioms SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_common_leaf_graph

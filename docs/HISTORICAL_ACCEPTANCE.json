@@ -1,0 +1,947 @@
+{
+  "historical_locators": "Identifiers in the preserved workspace / backup, not distributed file links. Summaries are copied from the regulator inventory; hashes bind omitted receipts.",
+  "roots": [
+    {
+      "source_id": "B",
+      "native_context": "canonical-section2",
+      "historical_commit": "cc0bb2610419484c9f4f08b2f3f76327227d1561",
+      "evidence": [
+        {
+          "path": "scratch/integrator/merge_ordinal_theoremB/sealed_receipt.json",
+          "exists": true,
+          "bytes": 104769,
+          "sha256": "d8693444cf7a15c573a215242765791f1fd542715d3c8dd283f502906d682fd2",
+          "recorded_summary": {
+            "commit": "cc0bb2610419484c9f4f08b2f3f76327227d1561"
+          }
+        },
+        {
+          "path": "scratch/regulator/wave4_audit/report.md",
+          "exists": true,
+          "bytes": 13060,
+          "sha256": "ed623a156a024fdf4ab61555f9fa536ea15f18a3b0bc6f327250480c029fc7cd"
+        },
+        {
+          "path": "scratch/statement-readback/readback_final_theoremB/report.md",
+          "exists": true,
+          "bytes": 12538,
+          "sha256": "b4036f4b59b59234a6f61b4e78d3a5702f1ba4c61f0e6a8eed00add8864bd16c"
+        },
+        {
+          "path": "scratch/integrator/merge_ordinal_theoremB/logs/merged/Section2_TheoremB.lean.check.json",
+          "exists": true,
+          "bytes": 597,
+          "sha256": "f50319d3d616c9b82766f03ac5cbc32bb03ca7a8610a15c4af4c017aa5342902",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "efd5b298c2323d4e893905eef1c3c296949ad2d70fb32e5f2c1db0cbde806103",
+        "report_locators": [
+          "scratch/statement-readback/readback_final_theoremB/report.md"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "2.2",
+      "native_context": "canonical-section2",
+      "historical_commit": "c3debb49d570a6b76f368a7a6ba2c9e25cdb0265",
+      "evidence": [
+        {
+          "path": "scratch/integrator/merge_s2_foundations/report.md",
+          "exists": true,
+          "bytes": 16768,
+          "sha256": "379fd97d9946f2a51ae3ca7ada057f21838de4ea4e70943992ff6ba994578db1"
+        },
+        {
+          "path": "scratch/regulator/wave2_audit/report.md",
+          "exists": true,
+          "bytes": 10816,
+          "sha256": "a810446653618c1bdcc3ab5cdd5d7f77dc153ba4a19d8257db2bc6f4de57fbef"
+        },
+        {
+          "path": "scratch/f-reviewer/review_whitehead_port/tie_type_receipt.json",
+          "exists": true,
+          "bytes": 1874,
+          "sha256": "8a98ffb4ff2ebc70d076da4ee45ccd83a892d7aa6cf5722f4b1d4e235deef6ef",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "e19c0420f0fd93eacfa12252984c5e069052a4a5a82c40d6a23a40779ac4af2c",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "2.4",
+      "native_context": "canonical-section2",
+      "historical_commit": "c3debb49d570a6b76f368a7a6ba2c9e25cdb0265",
+      "evidence": [
+        {
+          "path": "scratch/integrator/merge_s2_foundations/report.md",
+          "exists": true,
+          "bytes": 16768,
+          "sha256": "379fd97d9946f2a51ae3ca7ada057f21838de4ea4e70943992ff6ba994578db1"
+        },
+        {
+          "path": "scratch/regulator/wave2_audit/report.md",
+          "exists": true,
+          "bytes": 10816,
+          "sha256": "a810446653618c1bdcc3ab5cdd5d7f77dc153ba4a19d8257db2bc6f4de57fbef"
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "dec6084d0b71d825b0a2fea3f941a6de61f5a602e1c461b322f9947b37d9e882",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "5.5",
+      "native_context": "original55",
+      "historical_commit": "68f3a6be061a9d5bdc7f5af150290e2beb8d7624",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/Original_5_5_whole_v491/CANONICAL_ORIGINAL_5_5_WHOLE_RECEIPT_v491.json",
+          "exists": true,
+          "bytes": 14916,
+          "sha256": "bcc55f878ad3436d26035a938f1b9ae4026845875fd751c8e83605bc629c5f79",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_5_ADOPTION_COMPLETE",
+            "canonical_head": "68f3a6be061a9d5bdc7f5af150290e2beb8d7624",
+            "four_gates": "PASS_BOUNDED_TWO_ROOT_SCOPE",
+            "actual_closure_base3_no_sorryAx": true
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/Original55_whole_v491/READY.json",
+          "exists": true,
+          "bytes": 3492,
+          "sha256": "163107d0fd16bbd773f02b1814fd451d88e73522825e66288b971b97fe393028",
+          "recorded_summary": {
+            "status": "SEALED_CANONICAL_WHOLE_ORIGINAL_5_5_AUDIT_PASS",
+            "verdict": "PASS",
+            "canonical_commit": "68f3a6be061a9d5bdc7f5af150290e2beb8d7624"
+          }
+        },
+        {
+          "path": "target/Original55WholeProofData/CANONICAL_BINDING_v491.json",
+          "exists": true,
+          "bytes": 14080,
+          "sha256": "2fcbbcea52e95c28c632ade4c3c3e291bbe44c09de26176d60f72644a8df43e0",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_5_B2_CONSUMER_EXACT_CONTEXT",
+            "four_gates": "PASS_BOUNDED_TWO_ROOT_SCOPE",
+            "actual_closure_base3_no_sorryAx": true
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/Original55_whole_v491/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "5.7",
+      "native_context": "original57",
+      "historical_commit": "1ba01756aff7bf47799130e29a302c52df5984f7",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/original57_whole_v494/CANONICAL_ORIGINAL_5_7_WHOLE_RECEIPT_v494.json",
+          "exists": true,
+          "bytes": 13242,
+          "sha256": "24c1cb25d5a9e68fd26a21e1843d49d53f6551ba704a5979458fd943b3f657ed",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_7_ALL_FOUR_CLAUSES_COMPLETE",
+            "canonical_head": "1ba01756aff7bf47799130e29a302c52df5984f7",
+            "four_gates": "PASS_STAGE_AND_CANONICAL"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/original57_whole_v495/READY.json",
+          "exists": true,
+          "bytes": 3128,
+          "sha256": "140b5f077ab49fc302c92a180ce37a47fd9e778efc0e49894544b7611d678b52",
+          "recorded_summary": {
+            "status": "READY",
+            "verdict": "PASS",
+            "canonical_commit": "1ba01756aff7bf47799130e29a302c52df5984f7",
+            "four_gates": "55 stage + 55 canonical PASS",
+            "source_review": "APPROVE unchanged original32 context"
+          }
+        },
+        {
+          "path": "target/Original57WholeProofData/CANONICAL_BINDING_v494.json",
+          "exists": true,
+          "bytes": 12524,
+          "sha256": "48b6c3b84e1ffc9f4d1537bdcf5c1fbf973e27fbc4e6e79a11bd42d6116ee5d6",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_5_7_ALL_FOUR_CLAUSES_COMPLETE",
+            "four_gates": "PASS_STAGE_AND_CANONICAL"
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/original57_whole_v495/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "6.1",
+      "native_context": "canonical-section61",
+      "historical_commit": "6316ccf5be96b703e7accd072a5e5c37714aa0e7",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_ORIGINAL_SECTION61_RECEIPT_v464.json",
+          "exists": true,
+          "bytes": 8352,
+          "sha256": "b34bbe666e137f0d261567d3d8c9f1143f2b772258330064550279b1aa170862",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED_COMPLETE_ORIGINAL_SECTION61",
+            "commit": "6316ccf5be96b703e7accd072a5e5c37714aa0e7",
+            "four_actual_canonical_gates": "PASS",
+            "accepted_axioms": [
+              "Classical.choice",
+              "propext",
+              "Quot.sound"
+            ],
+            "unexpected_axioms": []
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/SECTION61_CREDIT_LEDGER_PATCH.json",
+          "exists": true,
+          "bytes": 1127,
+          "sha256": "950b5b4dbb04f2b58dfe4aeeaf14f90a8289d98f6420de982b7dcfedde82cdce",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "6.2",
+      "native_context": "original62",
+      "historical_commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13",
+      "evidence": [
+        {
+          "path": "scratch/regulator/audit_original62_final_v512/READY.json",
+          "exists": true,
+          "bytes": 4531,
+          "sha256": "4179e5215fc8e843972f94ae110215ca4b1ca3f6085e97747d2510058064aaca",
+          "recorded_summary": {
+            "status": "READY_FINAL_ACCEPTANCE",
+            "verdict": "PASS",
+            "commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_original62_final_v512/TASK_MAPPING.json",
+          "exists": true,
+          "bytes": 11950,
+          "sha256": "c5c6140bb70163ef5e6e7e643b2b1f9351c0ccf325620f07e66eba3464f51a79",
+          "recorded_summary": {
+            "status": "PASS_EXACT_FIVE_ROOT_ADOPTION_MAPPING",
+            "commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13"
+          }
+        },
+        {
+          "path": "target/Original62WholeProofData/evidence/PACKAGE_MANIFEST.json",
+          "exists": true,
+          "bytes": 2289,
+          "sha256": "f8bb5c7815c0f134fe29811d84e7aab4b3ee904df55059c2b305755ab22671ad"
+        },
+        {
+          "path": "logs/wave6_root/checkpoint_v511/NUMBERED_CREDIT_FINAL_v511.json",
+          "exists": true,
+          "bytes": 325,
+          "sha256": "b7002508cf6b1ef32eed833c050bcdc381913806d59a31aae54efce9bb110d3d",
+          "recorded_summary": {
+            "status": "PASS",
+            "commit": "ee3dc2b8d13c18a08af5eca8b503e67da84e7c13"
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_original62_final_v512/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.2",
+      "native_context": "original-a2",
+      "historical_commit": "c11f019c9041ff227734a4be5e3b136e8442e3d1",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_ORIGINAL_A2_RECEIPT_v472.json",
+          "exists": true,
+          "bytes": 78699,
+          "sha256": "158a0130c6b4ea7f94236bbb8c4f7bdf89f9df58c562ef1f8ff1814f1bd7176f",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_ORIGINAL_A2",
+            "commit": "c11f019c9041ff227734a4be5e3b136e8442e3d1",
+            "four_gates": "PASS",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_original_A2_A5_flat_v472/POST_CANONICAL_A2_READY.json",
+          "exists": true,
+          "bytes": 1501,
+          "sha256": "8d220329aba86f87af0aa812f1583af6d97e5238a90f9bf405eaaf2cb3643960",
+          "recorded_summary": {
+            "status": "READY_ORIGINAL_A2_NUMBERED_CREDIT",
+            "verdict": "PASS",
+            "canonical_head": "c11f019c9041ff227734a4be5e3b136e8442e3d1"
+          }
+        },
+        {
+          "path": "scratch/statement-readback/readback_original_A2_clean_v465/READBACK.md",
+          "exists": true,
+          "bytes": 20194,
+          "sha256": "8c1a957f142b3d12084b1e4e2bcba743accc5fb35ee1e1380b8bc19f1c485cc4"
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_original_A2_A5_flat_v472/POST_CANONICAL_A2_READY.json",
+          "scratch/statement-readback/readback_original_A2_clean_v465/READBACK.md"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.3",
+      "native_context": "original-a3",
+      "historical_commit": "9a769b950073b21b4c22f1ea0e8a33734abf174b",
+      "evidence": [
+        {
+          "path": "logs/wave6_root/paper_A3_admission_v112/ROOT_ORIGINAL_A3_ACCEPTANCE_RECEIPT.json",
+          "exists": true,
+          "bytes": 1254,
+          "sha256": "8a88a9c983b50663983fe6d2f8b257c2c5bac8afbc60b2ed0e7ed4dad9beebad",
+          "recorded_summary": {
+            "status": "PASS_ORIGINAL_LEMMA_A3_CANONICAL_PUBLIC_AND_LEDGER_ACCEPTED",
+            "canonical_commit": "9a769b950073b21b4c22f1ea0e8a33734abf174b"
+          }
+        },
+        {
+          "path": "logs/wave6_root/paper_A3_admission_v112/PUBLIC_PAPER_A3_TERMINAL_PASS.json",
+          "exists": true,
+          "bytes": 1031,
+          "sha256": "9ac18d938de1ce3772116a8853482576417a5a99a44bae04532125903cb07220",
+          "recorded_summary": {
+            "status": "PASS_ORDINARY_ORIGINAL_PAPER_A_3_ADMITTED",
+            "canonical_commit": "9a769b950073b21b4c22f1ea0e8a33734abf174b"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_A3_current28_original_numbering/REPORT.md",
+          "exists": true,
+          "bytes": 10032,
+          "sha256": "55a9e0c0221f2e63b22ef58d0494fa4d33b43e580727fc04e6b4449049001c3d"
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "d15a4810f8f885d3395e3e47528b7d979a1cc47f2b084786af723cd52a3edc3c",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.4",
+      "native_context": "original-a4",
+      "historical_commit": "714629efacd551eeb035cc163aeeb821fd055ed2",
+      "evidence": [
+        {
+          "path": "scratch/integrator/setup_post_Weyl_ready_batches/A4/CANONICAL_FOUR_GATES.json",
+          "exists": true,
+          "bytes": 501,
+          "sha256": "b58d487120ca61e5259675a3716135aa4f32838f74e658e97200456dc7a15346",
+          "recorded_summary": {
+            "status": "PASS"
+          }
+        },
+        {
+          "path": "scratch/integrator/prepare_wave6_clean_support_admission/final_canonical_A4_collar86_v1/A4/CANONICAL_TYPE_PUBLIC_FIXTURE_RECEIPT.json",
+          "exists": true,
+          "bytes": 1184,
+          "sha256": "e71ff6e24ba213e3d2f348c57d74f67ff08f78ca7e215827c0dc1a0b9c064d15",
+          "recorded_summary": {
+            "status": "PASS"
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "7b9a1407ce2ad907b90658a69b7374e284de4e660ed1aa5d0e01ee773b042cc4",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.5",
+      "native_context": "original-a5",
+      "historical_commit": "0a92b39d26dbe4df00a13e1a6b7a46e78aeba48c",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/A5_full_original_v477/CANONICAL_FULL_ORIGINAL_A5_RECEIPT_v477.json",
+          "exists": true,
+          "bytes": 9405,
+          "sha256": "415df225fc93da14ff24167ae40d5d40fc552b9dcf75a7a5afae4b8f4c81501c",
+          "recorded_summary": {
+            "status": "CANONICAL_ADOPTED_ALL_AFFECTED_GATES_PASS",
+            "canonical_commit": "0a92b39d26dbe4df00a13e1a6b7a46e78aeba48c",
+            "guard_status": "PASS original v1 immutable owned-source guard, canonical source byte-exact and original raw types/proof values separately bound",
+            "full_actual_closure_base_axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_T2_C1_canonical_v475/A5_G1_v478/READY.json",
+          "exists": true,
+          "bytes": 2136,
+          "sha256": "45218cc1454693e8b63d416230158714890599590d7c0197ea96533b15da71b0",
+          "recorded_summary": {
+            "status": "PASS_BOTH_BOUNDED_POSTCANONICAL_AUDITS"
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_T2_C1_canonical_v475/A5_G1_v478/A5_POST_AUDIT.md",
+          "exists": true,
+          "bytes": 4645,
+          "sha256": "814ac377ca7ad977326a8737ec43428653a75e47b9a9edc0045ac91623f70571"
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "1c374a982a034b9343f7f99985e4fafc1bff73d0278b01170d6778d435495bfa",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "A.7",
+      "native_context": "canonical-a7",
+      "historical_commit": "8b5376c19e3a89de787fa7742c9e7a760b27bc3e",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_ORIGINAL_A7_RECEIPT_v465.json",
+          "exists": true,
+          "bytes": 13024,
+          "sha256": "a315e670133219b1e08e5fb2bbb7c63598e9d6fc68767891bf4fe45d1aae3e2e",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED_COMPLETE_ORIGINAL_A7",
+            "commit": "8b5376c19e3a89de787fa7742c9e7a760b27bc3e",
+            "four_actual_canonical_gates": "PASS",
+            "accepted_axioms": [
+              "Classical.choice",
+              "propext",
+              "Quot.sound"
+            ],
+            "guard": "generate_original_A7_v464 PASS on actual canonical source"
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/A7_CANONICAL_CREDIT_PATCH.json",
+          "exists": true,
+          "bytes": 2125,
+          "sha256": "a17922cddf80cf3ad4221b9bf2d3121c26a34b824ca402d44fa029f1b5cd81b9",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.1",
+      "native_context": "original-b1",
+      "historical_commit": "7a1b143bcc3b781569aa1f70dc261b16ab638871",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/B1_whole_frozen_v480/CANONICAL_WHOLE_ORIGINAL_B1_RECEIPT_v480.json",
+          "exists": true,
+          "bytes": 5690,
+          "sha256": "aaf145e0014707878d598eca2dbc32498b91fd8c7cf51222f8a21ca0874ba739",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B1_ADOPTION_COMPLETE",
+            "canonical_head": "7a1b143bcc3b781569aa1f70dc261b16ab638871",
+            "four_gates": "PASS",
+            "source_applicability_reconciliation": "APPROVE: actual frozen PartialHomeomorph has no target openness field; whole 260-declaration, 1225-edge readback reconciled",
+            "independent_reader_literal_status": "READBACK-DIVERGENT",
+            "reader_divergence_disposition": "FReviewer exactnativeKernelPartialHomeomorph hasno targetopennessfield; all260decls1225edges and52pins audited; readersectorimpossibilityflag rejected; arcsandradiusboundsreconciled. BothB1sourcepublicsnapshotsAPPROVE unchanged."
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/canonical_binding_v481/READY.json",
+          "exists": true,
+          "bytes": 2296,
+          "sha256": "c820bfc8574e9448c637eba3632de523640f7ad198634c130f9e1c509c0c1d53",
+          "recorded_summary": {
+            "status": "READY_CANONICAL_BINDING_PASS",
+            "verdict": "PASS",
+            "canonical_head": "7a1b143bcc3b781569aa1f70dc261b16ab638871"
+          }
+        },
+        {
+          "path": "target/B1WholeOriginalProofData/CANONICAL_WHOLE_BINDING_v480.json",
+          "exists": true,
+          "bytes": 4761,
+          "sha256": "2b3c11cce410b5bad83dbb693492564b1465a45be106ef249cc0545604ed2e59",
+          "recorded_summary": {
+            "status": "WHOLE_ORIGINAL_TWO_ROOT_CANONICAL_EXACT_CONTEXT",
+            "four_gates": "PASS",
+            "source_applicability_reconciliation": "APPROVE: actual frozen PartialHomeomorph has no target openness field; whole 260-declaration, 1225-edge readback reconciled",
+            "independent_reader_literal_status": "READBACK-DIVERGENT",
+            "reader_divergence_disposition": "FReviewer exactnativeKernelPartialHomeomorph hasno targetopennessfield; all260decls1225edges and52pins audited; readersectorimpossibilityflag rejected; arcsandradiusboundsreconciled. BothB1sourcepublicsnapshotsAPPROVE unchanged."
+          }
+        },
+        {
+          "path": "scratch/f-reviewer/review_original_B2_B5_v475/B1_whole_sector_readback_v481/REVIEW.md",
+          "exists": true,
+          "bytes": 11246,
+          "sha256": "9a5deacaf50671d0aa413e585e0748ab2562f93b1daa66abd308aed88c54521d"
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/canonical_binding_v481/REGULATOR_REPORT.md",
+          "exists": true,
+          "bytes": 4520,
+          "sha256": "d66cbf520d2ca131a0750241fed19690fba95a2ac570329717108d4864b29a66"
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "a729b92e3bde26e737f5970ed607722f68b591b50af10319c6a2189cc1faed58",
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/canonical_binding_v481/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.2",
+      "native_context": "original-b2",
+      "historical_commit": "ad94e003c5ab0e49449d05ef897356c6782dab8f",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/B2_original_leaf_push_off_v490/CANONICAL_B2_ORIGINAL_LEAF_PUSH_OFF_WHOLE_RECEIPT_v490.json",
+          "exists": true,
+          "bytes": 10520,
+          "sha256": "9bec96d6446e834b8217c971f31fb6ed07e830b6fe1d7512d13197910238983c",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B2_ADOPTION_COMPLETE",
+            "canonical_head": "ad94e003c5ab0e49449d05ef897356c6782dab8f",
+            "four_gates": "PASS_BOUNDED_B2_SCOPE",
+            "base3_only_no_sorryAx_in_actual_B2_root_closure": true
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/B2_original_push_off_v491/READY_FINAL.json",
+          "exists": true,
+          "bytes": 1550,
+          "sha256": "85b2fac93e4be285d24aa98562c14d5f31cb37e4ea8735317c0d8e9fdc2603ad",
+          "recorded_summary": {
+            "status": "SEALED_CANONICAL_ORIGINAL_B2_FINAL_AUDIT_PASS",
+            "verdict": "PASS",
+            "canonical_commit": "ad94e003c5ab0e49449d05ef897356c6782dab8f"
+          }
+        },
+        {
+          "path": "target/B2OriginalLeafPushOffWholeProofData/CANONICAL_BINDING_v490.json",
+          "exists": true,
+          "bytes": 9662,
+          "sha256": "c3313aaaaa3820b856d3a9ebb442271c41c4ccae1bf26e3466e153cc1c46ec26",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B2_BOUNDED_EXACT_CONTEXT",
+            "four_gates": "PASS_BOUNDED_B2_SCOPE",
+            "base3_only_no_sorryAx_in_actual_B2_root_closure": true
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/B2_original_push_off_v491/READY_FINAL.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "B.3",
+      "native_context": "original-b3-two-contexts",
+      "historical_commit": "cd4e249171580af8d7b6d99e322c2b1b1336bcc0",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/B3_whole_original_v491/CANONICAL_B3_WHOLE_ORIGINAL_TWO_HEAD_RECEIPT_v491.json",
+          "exists": true,
+          "bytes": 10814,
+          "sha256": "e8b2ad8bd0828d107dea411647261493770b1817bf540d6863dbb3afecd9e04f",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B3_TWO_HEAD_ADOPTION_COMPLETE",
+            "canonical_head": "cd4e249171580af8d7b6d99e322c2b1b1336bcc0",
+            "four_gates": "PASS_BOTH_BOUNDED_ORIGINAL_B3_ROOTS",
+            "base3_only_no_sorryAx_both_accepted_closures": true
+          }
+        },
+        {
+          "path": "scratch/regulator/audit_b1_whole_context_v480/B3_whole_original_v492/READY.json",
+          "exists": true,
+          "bytes": 3880,
+          "sha256": "45dfd1f21fff87ac4d0f37fe8c11e518c17f852c73dde6132242006e88a1812b",
+          "recorded_summary": {
+            "status": "SEALED_CANONICAL_WHOLE_ORIGINAL_B3_TWO_HEAD_AUDIT_PASS",
+            "verdict": "PASS",
+            "canonical_commit": "cd4e249171580af8d7b6d99e322c2b1b1336bcc0"
+          }
+        },
+        {
+          "path": "target/B3WholeOriginalProofData/CANONICAL_BINDING_v491.json",
+          "exists": true,
+          "bytes": 9967,
+          "sha256": "2c0145f58ca698e3e492f3959b6772bbf63d128aa27e36c6fb65e683993103af",
+          "recorded_summary": {
+            "status": "CANONICAL_WHOLE_ORIGINAL_B3_TWO_HEAD_EXACT_CONTEXTS",
+            "four_gates": "PASS_BOTH_BOUNDED_ORIGINAL_B3_ROOTS",
+            "base3_only_no_sorryAx_both_accepted_closures": true
+          }
+        },
+        {
+          "path": "target/B3OriginalCollarWholeProofData/CANONICAL_BINDING_v489.json",
+          "exists": true,
+          "bytes": 8673,
+          "sha256": "1bed02aa22fb653d77efb9ad33543baff81cf305625213d1315073d5fe6f479d",
+          "recorded_summary": {
+            "status": "CANONICAL_FULL_ORIGINAL_B3_COLLAR_EXACT_FROZEN_CONTEXT",
+            "four_gates": "PASS_BOUNDED_B3_COLLAR_SCOPE"
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [
+          "scratch/regulator/audit_b1_whole_context_v480/B3_whole_original_v492/READY.json"
+        ],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.6",
+      "native_context": "canonical-c6-c11",
+      "historical_commit": "568cad90093eead3913176e1f90293cd63610e6c",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_C6_C11_RECEIPT_v466.json",
+          "exists": true,
+          "bytes": 6722,
+          "sha256": "369dc84c0ff54f63f4f79e8536a9d7964a4b13b114e75238cde5d0bd04965c07",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED",
+            "commit": "568cad90093eead3913176e1f90293cd63610e6c",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/C6_C11_CANONICAL_CREDIT_PATCH_v466.json",
+          "exists": true,
+          "bytes": 3366,
+          "sha256": "dafcab9f17c65800410b1ad39d2f62e1fa3350c8bd582acb94d68c13a6c8a798",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.7",
+      "native_context": "canonical-c7",
+      "historical_commit": "73733656b6a6f0605846e44bf987f547161b1a40",
+      "evidence": [
+        {
+          "path": "scratch/integrator/prepare_q2_148_admission/task_receipts/original_C7_full_source_contract.json",
+          "exists": true,
+          "bytes": 1316095,
+          "sha256": "5f269c6a612ab947ec9f39d40d327e375816e5980f38d76a570da9d6836ceb0d",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_AND_ADMISSION_GATES",
+            "canonical_commit": "73733656b6a6f0605846e44bf987f547161b1a40"
+          }
+        },
+        {
+          "path": "scratch/integrator/merge_original_C7/logs/merged/approved_type_comparison.json",
+          "exists": true,
+          "bytes": 535,
+          "sha256": "f06918740e41c81697b64c18b72b06f315a1df84eaac42dc4d85e352aff3d178",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "f006ee92bdb3c6c1ae00be91f8f8078fb81a4eeb991de56fcf02ab8420579055",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.8",
+      "native_context": "canonical-c8",
+      "historical_commit": "0c8dbb1028e6d09969bbbdbc29bf8c33b0c6e1ba",
+      "evidence": [
+        {
+          "path": "scratch/integrator/prepare_q2_148_admission/task_receipts/originalC89_416c8a5f13993886.json",
+          "exists": true,
+          "bytes": 943634,
+          "sha256": "1b5fbcb075ec0311581732e8497b71b995e13ceefe6a5cca1ec71f45a1ce81a9",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_AND_ADMISSION_GATES",
+            "canonical_commit": "0c8dbb1028e6d09969bbbdbc29bf8c33b0c6e1ba"
+          }
+        },
+        {
+          "path": "scratch/integrator/merge_original_C8_clean4/logs/merged/approved_type_comparison.json",
+          "exists": true,
+          "bytes": 797,
+          "sha256": "71702fb90f56691315bf811e505fc96c497b1943c0b6e3714a29baabadea4e28",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "1ea953bd43e74c7df1c27c929f6a5f5038f3ea2751460257fdd94521699ce151",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.9",
+      "native_context": "canonical-c9",
+      "historical_commit": "15746073c17234dcc61693ec3f8349ba85e81dee",
+      "evidence": [
+        {
+          "path": "scratch/integrator/prepare_original_C9_admission/canonical_v1/task_receipts/originalC89_276286abf651cc87.json",
+          "exists": true,
+          "bytes": 1246962,
+          "sha256": "4b37e69f19bf1ffb2e2bedd257c56fd384dca3d81deeb66f2fccea6267733ad9",
+          "recorded_summary": {
+            "status": "PASS_CANONICAL_C9_FOUR_GATES_FULL_CONTEXT",
+            "canonical_commit": "15746073c17234dcc61693ec3f8349ba85e81dee"
+          }
+        },
+        {
+          "path": "scratch/integrator/merge_original_C9_final3/sealed_receipt.json",
+          "exists": true,
+          "bytes": 28162,
+          "sha256": "2323aa3046639bfa31c8668ef574366236360276631f2f846ac1f9de8e69daa2",
+          "recorded_summary": {
+            "commit": "15746073c17234dcc61693ec3f8349ba85e81dee"
+          }
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": true,
+        "dag_readback_sha256": "68d7f60c9aa2d41a596008a4b5ce02cff88d58eadab56a5cd4142714cde62203",
+        "report_locators": [],
+        "scope_note": "Follow source reconciliation in receipt; divergent historical reader findings are retained."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    },
+    {
+      "source_id": "C.11",
+      "native_context": "canonical-c6-c11",
+      "historical_commit": "568cad90093eead3913176e1f90293cd63610e6c",
+      "evidence": [
+        {
+          "path": "scratch/integrator/integrate_original_scalar_roots_v448/CANONICAL_C6_C11_RECEIPT_v466.json",
+          "exists": true,
+          "bytes": 6722,
+          "sha256": "369dc84c0ff54f63f4f79e8536a9d7964a4b13b114e75238cde5d0bd04965c07",
+          "recorded_summary": {
+            "status": "CANONICAL_COMMITTED",
+            "commit": "568cad90093eead3913176e1f90293cd63610e6c",
+            "axioms": [
+              "propext",
+              "Classical.choice",
+              "Quot.sound"
+            ]
+          }
+        },
+        {
+          "path": "logs/wave6_root/routes_v464/C6_C11_CANONICAL_CREDIT_PATCH_v466.json",
+          "exists": true,
+          "bytes": 3366,
+          "sha256": "dafcab9f17c65800410b1ad39d2f62e1fa3350c8bd582acb94d68c13a6c8a798",
+          "recorded_summary": {}
+        }
+      ],
+      "readback_evidence": {
+        "dag_readback_present": false,
+        "dag_readback_sha256": null,
+        "report_locators": [],
+        "scope_note": "Readback/source approval is correlated by canonical receipt; separate human-readable reader locator not extracted here."
+      },
+      "accepted_axiom_boundary": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "provenance_gaps": []
+    }
+  ]
+}

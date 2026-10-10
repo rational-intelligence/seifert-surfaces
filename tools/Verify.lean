@@ -1,0 +1,10 @@
+import MainTheorems
+#print axioms SeifertSurfaces.exchange_complex_contractible
+#print axioms SeifertSurfaces.exists_injective_exchange_complexity
+#print axioms SeifertSurfaces.nonempty_full_downset_exchange_complex
+#print axioms SeifertSurfaces.nonempty_complexity_downset_connected
+
+#print axioms SeifertSurfaces.nonempty_full_descending_link_exchange_complex
+#print axioms SeifertSurfaces.nonempty_strict_sublevel_exchange_graph
+#print axioms SeifertSurfaces.descending_link_nonempty_of_not_least
+#print axioms SeifertSurfaces.full_subcomplex_is_flag

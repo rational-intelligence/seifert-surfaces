@@ -1,0 +1,48 @@
+{
+  "status": "SEALED_COMPLETE_ORIGINAL_A5",
+  "created_utc": "2026-10-08T19:38:21.846480+00:00",
+  "root": "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.A5_original",
+  "proved": true,
+  "remaining_proof_obligations": [],
+  "gates": {
+    "build": "PASS",
+    "check": "PASS",
+    "scan": "PASS",
+    "axioms": "PASS base3",
+    "guard": "PASS",
+    "frozen_standalone_replay": "PASS_FROZEN_OBJECTS_AND_STANDARD_LIBRARY_ONLY"
+  },
+  "native_fidelity": {
+    "type_closure": 6908,
+    "status": "PASS_LITERAL_ORIGINAL_TYPE_AND_NATIVE_DEFINITIONS",
+    "original_A5_proved": true,
+    "normalization": false,
+    "definition_values": 2836
+  },
+  "actual_proof_closure": {
+    "status": "PASS_FULL_ORIGINAL_A5",
+    "root_count": 1,
+    "recursor_expansion": true,
+    "original_proof_credit": true,
+    "kernel_checked_actual_values": true,
+    "constructor_field_expansion": true,
+    "actual_recursive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "actual_closure_count": 98131
+  },
+  "producer_seal_sha256": "dc384d503e3eebf8e23653892f24d097c27f0dcf11427ea52fd2573e95ec5c5f",
+  "producer_root": "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.original_minimizer_boundary_C1_image_charts",
+  "consumer_root": "SeifertSurfaces.OriginalEndpoints.AppendixAOriginal.original_A5_certificate_of_native_boundary_C1_image_charts",
+  "code_only_readback": {
+    "descriptor": "readback/DESCRIPTOR.json",
+    "status": "READY_FOR_INDEPENDENT_CODE_ONLY_STATEMENT_READBACK"
+  },
+  "full_frozen_objects": 1990,
+  "object_pin_verification": "PASS",
+  "original_guarded_source_sha256": "dd691179a55b72dc7bd8adcab42cd49c12fa9efcb614bcee478a8843dbaf7d91",
+  "release_source_sha256": "dd691179a55b72dc7bd8adcab42cd49c12fa9efcb614bcee478a8843dbaf7d91",
+  "release_object_sha256": "3ce26da30eb04615c604e4334d516ba0fbc9a4812ad221e7396f6790d7a5c366"
+}

@@ -1,0 +1,276 @@
+{
+  "status": "CANONICAL_WHOLE_ORIGINAL_5_7_ALL_FOUR_CLAUSES_COMPLETE",
+  "parent_head": "2b4f16569b11ad20b8980dd82889dc9c191a0dda",
+  "canonical_package": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData",
+  "protected_roots": [
+    {
+      "task": "Section5Whole_v480_5",
+      "declaration": "SeifertSurfaces.OriginalEndpoints.original_5_7",
+      "module": "OriginalSection5Whole",
+      "canonical_source": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/source/OriginalSection5Whole.lean",
+      "source_sha256": "ea066aa9746baa2d11cda78b798bd4c16f4a44e96ccbb0204bb0a51352ab8eef",
+      "canonical_object": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/objects/OriginalSection5Whole.olean",
+      "object_sha256": "5d3d1fb041f7df1d23a2aa77f4d0087146d5a1b635f6c0c05dc1504f6b882c77",
+      "snapshot_version": 1,
+      "snapshot_sha256": "0779ba781999662453684ac4d5bdd486ef9fbee8284ceced8603afe12e5cced8",
+      "snapshot_reset": false,
+      "guard": "PASS"
+    },
+    {
+      "task": "Section5Whole_v480_22",
+      "declaration": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_common_leaf_graph",
+      "module": "Section5OpenObligations",
+      "canonical_source": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/source/Section5OpenObligations.lean",
+      "source_sha256": "81b69aaeb9e36d336ec389079d773b454141183ec1ebc67b332b7f9ab1b9e830",
+      "canonical_object": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/objects/Section5OpenObligations.olean",
+      "object_sha256": "671ca4785a68356eec445d09af0e7f6fd27065740f784fa3482acdacfc578449",
+      "snapshot_version": 1,
+      "snapshot_sha256": "c1a1bf0b2a71f62602fade0edda9fa9fb39147cba3b4d1d4980ef2ea248aa62d",
+      "snapshot_reset": false,
+      "guard": "PASS"
+    }
+  ],
+  "ordinary_consumer_import": "OriginalSection5Whole",
+  "ordinary_consumer": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/source/Original57ConsumerV494.lean",
+  "wrapper": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/with_native_context.sh",
+  "environment": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/environment.json",
+  "scope": "Only full original_5_7 and minimizer_common_leaf_graph, all original premises and geometric data unchanged; no other Section5 proof credit.",
+  "four_literal_original_clauses_paid": true,
+  "actual_common_leaf_data_producer_paid": true,
+  "four_gates": "PASS_STAGE_AND_CANONICAL",
+  "stage_affected_checks": 55,
+  "canonical_affected_checks": 55,
+  "full_actual_joint_root_and_producer_closure": 110500,
+  "donor_strict_closure_metadata_without_added_structure_recursors": 108944,
+  "audited_actual_declarations": 128856,
+  "actual_values": 123180,
+  "recursor_rules": 1982,
+  "opaque_values": 68,
+  "base3_only_no_sorryAx": true,
+  "raw_Expr_equal_AND_ExprStructEq": true,
+  "full_types_proofs_definitions_universes_owners_structures_recursors_instances_equal": true,
+  "drift": [],
+  "missing": [],
+  "held_open_provider_declarations": [
+    {
+      "owner": "OriginalSection62",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_6_2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section4GeometricDefinitions",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section4.areaInfimum_positive",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section4GeneralCompression",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section4.GeneralCompressionAnnulus.edge_remains",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B2_original_push_off",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B5_original_T1",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B4_original_T2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B3_original_interior",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B3_original_collar",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_7",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_6",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_8",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_9",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_3",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_4",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_5",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B5_original_T1",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B4_original_T2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.topological_corner_rounding_variant",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.transverse_original_exchange",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.pair_rounding_controls",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.disjoint_boundary_nontransverse_exchange",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.image_area_piecewise_bridge",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.image_area_atlas_exists",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_realizes_native_infimum",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.common_boundary_exchange",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection5Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_5_4",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection5Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_5_6",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection5Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_5_2",
+      "accepted_root_reaches_this_declaration": false
+    }
+  ],
+  "accepted_roots_reach_none": true,
+  "full_provider_source_scan_clean": false,
+  "mixed_provider_scan_diagnostics_retained": [
+    {
+      "file": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/source/OriginalSection5Whole.lean",
+      "count": 3,
+      "exit_code": 1,
+      "log": "/home/caoyichuan/test/seifert-surfaces/scratch/integrator/integrate_original_scalar_roots_v448/original57_whole_v494/logs/CANONICAL_HELD_OriginalSection5Whole_FULL_SCAN.log"
+    },
+    {
+      "file": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/source/Section5OpenObligations.lean",
+      "count": 8,
+      "exit_code": 1,
+      "log": "/home/caoyichuan/test/seifert-surfaces/scratch/integrator/integrate_original_scalar_roots_v448/original57_whole_v494/logs/CANONICAL_HELD_Section5OpenObligations_FULL_SCAN.log"
+    }
+  ],
+  "byte_exact_root_consumer_source_slices_clean": true,
+  "native_replay_closure": 59951,
+  "native_replay_kernel_additions": 453,
+  "approved_operative_identity_count": 7113,
+  "reader_custom_closure": 329,
+  "reader_binding": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/audit/SOURCE_REVIEW_READER_NATIVE_BINDING.json",
+  "historical_full_32head_reader_ready_sha256": "a0f4c9a08dac18f77251cdb5dd99d8a568c20f3ec0a887fbfc40d479dedaa01f",
+  "historical_readback_sha256": "06130942baee2e88ae4965c8f55d293d8340ff01c35e7d65dca6bb1d6f0ce6e8",
+  "source_review_ready_sha256": "3a47d11c96b86cbf646fce6cf7c03227dba3971bfa2b9121151e29e0215be987",
+  "compiler_raw_full_root_AST_equal_to_original_reader_hash_pins": true,
+  "cited_empty_reader_literal_READBACK_DIVERGENT_preserved": true,
+  "original5_4_SF09_hold_retained": true,
+  "loaded_modules": 11676,
+  "project_module_count": 363,
+  "provider_custody_classes": {
+    "historical canonical exact object matched source evidence": 311,
+    "exact sealed release/input source-object pair": 46,
+    "adjacent source byte pinned; no source-object rebuild claim": 6
+  },
+  "actually_used_custom_provider_custody": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/audit/ACTUALLY_USED_CUSTOM_PROVIDER_CUSTODY.json",
+  "global_provider_clearance": false,
+  "inherited_source_object_rebuild_claim": false,
+  "original_native_private_module_names_and_object_bytes_preserved": true,
+  "ordinary_consumer_runtime_peer_scratch_or_global_project_fallback": false,
+  "separate_native_producer_context": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/producer_context",
+  "producer_environment": "/home/caoyichuan/test/seifert-surfaces/target/Original57WholeProofData/producer_environment.json",
+  "historical_compile_time_replay_input_JSON_source_paths_preserved": true,
+  "producer_replay_source_rebuild_requires_sealed_historical_input": true,
+  "source_edits": false,
+  "proof_logic_edits": false,
+  "new_original_premises": false,
+  "raw_normalization": false,
+  "source_line_delta": {
+    "added": 2566,
+    "removed": 0,
+    "relative_to_sealed_proof_sources": 0,
+    "protected_source_lines": 712
+  },
+  "numbered_credit": false,
+  "numbered_credit_root_final_Regulator_only": true,
+  "prior_tracked_bytes_preserved": 40708,
+  "prior_five_untracked_preserved": true,
+  "ledger_DAG_shared_memory_writes": false,
+  "deletions": false
+}

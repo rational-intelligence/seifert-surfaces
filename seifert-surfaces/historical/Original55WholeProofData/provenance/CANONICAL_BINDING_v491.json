@@ -1,0 +1,298 @@
+{
+  "status": "CANONICAL_WHOLE_ORIGINAL_5_5_B2_CONSUMER_EXACT_CONTEXT",
+  "parent_head": "ad94e003c5ab0e49449d05ef897356c6782dab8f",
+  "canonical_package": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData",
+  "protected_roots": [
+    {
+      "task": "Section5Whole_v480_3",
+      "declaration": "SeifertSurfaces.OriginalEndpoints.original_5_5",
+      "canonical_source": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/OriginalSection5Whole.lean",
+      "source_sha256": "ea066aa9746baa2d11cda78b798bd4c16f4a44e96ccbb0204bb0a51352ab8eef",
+      "canonical_object": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/objects/OriginalSection5Whole.olean",
+      "object_sha256": "641f78d8e7da11aac1ff3050475225c6aaf158bf327fcde776221dcebe83d959",
+      "snapshot_version": 2,
+      "snapshot_sha256": "bb0e74df635bb3366cab297275fd66ba4f84889f625f2b420155509894a82124",
+      "snapshot_reset": false,
+      "guard": "PASS"
+    },
+    {
+      "task": "Section5Whole_v480_31",
+      "declaration": "SeifertSurfaces.OriginalEndpoints.Section5.ConsumerLinks.B2_push_off_native_consumer",
+      "canonical_source": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/Section5ConsumerLinks.lean",
+      "source_sha256": "6088745f659691c7f46387cabdff93e0d09308c37597e89a0db67aeec2f6badb",
+      "canonical_object": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/objects/Section5ConsumerLinks.olean",
+      "object_sha256": "88a58b8f11bd6f0a1b29f7ed8f3801533b8c058878d5b9c9441bc01a3ad0bb59",
+      "snapshot_version": 1,
+      "snapshot_sha256": "7f18e6efb160ef7169f3aa68da4f9b21dc05c0219a9d888c0bb6cdd5bd9c4f76",
+      "snapshot_reset": false,
+      "guard": "PASS"
+    }
+  ],
+  "source_object_pins": [
+    {
+      "module": "Section5B2NativeReplayV489",
+      "source": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/Section5B2NativeReplayV489.lean",
+      "source_sha256": "6d04b196607c3f2df30f980ef155a4e826813fb0381f306c89d8a57a35bc7a45",
+      "object": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/objects/Section5B2NativeReplayV489.olean",
+      "object_sha256": "48632aaf73139dc5caf9d548a3ee8e185022e348c472a00d34c5f6439877cdf7"
+    },
+    {
+      "module": "Section5ConsumerLinks",
+      "source": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/Section5ConsumerLinks.lean",
+      "source_sha256": "6088745f659691c7f46387cabdff93e0d09308c37597e89a0db67aeec2f6badb",
+      "object": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/objects/Section5ConsumerLinks.olean",
+      "object_sha256": "88a58b8f11bd6f0a1b29f7ed8f3801533b8c058878d5b9c9441bc01a3ad0bb59"
+    },
+    {
+      "module": "Section5ExchangeBranchesV481",
+      "source": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/Section5ExchangeBranchesV481.lean",
+      "source_sha256": "b5292b243885ff17ff7c196440cbd4117ec46bfce0455b7444c6966d8b9afc7d",
+      "object": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/objects/Section5ExchangeBranchesV481.olean",
+      "object_sha256": "80e35988461f565a0904a132d8c78f7cce13739916b00c4f8e845a4882254753"
+    },
+    {
+      "module": "OriginalSection5Whole",
+      "source": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/OriginalSection5Whole.lean",
+      "source_sha256": "ea066aa9746baa2d11cda78b798bd4c16f4a44e96ccbb0204bb0a51352ab8eef",
+      "object": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/objects/OriginalSection5Whole.olean",
+      "object_sha256": "641f78d8e7da11aac1ff3050475225c6aaf158bf327fcde776221dcebe83d959"
+    }
+  ],
+  "consumer_import": "OriginalSection5Whole",
+  "consumer": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/source/Original55WholeConsumerV491.lean",
+  "consumer_wrapper": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/with_native_context.sh",
+  "environment": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/environment.json",
+  "compile_time_replay_environment": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/replay_environment.json",
+  "compile_time_replay_exact_canonical_B2_context": "/home/caoyichuan/test/seifert-surfaces/target/B2OriginalLeafPushOffWholeProofData",
+  "ordinary_consumer_runtime_peer_scratch_fallback": false,
+  "accepted_scope": "Whole original5.5 and unchanged exact B2_push_off_native_consumer only",
+  "full_actual_two_root_closure": 75531,
+  "audited_actual_declarations": 103552,
+  "actual_values": 98493,
+  "recursor_rules": 1761,
+  "opaque_values": 52,
+  "actual_closure_base3_no_sorryAx": true,
+  "full_raw_loaded_types_proof_values_universes_owners_recursor_structure_instance_fidelity": "PASS",
+  "Expr_equal_AND_ExprStructEq": true,
+  "single_mechanical_alias_group_metadata_sanitization": [
+    {
+      "type_equal": true,
+      "proof_definition_value_equal": true,
+      "other_raw_equal": true,
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.WholeAssemblyV480.b2_original_push_off_native_v489",
+      "before_metadata": [
+        "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off"
+      ],
+      "after_metadata": [
+        "SeifertSurfaces.OriginalEndpoints.Section5.WholeAssemblyV480.b2_original_push_off_native_v489"
+      ]
+    }
+  ],
+  "native_399_types_proof_definition_values_universes_owners_all_other_metadata_exact": true,
+  "sealed_downstream_3_objects_exact_unchanged": true,
+  "recompiled_downstream_drift_diagnostics_preserved_not_adopted": true,
+  "initial_alias_group_reaches_sorryAx_failure_preserved": true,
+  "no_metadata_reference_debt_waiver": true,
+  "compile_time_donor_JSON_path_replaced_with_explicit_frozen_env_binding": true,
+  "new_original_premises": false,
+  "raw_normalization": false,
+  "proof_logic_edits": false,
+  "protected_statement_edits": false,
+  "frozen_source_backed_project_providers": 362,
+  "loaded_import_headers": 11675,
+  "exact_library_modules": 11313,
+  "canonical_selected_provider_audit": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/audit/CANONICAL_SELECTED_PROVIDER_PINS.json",
+  "duplicate_inventory": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/audit/DUPLICATE_PROVIDER_INVENTORY.json",
+  "open_provider_declarations_held": [
+    {
+      "owner": "OriginalSection62",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_6_2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section4GeometricDefinitions",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section4.areaInfimum_positive",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section4GeneralCompression",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section4.GeneralCompressionAnnulus.edge_remains",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B2_original_push_off",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B5_original_T1",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B4_original_T2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B3_original_interior",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V479",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV479.B3_original_collar",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_7",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_6",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_8",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_9",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_3",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_4",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection4Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_4_5",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B5_original_T1",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B4_original_T2",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_common_leaf_graph",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.topological_corner_rounding_variant",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.transverse_original_exchange",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.pair_rounding_controls",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.disjoint_boundary_nontransverse_exchange",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.image_area_piecewise_bridge",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.image_area_atlas_exists",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.minimizer_realizes_native_infimum",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "Section5OpenObligations",
+      "name": "SeifertSurfaces.OriginalEndpoints.Section5.Obligations.common_boundary_exchange",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection5Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_5_4",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection5Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_5_6",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalSection5Whole",
+      "name": "SeifertSurfaces.OriginalEndpoints.original_5_2",
+      "accepted_root_reaches_this_declaration": false
+    }
+  ],
+  "all33_held_providers_unreachable_from_accepted_roots": true,
+  "mixed_original_source_full_scan_clean": false,
+  "mixed_original_source3_sorry_preserved": true,
+  "exact_accepted_root_source_slices_clean": true,
+  "other_OriginalSection5_roots_not_adopted": true,
+  "original5_4_SF09_source_hold_preserved": true,
+  "original_32head_plus_empty_update_reader_union_binding": "/home/caoyichuan/test/seifert-surfaces/target/Original55WholeProofData/audit/ORIGINAL_READER_UNION_NATIVE_BINDING.json",
+  "complete_type_definition_reader_context_contracts": 6729,
+  "original5_5_empty_update_context_contracts": 6409,
+  "exact_two_full_source_headers_unchanged": true,
+  "existing_literal_reader_flags_preserved": true,
+  "guards": "PASS_EXISTING_SNAPSHOTS_NO_RESET",
+  "four_gates": "PASS_BOUNDED_TWO_ROOT_SCOPE",
+  "whole_OriginalSection5_credit": false,
+  "numbered_credit": "Root adjudicates after Regulator",
+  "prior_tracked_bytes_preserved": 30381,
+  "prior5_untracked_preserved": true,
+  "C3_analytic_staging_untouched": true,
+  "control_DAG_ledger_sharedmemory_writes": false,
+  "deletions": false,
+  "source_line_delta": {
+    "added": 569,
+    "removed": 0,
+    "source_logic_delta": "Only explicit frozen donor IO binding and single alias all-self metadata field"
+  }
+}

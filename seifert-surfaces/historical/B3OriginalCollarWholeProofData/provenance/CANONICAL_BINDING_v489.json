@@ -1,0 +1,161 @@
+{
+  "status": "CANONICAL_FULL_ORIGINAL_B3_COLLAR_EXACT_FROZEN_CONTEXT",
+  "parent_head": "585ca55f644232facfb9218e202ddf5e1dcd6512",
+  "canonical_package": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData",
+  "protected_roots": [
+    {
+      "task": "B2B5Whole_v480_1",
+      "declaration": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_collar",
+      "canonical_source": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/source/OriginalB2B5V480.lean",
+      "original_snapshot_sha256": "679ecc28b3dd78cdc8872a701577ec63cbca44c987224028cabfaf898fd46912",
+      "snapshot_version": 1,
+      "guard": "PASS",
+      "snapshot_reset": false
+    }
+  ],
+  "module": "OriginalB2B5V480",
+  "source": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/source/OriginalB2B5V480.lean",
+  "source_sha256": "0239748638714784a591f251d23031546a8ce53e25ee7a6ad1cbd45e43fd5cd1",
+  "object": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/objects/OriginalB2B5V480.olean",
+  "object_sha256": "a28683625d84e320c44154886301bacc1ac3e2904da80c03c121f4ef5f454ece",
+  "consumer_import": "OriginalB2B5V480",
+  "consumer": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/source/B3OriginalCollarConsumerV489.lean",
+  "consumer_wrapper": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/with_native_context.sh",
+  "environment": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/environment.json",
+  "literal_input": "B1OriginalData g J, unchanged original D input",
+  "literal_scope": "One fixed positive r0<=D.r0; full collar derivative nonzero at every positive radius; finite literal collar critical set with height-zero clause; lower radial bound for every literal interior tangency; finite literal interior tangency set.",
+  "accepted_only_B3_collar": true,
+  "arbitrary_OriginalPair_B3_interior_B2_B4_B5_remain_open": true,
+  "four_other_native_placeholder_proofs_exact_frozen_values": true,
+  "source_location_labels_preserved": true,
+  "whole_mixed_provider_source_scan_clean": false,
+  "mixed_source_four_sorry_scan_failure_preserved": true,
+  "accepted_root_and42_inline_support_source_slices_exact_and_clean": true,
+  "held_provider_declarations": [
+    {
+      "owner": "B1MetricVariationalInterfaces",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.same_minimizer_regular_representative",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "VM03OwedRequests",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03Requests.same_regular_minimizer_no_branches",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "VM03OwedRequests",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03Requests.same_minimizer_forward_regular",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "VM03OwedRequests",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03Requests.inverse_regular_of_closed_forward",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "VM03BranchResiduals",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03BranchResiduals.closed_image_topology_after_nonbranching",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "VM03BranchResiduals",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03BranchResiduals.native_weighted_count_budget",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "VM03BranchResiduals",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.VM03BranchResiduals.boundary_branch_open_excess",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "B1L1IndependentLower",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.L1Independent.boundary_cap_paste",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "B1L1IndependentLower",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.L1Independent.planar_cap_campanato",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "B1L1DirectWeakLower",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.DirectWeak.signed_weighted_degree",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "UniformBoundaryRegular",
+      "name": "SeifertSurfaces.OriginalEndpoints.B1Tangency.ChartMetricProvider.Variational.DirectWeak.uniform_zero_scalar_boundary_regular",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B5_original_T1",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B2_original_push_off",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B3_original_interior",
+      "accepted_root_reaches_this_declaration": false
+    },
+    {
+      "owner": "OriginalB2B5V480",
+      "name": "SeifertSurfaces.OriginalEndpoints.AppendixBOriginalV480.B4_original_T2",
+      "accepted_root_reaches_this_declaration": false
+    }
+  ],
+  "accepted_root_reaches_no_held_provider": true,
+  "full_actual_root_proof_closure": 109422,
+  "audited_actual_declarations": 136795,
+  "actual_values": 131238,
+  "recursor_rules": 1945,
+  "opaque_values": 67,
+  "base3_only_no_sorryAx_in_actual_root_closure": true,
+  "strict_native_actual_type_proof_value_universe_owner_equality": true,
+  "Expr_equal_AND_ExprStructEq": true,
+  "structure_projection_class_instance_primitive_recursor_metadata_equal": true,
+  "unfiltered_original_991_native450definitions_unchanged": true,
+  "only_original_native_proof_change": "B3_original_collar",
+  "imported_model_norm_drift_corrected_to_exact_g_dependent_metric_norm": true,
+  "bounded_metric_local_instance_suppression_verbatim": true,
+  "no_fidelity_exclusions_or_blanket_exceptions": true,
+  "frozen_source_backed_project_providers": 1398,
+  "loaded_import_headers": 12711,
+  "exact_library_modules": 11313,
+  "actual_selected_provider_audit": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/audit/CANONICAL_SELECTED_PROVIDER_PINS.json",
+  "duplicate_inventory": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/audit/DUPLICATE_PROVIDER_INVENTORY.json",
+  "runtime_peer_scratch_or_global_project_fallback": false,
+  "root_guard_rebind_evidence": "/home/caoyichuan/test/seifert-surfaces/target/B3OriginalCollarWholeProofData/evidence/B3_COLLAR_CANONICAL_REBIND_v489.json",
+  "root_guard_rebind_evidence_sha256": "90732affe4ce7365727c31aef6cf0c9f2007a8f5afd406fb199e29ff2141d114",
+  "original_guard_samev1_rebound_pass": true,
+  "four_gates": "PASS_BOUNDED_B3_COLLAR_SCOPE",
+  "source_review_ready_sha256": "bf96e862bbfa7d84ff1ee0b2b6dda2bcbb0919cf32f191a6849928115089559a",
+  "blind_reader_ready_sha256": "f77b3b4f7b6384b32603bc370e812095a69a18e201dd27a470435538b4a26c98",
+  "blind_readback_sha256": "6c2d211c8a478431c1fbed70f3536422d211cd7f8a66779c2161cde8b30585a0",
+  "exact_reader_full_head_equal": true,
+  "reader_custom_closure_complete": 505,
+  "original_scaffold_sha256": "516817e59aa87e78f36c331b95a83e1fd8757d3e18972e8a3f7ee3bedd1d16c1",
+  "release_packet_sha256": "76af75f54a8f189dac1f147d4d55d665167258948be9eea52e24f1bf3f69aaa9",
+  "superseded_v481_and_failed_attempts_preserved": true,
+  "native_991_comparison_sha256": "c17eef1a5ba133ada44baafc3bf54fbb43d80f9699c7c7746471ab1af6daa8d7",
+  "new_reader_required": false,
+  "new_original_premises": false,
+  "raw_normalization": false,
+  "proof_logic_edits": false,
+  "full_B3_numbered_credit": false,
+  "numbered_credit": false,
+  "combined_other_context_clearance": false,
+  "source_line_delta": {
+    "added": 6285,
+    "removed": 0,
+    "relative_to_corrected_sealed_release": 0
+  },
+  "prior_tracked_bytes_preserved": 26516,
+  "prior_five_untracked_preserved": true,
+  "control_DAG_ledger_sharedmemory_writes": false,
+  "deletions": false
+}

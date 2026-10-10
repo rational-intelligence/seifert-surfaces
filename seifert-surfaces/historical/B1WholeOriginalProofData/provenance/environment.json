@@ -1,0 +1,23 @@
+{
+  "lean_binary": "/home/caoyichuan/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+  "LEAN_PATH": "/home/caoyichuan/test/seifert-surfaces/target/B1WholeOriginalProofData/objects:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/Qq/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/aesop/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/batteries/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/importGraph/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/mathlib/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/plausible/.lake/build/lib/lean:/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/caoyichuan/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/lib/lean",
+  "source_root": "/home/caoyichuan/test/seifert-surfaces/target/B1WholeOriginalProofData/source",
+  "no_peer_scratch_paths": true,
+  "owned": "/home/caoyichuan/test/seifert-surfaces/target/B1WholeOriginalProofData",
+  "project": "/home/caoyichuan/test/seifert-surfaces/target/B1WholeOriginalProofData/source",
+  "frozen_project_provider_count": 1245,
+  "canonical_project_fallback": false,
+  "peer_scratch_fallback": false,
+  "standard_paths": [
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/Qq/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/aesop/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/batteries/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/plausible/.lake/build/lib/lean",
+    "/home/caoyichuan/test/seifert-surfaces/target/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/home/caoyichuan/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/lib/lean"
+  ],
+  "sealed_closure_index": "/home/caoyichuan/test/seifert-surfaces/target/B1WholeOriginalProofData/evidence/SEALED_CLOSURE_INDEX.json"
+}

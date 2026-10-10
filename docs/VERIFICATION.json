@@ -1,0 +1,103 @@
+{
+  "status": "PASS_SIX_ORIGINAL_SOURCE_BASELINE",
+  "fresh_original_source_ids": [
+    "B",
+    "2.2",
+    "2.4",
+    "C.7",
+    "C.8",
+    "C.9"
+  ],
+  "historical_only_original_count": 14,
+  "fresh_root_axioms": {
+    "SeifertSurfaces.exchange_complex_contractible": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.exists_injective_exchange_complexity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_full_downset_exchange_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_complexity_downset_connected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_full_descending_link_exchange_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.nonempty_strict_sublevel_exchange_graph": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.descending_link_nonempty_of_not_least": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.full_subcomplex_is_flag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.Original.paper_C7": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.Original.paper_C8": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SeifertSurfaces.AppendixC.Original.paper_C9": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "portable_source_files": 78,
+  "placeholder_scan": "PASS zero sorry/admit outside comments/strings",
+  "compile": "PASS final portable command built MainTheorems and ConformalOriginals; affected MainTheorems facade check has no errors",
+  "statement_guards": "PASS six original guarded snapshots, byte-identical exported full sources; no proof statements or native module identifiers modified",
+  "guard_tasks": [
+    "section2_exchange_complex_contractible",
+    "section2_exists_injective_exchange_complexity",
+    "section2_nonempty_full_downset_exchange_complex",
+    "original_C7_full_source_contract",
+    "originalC89_416c8a5f13993886",
+    "originalC89_276286abf651cc87"
+  ],
+  "source_custody": "PASS all copied source bytes / canonical hashes",
+  "project_object_policy": "Fresh generated objects are ignored; no project objects copied or committed. Pinned external Mathlib package caches reused locally.",
+  "environment_boundary": "Pinned Lean4.35.0-rc3 and Mathlib revision; local dependency cache reuse, not independent source reconstruction of Mathlib.",
+  "commands": [
+    "lake build MainTheorems ConformalOriginals",
+    "lake env lean tools/Verify.lean",
+    "lake env lean tools/VerifyConformal.lean",
+    "python3 tools/verify.py"
+  ],
+  "historical_documentary_tree": "Not source-build-certified, not globally placeholder-free, excluded from portable compilation",
+  "facade_axioms": {
+    "core": "PASS seven original roots; no violations or unaudited declarations",
+    "conformal": "PASS three original roots; no violations or unaudited declarations"
+  },
+  "portable_verifier": "PASS custody7924files, source scan78files, compilation, classical-base axiom audit11roots including one qualified support root",
+  "scope": "Preserved six-result baseline; executable integration of all20 historically accepted results is now the active release objective.",
+  "owned_evidence_sha256": {
+    "FINAL_PORTABLE_VERIFICATION.txt": "a0b2abf6360029581e38478c30c02248ec03b3f2567e72367f1d758ada0db849",
+    "FACADE_CORE_AXIOMS.json": "0e5882097e4cc697f24c421abe2ad2dc014af5a6972b370547d7ec0c3a0d55bf",
+    "FACADE_CONFORMAL_AXIOMS.json": "0e5882097e4cc697f24c421abe2ad2dc014af5a6972b370547d7ec0c3a0d55bf",
+    "FINAL_MAIN_FACADE_CHECK.json": "d294656849e388eb57368afcf23c27943998c62c1f9abea40e4080a51e7b3ce1"
+  }
+}

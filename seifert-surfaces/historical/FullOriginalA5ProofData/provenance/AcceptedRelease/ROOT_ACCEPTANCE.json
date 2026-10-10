@@ -1,0 +1,20 @@
+{
+  "status": "ACCEPT_FULL_ORIGINAL_A5_FOR_CANONICAL_ADOPTION",
+  "timestamp": "2026-10-08T20:15:21.769302+00:00",
+  "review": "/home/caoyichuan/test/seifert-surfaces/scratch/f-reviewer/review_original_A5_v464/REVIEW.md",
+  "root_pin_audit": "/home/caoyichuan/test/seifert-surfaces/logs/wave6_root/routes_v464/A5_FULL_ORIGINAL_ROOT_PIN_AUDIT_v477.json",
+  "readback_ready": {
+    "path": "/home/caoyichuan/test/seifert-surfaces/scratch/statement-readback/readback_A5_full_v477/v477/READY.json",
+    "sha256": "dc6c19de76e3ba38b6a3872e9d8eefedc397102e964869b3975feb7034bd3f21"
+  },
+  "readback_path": "/home/caoyichuan/test/seifert-surfaces/scratch/statement-readback/readback_A5_full_v477/v477/READBACK.md",
+  "readback_sha256": "4b67f3f93f174c377d5e66a52ad419cb56f69b0a8587184e25d58c4322f034c8",
+  "descriptor_sha256": "64fe1dd57552776daf68a28ce3135d20eb5529c3d5a3109ee20e8db47db735d6",
+  "seal": "/home/caoyichuan/test/seifert-surfaces/scratch/f-generator/generate_original_A5_v464/release_full_original_A5_v475/SEAL_FULL_ORIGINAL_A5_v475.json",
+  "seal_sha256": "9796f070c32c0ca14232ec4731c650497b1ed23fd84ec7d1dc5d8826c899ae02",
+  "original_raw_type_unchanged": true,
+  "new_original_premises": false,
+  "canonical_adopted": false,
+  "numbered_credit_pending_postcanonical_audit": true,
+  "separate_producer_replay_context_required": true
+}

@@ -1,0 +1,25 @@
+name = "seifert_surfaces"
+version = "0.1.0"
+defaultTargets = ["MainTheorems"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "3f6737de4761ec7bf368491fe9faccc991ebd6ca"
+
+[[lean_lib]]
+name = "MainTheorems"
+roots = ["MainTheorems"]
+globs = ["MainTheorems"]
+
+[[lean_lib]]
+name = "SeifertCore"
+srcDir = "seifert-surfaces/core"
+roots = []
+globs = ["AppendixBAnalysis", "CurveComplexGenusTwo.Foundations.ConePairSDR", "CurveComplexGenusTwo.Foundations.ConeRealization", "CurveComplexGenusTwo.Foundations.FiniteSupportTopology", "CurveComplexGenusTwo.Foundations.FullSubcomplex", "CurveComplexGenusTwo.Foundations.FullSubcomplexWeakTopology", "CurveComplexGenusTwo.Foundations.GenericRealization", "CurveComplexGenusTwo.Foundations.JoinFiniteSupport", "CurveComplexGenusTwo.Foundations.RealizationCW", "CurveComplexGenusTwo.Topology.Basic", "CurveComplexGenusTwo.Topology.CurveCombinatorics", "CurveComplexGenusTwo.Topology.FaceCoverAssembly", "CurveComplexGenusTwo.Topology.FiniteLinkCompact", "CurveComplexGenusTwo.Topology.LinkWeakTopology", "CurveComplexGenusTwo.Topology.RealizationStarDeletion", "CurveComplexGenusTwo.Topology.StarCompatibleFace", "CurveComplexGenusTwo.Topology.StarConeChart", "CurveComplexGenusTwo.Topology.StarConeTopology", "CurveComplexGenusTwo.Topology.StarFaceAssembly", "CurveComplexGenusTwo.Topology.StarInterpolation", "CurveComplexGenusTwo.Topology.StarLinkGeometry", "CurveComplexGenusTwo.Topology.StarRadialCoordinates", "CurveComplexGenusTwo.Topology.StarSDRConditional", "CurveComplexGenusTwo.Topology.StarSubcomplexTopology", "CurveComplexGenusTwo.Topology.WeakCoverProduct", "CurveComplexGenusTwo.Topology.WeakProduct", "OrdinalAssembly.CompactContainment", "OrdinalAssembly.Induction", "OrdinalAssembly.OrderType", "Section2.Definitions", "Section2.Downsets", "Section2.FlagComplex", "Section2.FlagExchangeComplex", "Section2.Geodesics", "Section2.Heredity", "Section2.TheoremB", "Section2.TieBreaking", "Section2.WeakRealization", "Section5Analysis", "Section5Arithmetic", "Section5Combinatorics", "Section6", "TopologyAdapters.FullSubcomplexTopology", "TopologyAdapters.StarDeletionAdapter", "TopologyAdapters.VertexAttachment", "TopologyAdapters.WeakBridge", "WhiteheadSupport.BasedLoops", "WhiteheadSupport.CWBackbone", "WhiteheadSupport.CompactFactorization", "WhiteheadSupport.PointWhitehead", "WhiteheadSupport.Port.CWBasic", "WhiteheadSupport.Port.CWBoundaryFaces", "WhiteheadSupport.Port.CWCellularHomotopyGlue", "WhiteheadSupport.Port.CWColimitT2Repaired", "WhiteheadSupport.Port.CWCylinderCube", "WhiteheadSupport.Port.CWCylinderStep", "WhiteheadSupport.Port.CWInfiniteCoherence", "WhiteheadSupport.Port.CWSphereNormBridge", "WhiteheadSupport.Port.CWStepT2", "WhiteheadSupport.Port.CWWeakSkeletonContinuity", "WhiteheadSupport.Port.CWWhiteheadConditional", "WhiteheadSupport.Port.CWWhiteheadFromCellStep", "WhiteheadSupport.Port.CellDiskExtension", "WhiteheadSupport.Port.DiskExtension", "WhiteheadSupport.Port.WeakBasic", "WhiteheadSupport.Port.WeakCoverProduct", "WhiteheadSupport.Port.WeakProduct", "WhiteheadSupport.RealizationConsumer"]
+
+[[lean_lib]]
+name = "ConformalOriginals"
+srcDir = "seifert-surfaces/conformal"
+roots = ["OriginalC7", "OriginalC8", "OriginalC9Final3"]
+globs = ["C7Conformal", "C8NormalForm", "C9BoundaryHelpers", "C9Compatibility", "MetricBounded", "MetricPullback", "OriginalC7", "OriginalC8", "OriginalC9", "OriginalC9Final3"]
